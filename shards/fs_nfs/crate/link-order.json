@@ -1,0 +1,233 @@
+{
+  "units": [
+    {
+      "file": "fs/nfs/client.c",
+      "module": "__slate_unit_client"
+    },
+    {
+      "file": "fs/nfs/dir.c",
+      "module": "__slate_unit_dir"
+    },
+    {
+      "file": "fs/nfs/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "fs/nfs/getroot.c",
+      "module": "__slate_unit_getroot"
+    },
+    {
+      "file": "fs/nfs/inode.c",
+      "module": "__slate_unit_inode"
+    },
+    {
+      "file": "fs/nfs/super.c",
+      "module": "__slate_unit_super"
+    },
+    {
+      "file": "fs/nfs/io.c",
+      "module": "__slate_unit_io"
+    },
+    {
+      "file": "fs/nfs/direct.c",
+      "module": "__slate_unit_direct"
+    },
+    {
+      "file": "fs/nfs/pagelist.c",
+      "module": "__slate_unit_pagelist"
+    },
+    {
+      "file": "fs/nfs/read.c",
+      "module": "__slate_unit_read"
+    },
+    {
+      "file": "fs/nfs/symlink.c",
+      "module": "__slate_unit_symlink"
+    },
+    {
+      "file": "fs/nfs/unlink.c",
+      "module": "__slate_unit_unlink"
+    },
+    {
+      "file": "fs/nfs/write.c",
+      "module": "__slate_unit_write"
+    },
+    {
+      "file": "fs/nfs/namespace.c",
+      "module": "__slate_unit_namespace"
+    },
+    {
+      "file": "fs/nfs/mount_clnt.c",
+      "module": "__slate_unit_mount_clnt"
+    },
+    {
+      "file": "fs/nfs/nfstrace.c",
+      "module": "__slate_unit_nfstrace"
+    },
+    {
+      "file": "fs/nfs/export.c",
+      "module": "__slate_unit_export"
+    },
+    {
+      "file": "fs/nfs/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "fs/nfs/fs_context.c",
+      "module": "__slate_unit_fs_context"
+    },
+    {
+      "file": "fs/nfs/nfsroot.c",
+      "module": "__slate_unit_nfsroot"
+    },
+    {
+      "file": "fs/nfs/sysctl.c",
+      "module": "__slate_unit_sysctl"
+    },
+    {
+      "file": "fs/nfs/nfs3super.c",
+      "module": "__slate_unit_nfs3super"
+    },
+    {
+      "file": "fs/nfs/nfs3client.c",
+      "module": "__slate_unit_nfs3client"
+    },
+    {
+      "file": "fs/nfs/nfs3proc.c",
+      "module": "__slate_unit_nfs3proc"
+    },
+    {
+      "file": "fs/nfs/nfs3xdr.c",
+      "module": "__slate_unit_nfs3xdr"
+    },
+    {
+      "file": "fs/nfs/nfs3acl.c",
+      "module": "__slate_unit_nfs3acl"
+    },
+    {
+      "file": "fs/nfs/nfs4proc.c",
+      "module": "__slate_unit_nfs4proc"
+    },
+    {
+      "file": "fs/nfs/nfs4xdr.c",
+      "module": "__slate_unit_nfs4xdr"
+    },
+    {
+      "file": "fs/nfs/nfs4state.c",
+      "module": "__slate_unit_nfs4state"
+    },
+    {
+      "file": "fs/nfs/nfs4renewd.c",
+      "module": "__slate_unit_nfs4renewd"
+    },
+    {
+      "file": "fs/nfs/nfs4super.c",
+      "module": "__slate_unit_nfs4super"
+    },
+    {
+      "file": "fs/nfs/nfs4file.c",
+      "module": "__slate_unit_nfs4file"
+    },
+    {
+      "file": "fs/nfs/delegation.c",
+      "module": "__slate_unit_delegation"
+    },
+    {
+      "file": "fs/nfs/nfs4idmap.c",
+      "module": "__slate_unit_nfs4idmap"
+    },
+    {
+      "file": "fs/nfs/callback.c",
+      "module": "__slate_unit_callback"
+    },
+    {
+      "file": "fs/nfs/callback_xdr.c",
+      "module": "__slate_unit_callback_xdr"
+    },
+    {
+      "file": "fs/nfs/callback_proc.c",
+      "module": "__slate_unit_callback_proc"
+    },
+    {
+      "file": "fs/nfs/nfs4namespace.c",
+      "module": "__slate_unit_nfs4namespace"
+    },
+    {
+      "file": "fs/nfs/nfs4getroot.c",
+      "module": "__slate_unit_nfs4getroot"
+    },
+    {
+      "file": "fs/nfs/nfs4client.c",
+      "module": "__slate_unit_nfs4client"
+    },
+    {
+      "file": "fs/nfs/nfs4session.c",
+      "module": "__slate_unit_nfs4session"
+    },
+    {
+      "file": "fs/nfs/dns_resolve.c",
+      "module": "__slate_unit_dns_resolve"
+    },
+    {
+      "file": "fs/nfs/nfs4trace.c",
+      "module": "__slate_unit_nfs4trace"
+    },
+    {
+      "file": "fs/nfs/pnfs.c",
+      "module": "__slate_unit_pnfs"
+    },
+    {
+      "file": "fs/nfs/pnfs_dev.c",
+      "module": "__slate_unit_pnfs_dev"
+    },
+    {
+      "file": "fs/nfs/pnfs_nfs.c",
+      "module": "__slate_unit_pnfs_nfs"
+    },
+    {
+      "file": "fs/nfs/nfs4sysctl.c",
+      "module": "__slate_unit_nfs4sysctl"
+    },
+    {
+      "file": "fs/nfs/nfs40client.c",
+      "module": "__slate_unit_nfs40client"
+    },
+    {
+      "file": "fs/nfs/nfs40proc.c",
+      "module": "__slate_unit_nfs40proc"
+    },
+    {
+      "file": "fs/nfs/filelayout/filelayout.c",
+      "module": "__slate_unit_filelayout"
+    },
+    {
+      "file": "fs/nfs/filelayout/filelayoutdev.c",
+      "module": "__slate_unit_filelayoutdev"
+    },
+    {
+      "file": "fs/nfs/blocklayout/blocklayout.c",
+      "module": "__slate_unit_blocklayout"
+    },
+    {
+      "file": "fs/nfs/blocklayout/dev.c",
+      "module": "__slate_unit_dev"
+    },
+    {
+      "file": "fs/nfs/blocklayout/extent_tree.c",
+      "module": "__slate_unit_extent_tree"
+    },
+    {
+      "file": "fs/nfs/blocklayout/rpc_pipefs.c",
+      "module": "__slate_unit_rpc_pipefs"
+    },
+    {
+      "file": "fs/nfs/flexfilelayout/flexfilelayout.c",
+      "module": "__slate_unit_flexfilelayout"
+    },
+    {
+      "file": "fs/nfs/flexfilelayout/flexfilelayoutdev.c",
+      "module": "__slate_unit_flexfilelayoutdev"
+    }
+  ],
+  "version": 1
+}

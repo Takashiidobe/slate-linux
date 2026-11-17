@@ -1,0 +1,45 @@
+{
+  "units": [
+    {
+      "file": "drivers/pcmcia/cs.c",
+      "module": "__slate_unit_cs"
+    },
+    {
+      "file": "drivers/pcmcia/socket_sysfs.c",
+      "module": "__slate_unit_socket_sysfs"
+    },
+    {
+      "file": "drivers/pcmcia/cardbus.c",
+      "module": "__slate_unit_cardbus"
+    },
+    {
+      "file": "drivers/pcmcia/ds.c",
+      "module": "__slate_unit_ds"
+    },
+    {
+      "file": "drivers/pcmcia/pcmcia_resource.c",
+      "module": "__slate_unit_pcmcia_resource"
+    },
+    {
+      "file": "drivers/pcmcia/cistpl.c",
+      "module": "__slate_unit_cistpl"
+    },
+    {
+      "file": "drivers/pcmcia/pcmcia_cis.c",
+      "module": "__slate_unit_pcmcia_cis"
+    },
+    {
+      "file": "drivers/pcmcia/rsrc_mgr.c",
+      "module": "__slate_unit_rsrc_mgr"
+    },
+    {
+      "file": "drivers/pcmcia/rsrc_nonstatic.c",
+      "module": "__slate_unit_rsrc_nonstatic"
+    },
+    {
+      "file": "drivers/pcmcia/yenta_socket.c",
+      "module": "__slate_unit_yenta_socket"
+    }
+  ],
+  "version": 1
+}

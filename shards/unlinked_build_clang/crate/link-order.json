@@ -1,0 +1,9 @@
+{
+  "units": [
+    {
+      "file": "build-clang/.vmlinux.export.c",
+      "module": "__slate_unit__vmlinux_export"
+    }
+  ],
+  "version": 1
+}

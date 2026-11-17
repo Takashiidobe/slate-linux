@@ -1,0 +1,17 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/entry/vdso/vdso32/vclock_gettime.c",
+      "module": "__slate_unit_vclock_gettime"
+    },
+    {
+      "file": "arch/x86/entry/vdso/vdso32/vfutex.c",
+      "module": "__slate_unit_vfutex"
+    },
+    {
+      "file": "arch/x86/entry/vdso/vdso32/vgetcpu.c",
+      "module": "__slate_unit_vgetcpu"
+    }
+  ],
+  "version": 1
+}

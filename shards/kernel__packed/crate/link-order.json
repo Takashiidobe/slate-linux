@@ -1,0 +1,473 @@
+{
+  "units": [
+    {
+      "file": "kernel/sched/core.c",
+      "module": "__slate_unit_sched_core"
+    },
+    {
+      "file": "kernel/sched/fair.c",
+      "module": "__slate_unit_fair"
+    },
+    {
+      "file": "kernel/sched/build_policy.c",
+      "module": "__slate_unit_build_policy"
+    },
+    {
+      "file": "kernel/sched/build_utility.c",
+      "module": "__slate_unit_build_utility"
+    },
+    {
+      "file": "kernel/locking/mutex.c",
+      "module": "__slate_unit_mutex"
+    },
+    {
+      "file": "kernel/locking/semaphore.c",
+      "module": "__slate_unit_semaphore"
+    },
+    {
+      "file": "kernel/locking/rwsem.c",
+      "module": "__slate_unit_rwsem"
+    },
+    {
+      "file": "kernel/locking/percpu-rwsem.c",
+      "module": "__slate_unit_percpu_rwsem"
+    },
+    {
+      "file": "kernel/locking/spinlock.c",
+      "module": "__slate_unit_spinlock"
+    },
+    {
+      "file": "kernel/locking/osq_lock.c",
+      "module": "__slate_unit_osq_lock"
+    },
+    {
+      "file": "kernel/locking/qspinlock.c",
+      "module": "__slate_unit_qspinlock"
+    },
+    {
+      "file": "kernel/locking/rtmutex_api.c",
+      "module": "__slate_unit_rtmutex_api"
+    },
+    {
+      "file": "kernel/locking/qrwlock.c",
+      "module": "__slate_unit_qrwlock"
+    },
+    {
+      "file": "kernel/power/qos.c",
+      "module": "__slate_unit_qos"
+    },
+    {
+      "file": "kernel/power/main.c",
+      "module": "__slate_unit_power_main"
+    },
+    {
+      "file": "kernel/power/console.c",
+      "module": "__slate_unit_console"
+    },
+    {
+      "file": "kernel/power/process.c",
+      "module": "__slate_unit_process"
+    },
+    {
+      "file": "kernel/power/suspend.c",
+      "module": "__slate_unit_suspend"
+    },
+    {
+      "file": "kernel/power/hibernate.c",
+      "module": "__slate_unit_hibernate"
+    },
+    {
+      "file": "kernel/power/snapshot.c",
+      "module": "__slate_unit_snapshot"
+    },
+    {
+      "file": "kernel/power/swap.c",
+      "module": "__slate_unit_swap"
+    },
+    {
+      "file": "kernel/power/user.c",
+      "module": "__slate_unit_power_user"
+    },
+    {
+      "file": "kernel/power/poweroff.c",
+      "module": "__slate_unit_poweroff"
+    },
+    {
+      "file": "kernel/printk/printk.c",
+      "module": "__slate_unit_printk"
+    },
+    {
+      "file": "kernel/printk/printk_safe.c",
+      "module": "__slate_unit_printk_safe"
+    },
+    {
+      "file": "kernel/printk/nbcon.c",
+      "module": "__slate_unit_nbcon"
+    },
+    {
+      "file": "kernel/printk/printk_ringbuffer.c",
+      "module": "__slate_unit_printk_ringbuffer"
+    },
+    {
+      "file": "kernel/printk/sysctl.c",
+      "module": "__slate_unit_sysctl"
+    },
+    {
+      "file": "kernel/irq/irqdesc.c",
+      "module": "__slate_unit_irqdesc"
+    },
+    {
+      "file": "kernel/irq/handle.c",
+      "module": "__slate_unit_handle"
+    },
+    {
+      "file": "kernel/irq/manage.c",
+      "module": "__slate_unit_manage"
+    },
+    {
+      "file": "kernel/irq/spurious.c",
+      "module": "__slate_unit_spurious"
+    },
+    {
+      "file": "kernel/irq/resend.c",
+      "module": "__slate_unit_resend"
+    },
+    {
+      "file": "kernel/irq/chip.c",
+      "module": "__slate_unit_chip"
+    },
+    {
+      "file": "kernel/irq/dummychip.c",
+      "module": "__slate_unit_dummychip"
+    },
+    {
+      "file": "kernel/irq/devres.c",
+      "module": "__slate_unit_devres"
+    },
+    {
+      "file": "kernel/irq/kexec.c",
+      "module": "__slate_unit_kexec"
+    },
+    {
+      "file": "kernel/irq/autoprobe.c",
+      "module": "__slate_unit_autoprobe"
+    },
+    {
+      "file": "kernel/irq/irqdomain.c",
+      "module": "__slate_unit_irqdomain"
+    },
+    {
+      "file": "kernel/irq/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "kernel/irq/migration.c",
+      "module": "__slate_unit_migration"
+    },
+    {
+      "file": "kernel/irq/cpuhotplug.c",
+      "module": "__slate_unit_cpuhotplug"
+    },
+    {
+      "file": "kernel/irq/pm.c",
+      "module": "__slate_unit_pm"
+    },
+    {
+      "file": "kernel/irq/msi.c",
+      "module": "__slate_unit_msi"
+    },
+    {
+      "file": "kernel/irq/affinity.c",
+      "module": "__slate_unit_affinity"
+    },
+    {
+      "file": "kernel/irq/matrix.c",
+      "module": "__slate_unit_matrix"
+    },
+    {
+      "file": "kernel/rcu/update.c",
+      "module": "__slate_unit_update"
+    },
+    {
+      "file": "kernel/rcu/sync.c",
+      "module": "__slate_unit_sync"
+    },
+    {
+      "file": "kernel/rcu/srcutree.c",
+      "module": "__slate_unit_srcutree"
+    },
+    {
+      "file": "kernel/rcu/tree.c",
+      "module": "__slate_unit_tree"
+    },
+    {
+      "file": "kernel/rcu/rcu_segcblist.c",
+      "module": "__slate_unit_rcu_segcblist"
+    },
+    {
+      "file": "kernel/dma/mapping.c",
+      "module": "__slate_unit_mapping"
+    },
+    {
+      "file": "kernel/dma/direct.c",
+      "module": "__slate_unit_direct"
+    },
+    {
+      "file": "kernel/dma/ops_helpers.c",
+      "module": "__slate_unit_ops_helpers"
+    },
+    {
+      "file": "kernel/dma/swiotlb.c",
+      "module": "__slate_unit_swiotlb"
+    },
+    {
+      "file": "kernel/dma/remap.c",
+      "module": "__slate_unit_remap"
+    },
+    {
+      "file": "kernel/entry/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "kernel/entry/syscall-common.c",
+      "module": "__slate_unit_syscall_common"
+    },
+    {
+      "file": "kernel/entry/syscall_user_dispatch.c",
+      "module": "__slate_unit_syscall_user_dispatch"
+    },
+    {
+      "file": "kernel/unwind/user.c",
+      "module": "__slate_unit_unwind_user"
+    },
+    {
+      "file": "kernel/unwind/deferred.c",
+      "module": "__slate_unit_deferred"
+    },
+    {
+      "file": "kernel/module/main.c",
+      "module": "__slate_unit_module_main"
+    },
+    {
+      "file": "kernel/module/strict_rwx.c",
+      "module": "__slate_unit_strict_rwx"
+    },
+    {
+      "file": "kernel/module/kmod.c",
+      "module": "__slate_unit_kmod"
+    },
+    {
+      "file": "kernel/module/tree_lookup.c",
+      "module": "__slate_unit_tree_lookup"
+    },
+    {
+      "file": "kernel/module/kallsyms.c",
+      "module": "__slate_unit_kallsyms"
+    },
+    {
+      "file": "kernel/module/procfs.c",
+      "module": "__slate_unit_procfs"
+    },
+    {
+      "file": "kernel/module/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "kernel/time/time.c",
+      "module": "__slate_unit_time"
+    },
+    {
+      "file": "kernel/time/timer.c",
+      "module": "__slate_unit_timer"
+    },
+    {
+      "file": "kernel/time/hrtimer.c",
+      "module": "__slate_unit_hrtimer"
+    },
+    {
+      "file": "kernel/time/sleep_timeout.c",
+      "module": "__slate_unit_sleep_timeout"
+    },
+    {
+      "file": "kernel/time/timekeeping.c",
+      "module": "__slate_unit_timekeeping"
+    },
+    {
+      "file": "kernel/time/ntp.c",
+      "module": "__slate_unit_ntp"
+    },
+    {
+      "file": "kernel/time/clocksource.c",
+      "module": "__slate_unit_clocksource"
+    },
+    {
+      "file": "kernel/time/jiffies.c",
+      "module": "__slate_unit_jiffies"
+    },
+    {
+      "file": "kernel/time/timer_list.c",
+      "module": "__slate_unit_timer_list"
+    },
+    {
+      "file": "kernel/time/timeconv.c",
+      "module": "__slate_unit_timeconv"
+    },
+    {
+      "file": "kernel/time/timecounter.c",
+      "module": "__slate_unit_timecounter"
+    },
+    {
+      "file": "kernel/time/alarmtimer.c",
+      "module": "__slate_unit_alarmtimer"
+    },
+    {
+      "file": "kernel/time/posix-timers.c",
+      "module": "__slate_unit_posix_timers"
+    },
+    {
+      "file": "kernel/time/posix-cpu-timers.c",
+      "module": "__slate_unit_posix_cpu_timers"
+    },
+    {
+      "file": "kernel/time/posix-clock.c",
+      "module": "__slate_unit_posix_clock"
+    },
+    {
+      "file": "kernel/time/itimer.c",
+      "module": "__slate_unit_itimer"
+    },
+    {
+      "file": "kernel/time/clockevents.c",
+      "module": "__slate_unit_clockevents"
+    },
+    {
+      "file": "kernel/time/tick-common.c",
+      "module": "__slate_unit_tick_common"
+    },
+    {
+      "file": "kernel/time/tick-broadcast.c",
+      "module": "__slate_unit_tick_broadcast"
+    },
+    {
+      "file": "kernel/time/tick-broadcast-hrtimer.c",
+      "module": "__slate_unit_tick_broadcast_hrtimer"
+    },
+    {
+      "file": "kernel/time/tick-oneshot.c",
+      "module": "__slate_unit_tick_oneshot"
+    },
+    {
+      "file": "kernel/time/tick-sched.c",
+      "module": "__slate_unit_tick_sched"
+    },
+    {
+      "file": "kernel/time/timer_migration.c",
+      "module": "__slate_unit_timer_migration"
+    },
+    {
+      "file": "kernel/time/vsyscall.c",
+      "module": "__slate_unit_vsyscall"
+    },
+    {
+      "file": "kernel/time/timekeeping_debug.c",
+      "module": "__slate_unit_timekeeping_debug"
+    },
+    {
+      "file": "kernel/time/namespace.c",
+      "module": "__slate_unit_time_namespace"
+    },
+    {
+      "file": "kernel/time/namespace_vdso.c",
+      "module": "__slate_unit_namespace_vdso"
+    },
+    {
+      "file": "kernel/futex/core.c",
+      "module": "__slate_unit_futex_core"
+    },
+    {
+      "file": "kernel/futex/syscalls.c",
+      "module": "__slate_unit_syscalls"
+    },
+    {
+      "file": "kernel/futex/pi.c",
+      "module": "__slate_unit_pi"
+    },
+    {
+      "file": "kernel/futex/requeue.c",
+      "module": "__slate_unit_requeue"
+    },
+    {
+      "file": "kernel/futex/waitwake.c",
+      "module": "__slate_unit_waitwake"
+    },
+    {
+      "file": "kernel/cgroup/cgroup.c",
+      "module": "__slate_unit_cgroup"
+    },
+    {
+      "file": "kernel/cgroup/rstat.c",
+      "module": "__slate_unit_rstat"
+    },
+    {
+      "file": "kernel/cgroup/namespace.c",
+      "module": "__slate_unit_cgroup_namespace"
+    },
+    {
+      "file": "kernel/cgroup/cgroup-v1.c",
+      "module": "__slate_unit_cgroup_v1"
+    },
+    {
+      "file": "kernel/cgroup/freezer.c",
+      "module": "__slate_unit_freezer"
+    },
+    {
+      "file": "kernel/cgroup/legacy_freezer.c",
+      "module": "__slate_unit_legacy_freezer"
+    },
+    {
+      "file": "kernel/cgroup/pids.c",
+      "module": "__slate_unit_pids"
+    },
+    {
+      "file": "kernel/cgroup/rdma.c",
+      "module": "__slate_unit_rdma"
+    },
+    {
+      "file": "kernel/cgroup/cpuset.c",
+      "module": "__slate_unit_cpuset"
+    },
+    {
+      "file": "kernel/cgroup/misc.c",
+      "module": "__slate_unit_misc"
+    },
+    {
+      "file": "kernel/cgroup/debug.c",
+      "module": "__slate_unit_debug"
+    },
+    {
+      "file": "kernel/bpf/core.c",
+      "module": "__slate_unit_bpf_core"
+    },
+    {
+      "file": "kernel/events/core.c",
+      "module": "__slate_unit_events_core"
+    },
+    {
+      "file": "kernel/events/ring_buffer.c",
+      "module": "__slate_unit_ring_buffer"
+    },
+    {
+      "file": "kernel/events/callchain.c",
+      "module": "__slate_unit_callchain"
+    },
+    {
+      "file": "kernel/events/hw_breakpoint.c",
+      "module": "__slate_unit_hw_breakpoint"
+    },
+    {
+      "file": "kernel/events/uprobes.c",
+      "module": "__slate_unit_uprobes"
+    }
+  ],
+  "version": 1
+}

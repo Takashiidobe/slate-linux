@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/netfilter/nf_log_syslog.mod.c",
+      "module": "__slate_unit_nf_log_syslog_mod"
+    },
+    {
+      "file": "net/netfilter/nf_log_syslog.c",
+      "module": "__slate_unit_nf_log_syslog"
+    }
+  ],
+  "version": 1
+}

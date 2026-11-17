@@ -1,0 +1,49 @@
+{
+  "units": [
+    {
+      "file": "drivers/virtio/virtio.c",
+      "module": "__slate_unit_virtio"
+    },
+    {
+      "file": "drivers/virtio/virtio_ring.c",
+      "module": "__slate_unit_virtio_ring"
+    },
+    {
+      "file": "drivers/virtio/virtio_anchor.c",
+      "module": "__slate_unit_virtio_anchor"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_modern_dev.c",
+      "module": "__slate_unit_virtio_pci_modern_dev"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_legacy_dev.c",
+      "module": "__slate_unit_virtio_pci_legacy_dev"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_modern.c",
+      "module": "__slate_unit_virtio_pci_modern"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_common.c",
+      "module": "__slate_unit_virtio_pci_common"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_legacy.c",
+      "module": "__slate_unit_virtio_pci_legacy"
+    },
+    {
+      "file": "drivers/virtio/virtio_pci_admin_legacy_io.c",
+      "module": "__slate_unit_virtio_pci_admin_legacy_io"
+    },
+    {
+      "file": "drivers/virtio/virtio_input.c",
+      "module": "__slate_unit_virtio_input"
+    },
+    {
+      "file": "drivers/virtio/virtio_dma_buf.c",
+      "module": "__slate_unit_virtio_dma_buf"
+    }
+  ],
+  "version": 1
+}

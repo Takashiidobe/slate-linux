@@ -1,0 +1,309 @@
+{
+  "units": [
+    {
+      "file": "mm/filemap.c",
+      "module": "__slate_unit_filemap"
+    },
+    {
+      "file": "mm/mempool.c",
+      "module": "__slate_unit_mempool"
+    },
+    {
+      "file": "mm/oom_kill.c",
+      "module": "__slate_unit_oom_kill"
+    },
+    {
+      "file": "mm/fadvise.c",
+      "module": "__slate_unit_fadvise"
+    },
+    {
+      "file": "mm/maccess.c",
+      "module": "__slate_unit_maccess"
+    },
+    {
+      "file": "mm/page-writeback.c",
+      "module": "__slate_unit_page_writeback"
+    },
+    {
+      "file": "mm/folio-compat.c",
+      "module": "__slate_unit_folio_compat"
+    },
+    {
+      "file": "mm/readahead.c",
+      "module": "__slate_unit_readahead"
+    },
+    {
+      "file": "mm/folio.c",
+      "module": "__slate_unit_folio"
+    },
+    {
+      "file": "mm/truncate.c",
+      "module": "__slate_unit_truncate"
+    },
+    {
+      "file": "mm/vmscan.c",
+      "module": "__slate_unit_vmscan"
+    },
+    {
+      "file": "mm/shrinker.c",
+      "module": "__slate_unit_shrinker"
+    },
+    {
+      "file": "mm/shmem.c",
+      "module": "__slate_unit_shmem"
+    },
+    {
+      "file": "mm/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "mm/mmzone.c",
+      "module": "__slate_unit_mmzone"
+    },
+    {
+      "file": "mm/vmstat.c",
+      "module": "__slate_unit_vmstat"
+    },
+    {
+      "file": "mm/backing-dev.c",
+      "module": "__slate_unit_backing_dev"
+    },
+    {
+      "file": "mm/mm_init.c",
+      "module": "__slate_unit_mm_init"
+    },
+    {
+      "file": "mm/percpu.c",
+      "module": "__slate_unit_percpu"
+    },
+    {
+      "file": "mm/slab_common.c",
+      "module": "__slate_unit_slab_common"
+    },
+    {
+      "file": "mm/compaction.c",
+      "module": "__slate_unit_compaction"
+    },
+    {
+      "file": "mm/show_mem.c",
+      "module": "__slate_unit_show_mem"
+    },
+    {
+      "file": "mm/interval_tree.c",
+      "module": "__slate_unit_interval_tree"
+    },
+    {
+      "file": "mm/list_lru.c",
+      "module": "__slate_unit_list_lru"
+    },
+    {
+      "file": "mm/workingset.c",
+      "module": "__slate_unit_workingset"
+    },
+    {
+      "file": "mm/debug.c",
+      "module": "__slate_unit_debug"
+    },
+    {
+      "file": "mm/gup.c",
+      "module": "__slate_unit_gup"
+    },
+    {
+      "file": "mm/mmap_lock.c",
+      "module": "__slate_unit_mmap_lock"
+    },
+    {
+      "file": "mm/vma_init.c",
+      "module": "__slate_unit_vma_init"
+    },
+    {
+      "file": "mm/highmem.c",
+      "module": "__slate_unit_highmem"
+    },
+    {
+      "file": "mm/memory.c",
+      "module": "__slate_unit_memory"
+    },
+    {
+      "file": "mm/mincore.c",
+      "module": "__slate_unit_mincore"
+    },
+    {
+      "file": "mm/mlock.c",
+      "module": "__slate_unit_mlock"
+    },
+    {
+      "file": "mm/mmap.c",
+      "module": "__slate_unit_mmap"
+    },
+    {
+      "file": "mm/mmu_gather.c",
+      "module": "__slate_unit_mmu_gather"
+    },
+    {
+      "file": "mm/mprotect.c",
+      "module": "__slate_unit_mprotect"
+    },
+    {
+      "file": "mm/mremap.c",
+      "module": "__slate_unit_mremap"
+    },
+    {
+      "file": "mm/msync.c",
+      "module": "__slate_unit_msync"
+    },
+    {
+      "file": "mm/page_vma_mapped.c",
+      "module": "__slate_unit_page_vma_mapped"
+    },
+    {
+      "file": "mm/pagewalk.c",
+      "module": "__slate_unit_pagewalk"
+    },
+    {
+      "file": "mm/pgtable-generic.c",
+      "module": "__slate_unit_pgtable_generic"
+    },
+    {
+      "file": "mm/rmap.c",
+      "module": "__slate_unit_rmap"
+    },
+    {
+      "file": "mm/vmalloc.c",
+      "module": "__slate_unit_vmalloc"
+    },
+    {
+      "file": "mm/vma.c",
+      "module": "__slate_unit_vma"
+    },
+    {
+      "file": "mm/vma_exec.c",
+      "module": "__slate_unit_vma_exec"
+    },
+    {
+      "file": "mm/process_vm_access.c",
+      "module": "__slate_unit_process_vm_access"
+    },
+    {
+      "file": "mm/mseal.c",
+      "module": "__slate_unit_mseal"
+    },
+    {
+      "file": "mm/page_alloc.c",
+      "module": "__slate_unit_page_alloc"
+    },
+    {
+      "file": "mm/page_frag_cache.c",
+      "module": "__slate_unit_page_frag_cache"
+    },
+    {
+      "file": "mm/init-mm.c",
+      "module": "__slate_unit_init_mm"
+    },
+    {
+      "file": "mm/memblock.c",
+      "module": "__slate_unit_memblock"
+    },
+    {
+      "file": "mm/slub.c",
+      "module": "__slate_unit_slub"
+    },
+    {
+      "file": "mm/madvise.c",
+      "module": "__slate_unit_madvise"
+    },
+    {
+      "file": "mm/page_io.c",
+      "module": "__slate_unit_page_io"
+    },
+    {
+      "file": "mm/swap_state.c",
+      "module": "__slate_unit_swap_state"
+    },
+    {
+      "file": "mm/swapfile.c",
+      "module": "__slate_unit_swapfile"
+    },
+    {
+      "file": "mm/dmapool.c",
+      "module": "__slate_unit_dmapool"
+    },
+    {
+      "file": "mm/hugetlb.c",
+      "module": "__slate_unit_hugetlb"
+    },
+    {
+      "file": "mm/hugetlb_sysfs.c",
+      "module": "__slate_unit_hugetlb_sysfs"
+    },
+    {
+      "file": "mm/hugetlb_sysctl.c",
+      "module": "__slate_unit_hugetlb_sysctl"
+    },
+    {
+      "file": "mm/hugetlb_vmemmap.c",
+      "module": "__slate_unit_hugetlb_vmemmap"
+    },
+    {
+      "file": "mm/mempolicy.c",
+      "module": "__slate_unit_mempolicy"
+    },
+    {
+      "file": "mm/sparse.c",
+      "module": "__slate_unit_sparse"
+    },
+    {
+      "file": "mm/sparse-vmemmap.c",
+      "module": "__slate_unit_sparse_vmemmap"
+    },
+    {
+      "file": "mm/mmu_notifier.c",
+      "module": "__slate_unit_mmu_notifier"
+    },
+    {
+      "file": "mm/migrate.c",
+      "module": "__slate_unit_migrate"
+    },
+    {
+      "file": "mm/memory-tiers.c",
+      "module": "__slate_unit_memory_tiers"
+    },
+    {
+      "file": "mm/page_counter.c",
+      "module": "__slate_unit_page_counter"
+    },
+    {
+      "file": "mm/hugetlb_cgroup.c",
+      "module": "__slate_unit_hugetlb_cgroup"
+    },
+    {
+      "file": "mm/early_ioremap.c",
+      "module": "__slate_unit_early_ioremap"
+    },
+    {
+      "file": "mm/numa.c",
+      "module": "__slate_unit_numa"
+    },
+    {
+      "file": "mm/numa_memblks.c",
+      "module": "__slate_unit_numa_memblks"
+    },
+    {
+      "file": "mm/secretmem.c",
+      "module": "__slate_unit_secretmem"
+    },
+    {
+      "file": "mm/memfd.c",
+      "module": "__slate_unit_memfd"
+    },
+    {
+      "file": "mm/ptdump.c",
+      "module": "__slate_unit_ptdump"
+    },
+    {
+      "file": "mm/execmem.c",
+      "module": "__slate_unit_execmem"
+    }
+  ],
+  "version": 1
+}

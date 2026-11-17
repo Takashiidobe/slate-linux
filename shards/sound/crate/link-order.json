@@ -1,0 +1,245 @@
+{
+  "units": [
+    {
+      "file": "sound/sound_core.c",
+      "module": "__slate_unit_sound_core"
+    },
+    {
+      "file": "sound/core/sound.c",
+      "module": "__slate_unit_sound"
+    },
+    {
+      "file": "sound/core/init.c",
+      "module": "__slate_unit_init"
+    },
+    {
+      "file": "sound/core/memory.c",
+      "module": "__slate_unit_memory"
+    },
+    {
+      "file": "sound/core/control.c",
+      "module": "__slate_unit_control"
+    },
+    {
+      "file": "sound/core/misc.c",
+      "module": "__slate_unit_misc"
+    },
+    {
+      "file": "sound/core/device.c",
+      "module": "__slate_unit_sound_core_device"
+    },
+    {
+      "file": "sound/core/info.c",
+      "module": "__slate_unit_info"
+    },
+    {
+      "file": "sound/core/isadma.c",
+      "module": "__slate_unit_isadma"
+    },
+    {
+      "file": "sound/core/vmaster.c",
+      "module": "__slate_unit_vmaster"
+    },
+    {
+      "file": "sound/core/ctljack.c",
+      "module": "__slate_unit_ctljack"
+    },
+    {
+      "file": "sound/core/jack.c",
+      "module": "__slate_unit_core_jack"
+    },
+    {
+      "file": "sound/core/hwdep.c",
+      "module": "__slate_unit_core_hwdep"
+    },
+    {
+      "file": "sound/core/timer.c",
+      "module": "__slate_unit_timer"
+    },
+    {
+      "file": "sound/core/hrtimer.c",
+      "module": "__slate_unit_hrtimer"
+    },
+    {
+      "file": "sound/core/pcm.c",
+      "module": "__slate_unit_pcm"
+    },
+    {
+      "file": "sound/core/pcm_native.c",
+      "module": "__slate_unit_pcm_native"
+    },
+    {
+      "file": "sound/core/pcm_lib.c",
+      "module": "__slate_unit_pcm_lib"
+    },
+    {
+      "file": "sound/core/pcm_misc.c",
+      "module": "__slate_unit_pcm_misc"
+    },
+    {
+      "file": "sound/core/pcm_memory.c",
+      "module": "__slate_unit_pcm_memory"
+    },
+    {
+      "file": "sound/core/memalloc.c",
+      "module": "__slate_unit_memalloc"
+    },
+    {
+      "file": "sound/core/pcm_timer.c",
+      "module": "__slate_unit_pcm_timer"
+    },
+    {
+      "file": "sound/core/seq_device.c",
+      "module": "__slate_unit_seq_device"
+    },
+    {
+      "file": "sound/core/seq/seq.c",
+      "module": "__slate_unit_seq"
+    },
+    {
+      "file": "sound/core/seq/seq_lock.c",
+      "module": "__slate_unit_seq_lock"
+    },
+    {
+      "file": "sound/core/seq/seq_clientmgr.c",
+      "module": "__slate_unit_seq_clientmgr"
+    },
+    {
+      "file": "sound/core/seq/seq_memory.c",
+      "module": "__slate_unit_seq_memory"
+    },
+    {
+      "file": "sound/core/seq/seq_queue.c",
+      "module": "__slate_unit_seq_queue"
+    },
+    {
+      "file": "sound/core/seq/seq_fifo.c",
+      "module": "__slate_unit_seq_fifo"
+    },
+    {
+      "file": "sound/core/seq/seq_prioq.c",
+      "module": "__slate_unit_seq_prioq"
+    },
+    {
+      "file": "sound/core/seq/seq_timer.c",
+      "module": "__slate_unit_seq_timer"
+    },
+    {
+      "file": "sound/core/seq/seq_system.c",
+      "module": "__slate_unit_seq_system"
+    },
+    {
+      "file": "sound/core/seq/seq_ports.c",
+      "module": "__slate_unit_seq_ports"
+    },
+    {
+      "file": "sound/core/seq/seq_info.c",
+      "module": "__slate_unit_seq_info"
+    },
+    {
+      "file": "sound/core/seq/seq_dummy.c",
+      "module": "__slate_unit_seq_dummy"
+    },
+    {
+      "file": "sound/hda/core/hda_bus_type.c",
+      "module": "__slate_unit_hda_bus_type"
+    },
+    {
+      "file": "sound/hda/core/bus.c",
+      "module": "__slate_unit_bus"
+    },
+    {
+      "file": "sound/hda/core/device.c",
+      "module": "__slate_unit_hda_core_device"
+    },
+    {
+      "file": "sound/hda/core/sysfs.c",
+      "module": "__slate_unit_core_sysfs"
+    },
+    {
+      "file": "sound/hda/core/regmap.c",
+      "module": "__slate_unit_regmap"
+    },
+    {
+      "file": "sound/hda/core/controller.c",
+      "module": "__slate_unit_core_controller"
+    },
+    {
+      "file": "sound/hda/core/stream.c",
+      "module": "__slate_unit_stream"
+    },
+    {
+      "file": "sound/hda/core/array.c",
+      "module": "__slate_unit_array"
+    },
+    {
+      "file": "sound/hda/core/hdmi_chmap.c",
+      "module": "__slate_unit_hdmi_chmap"
+    },
+    {
+      "file": "sound/hda/core/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "sound/hda/core/component.c",
+      "module": "__slate_unit_component"
+    },
+    {
+      "file": "sound/hda/core/i915.c",
+      "module": "__slate_unit_i915"
+    },
+    {
+      "file": "sound/hda/core/intel-dsp-config.c",
+      "module": "__slate_unit_intel_dsp_config"
+    },
+    {
+      "file": "sound/hda/core/intel-nhlt.c",
+      "module": "__slate_unit_intel_nhlt"
+    },
+    {
+      "file": "sound/hda/core/intel-sdw-acpi.c",
+      "module": "__slate_unit_intel_sdw_acpi"
+    },
+    {
+      "file": "sound/hda/common/bind.c",
+      "module": "__slate_unit_bind"
+    },
+    {
+      "file": "sound/hda/common/codec.c",
+      "module": "__slate_unit_codec"
+    },
+    {
+      "file": "sound/hda/common/jack.c",
+      "module": "__slate_unit_common_jack"
+    },
+    {
+      "file": "sound/hda/common/auto_parser.c",
+      "module": "__slate_unit_auto_parser"
+    },
+    {
+      "file": "sound/hda/common/sysfs.c",
+      "module": "__slate_unit_common_sysfs"
+    },
+    {
+      "file": "sound/hda/common/controller.c",
+      "module": "__slate_unit_common_controller"
+    },
+    {
+      "file": "sound/hda/common/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "sound/hda/common/hwdep.c",
+      "module": "__slate_unit_common_hwdep"
+    },
+    {
+      "file": "sound/hda/controllers/intel.c",
+      "module": "__slate_unit_intel"
+    },
+    {
+      "file": "sound/last.c",
+      "module": "__slate_unit_last"
+    }
+  ],
+  "version": 1
+}

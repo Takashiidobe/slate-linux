@@ -1,0 +1,109 @@
+{
+  "units": [
+    {
+      "file": "kernel/trace/trace_clock.c",
+      "module": "__slate_unit_trace_clock"
+    },
+    {
+      "file": "kernel/trace/ring_buffer.c",
+      "module": "__slate_unit_ring_buffer"
+    },
+    {
+      "file": "kernel/trace/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "kernel/trace/trace_output.c",
+      "module": "__slate_unit_trace_output"
+    },
+    {
+      "file": "kernel/trace/trace_seq.c",
+      "module": "__slate_unit_trace_seq"
+    },
+    {
+      "file": "kernel/trace/trace_stat.c",
+      "module": "__slate_unit_trace_stat"
+    },
+    {
+      "file": "kernel/trace/trace_printk.c",
+      "module": "__slate_unit_trace_printk"
+    },
+    {
+      "file": "kernel/trace/trace_pid.c",
+      "module": "__slate_unit_trace_pid"
+    },
+    {
+      "file": "kernel/trace/pid_list.c",
+      "module": "__slate_unit_pid_list"
+    },
+    {
+      "file": "kernel/trace/trace_sched_switch.c",
+      "module": "__slate_unit_trace_sched_switch"
+    },
+    {
+      "file": "kernel/trace/trace_nop.c",
+      "module": "__slate_unit_trace_nop"
+    },
+    {
+      "file": "kernel/trace/blktrace.c",
+      "module": "__slate_unit_blktrace"
+    },
+    {
+      "file": "kernel/trace/trace_events.c",
+      "module": "__slate_unit_trace_events"
+    },
+    {
+      "file": "kernel/trace/trace_export.c",
+      "module": "__slate_unit_trace_export"
+    },
+    {
+      "file": "kernel/trace/trace_event_perf.c",
+      "module": "__slate_unit_trace_event_perf"
+    },
+    {
+      "file": "kernel/trace/trace_events_filter.c",
+      "module": "__slate_unit_trace_events_filter"
+    },
+    {
+      "file": "kernel/trace/trace_events_trigger.c",
+      "module": "__slate_unit_trace_events_trigger"
+    },
+    {
+      "file": "kernel/trace/trace_eprobe.c",
+      "module": "__slate_unit_trace_eprobe"
+    },
+    {
+      "file": "kernel/trace/trace_kprobe.c",
+      "module": "__slate_unit_trace_kprobe"
+    },
+    {
+      "file": "kernel/trace/error_report-traces.c",
+      "module": "__slate_unit_error_report_traces"
+    },
+    {
+      "file": "kernel/trace/power-traces.c",
+      "module": "__slate_unit_power_traces"
+    },
+    {
+      "file": "kernel/trace/rpm-traces.c",
+      "module": "__slate_unit_rpm_traces"
+    },
+    {
+      "file": "kernel/trace/trace_dynevent.c",
+      "module": "__slate_unit_trace_dynevent"
+    },
+    {
+      "file": "kernel/trace/trace_probe.c",
+      "module": "__slate_unit_trace_probe"
+    },
+    {
+      "file": "kernel/trace/trace_uprobe.c",
+      "module": "__slate_unit_trace_uprobe"
+    },
+    {
+      "file": "kernel/trace/rethook.c",
+      "module": "__slate_unit_rethook"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "units": [
+    {
+      "file": "drivers/power/supply/power_supply_core.c",
+      "module": "__slate_unit_power_supply_core"
+    },
+    {
+      "file": "drivers/power/supply/power_supply_sysfs.c",
+      "module": "__slate_unit_power_supply_sysfs"
+    },
+    {
+      "file": "drivers/power/supply/power_supply_leds.c",
+      "module": "__slate_unit_power_supply_leds"
+    },
+    {
+      "file": "drivers/power/supply/power_supply_hwmon.c",
+      "module": "__slate_unit_power_supply_hwmon"
+    }
+  ],
+  "version": 1
+}

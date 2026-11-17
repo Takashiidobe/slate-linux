@@ -1,0 +1,213 @@
+{
+  "units": [
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_busy.c",
+      "module": "__slate_unit_i915_gem_busy"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_clflush.c",
+      "module": "__slate_unit_i915_gem_clflush"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_context.c",
+      "module": "__slate_unit_i915_gem_context"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_create.c",
+      "module": "__slate_unit_i915_gem_create"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_dmabuf.c",
+      "module": "__slate_unit_i915_gem_dmabuf"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_domain.c",
+      "module": "__slate_unit_i915_gem_domain"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_execbuffer.c",
+      "module": "__slate_unit_i915_gem_execbuffer"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_internal.c",
+      "module": "__slate_unit_i915_gem_internal"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_lmem.c",
+      "module": "__slate_unit_i915_gem_lmem"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_mman.c",
+      "module": "__slate_unit_i915_gem_mman"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_object.c",
+      "module": "__slate_unit_i915_gem_object"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_object_frontbuffer.c",
+      "module": "__slate_unit_i915_gem_object_frontbuffer"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_pages.c",
+      "module": "__slate_unit_i915_gem_pages"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_panic.c",
+      "module": "__slate_unit_i915_gem_panic"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_phys.c",
+      "module": "__slate_unit_i915_gem_phys"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_pm.c",
+      "module": "__slate_unit_i915_gem_pm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_region.c",
+      "module": "__slate_unit_i915_gem_region"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_shmem.c",
+      "module": "__slate_unit_i915_gem_shmem"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_shrinker.c",
+      "module": "__slate_unit_i915_gem_shrinker"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_stolen.c",
+      "module": "__slate_unit_i915_gem_stolen"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_throttle.c",
+      "module": "__slate_unit_i915_gem_throttle"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_tiling.c",
+      "module": "__slate_unit_i915_gem_tiling"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_ttm.c",
+      "module": "__slate_unit_i915_gem_ttm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_ttm_move.c",
+      "module": "__slate_unit_i915_gem_ttm_move"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_ttm_pm.c",
+      "module": "__slate_unit_i915_gem_ttm_pm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_userptr.c",
+      "module": "__slate_unit_i915_gem_userptr"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gem/i915_gem_wait.c",
+      "module": "__slate_unit_i915_gem_wait"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_rom.c",
+      "module": "__slate_unit_intel_rom"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_sbi.c",
+      "module": "__slate_unit_intel_sbi"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_sprite.c",
+      "module": "__slate_unit_intel_sprite"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_sprite_uapi.c",
+      "module": "__slate_unit_intel_sprite_uapi"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_tc.c",
+      "module": "__slate_unit_intel_tc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_vblank.c",
+      "module": "__slate_unit_intel_vblank"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_vga.c",
+      "module": "__slate_unit_intel_vga"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_wm.c",
+      "module": "__slate_unit_intel_wm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/skl_prefill.c",
+      "module": "__slate_unit_skl_prefill"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/skl_scaler.c",
+      "module": "__slate_unit_skl_scaler"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/skl_universal_plane.c",
+      "module": "__slate_unit_skl_universal_plane"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/skl_watermark.c",
+      "module": "__slate_unit_skl_watermark"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/vlv_clock.c",
+      "module": "__slate_unit_vlv_clock"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/vlv_sideband.c",
+      "module": "__slate_unit_vlv_sideband"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_sdvo.c",
+      "module": "__slate_unit_intel_sdvo"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_snps_hdmi_pll.c",
+      "module": "__slate_unit_intel_snps_hdmi_pll"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_snps_phy.c",
+      "module": "__slate_unit_intel_snps_phy"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_tv.c",
+      "module": "__slate_unit_intel_tv"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_vdsc.c",
+      "module": "__slate_unit_intel_vdsc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/intel_vrr.c",
+      "module": "__slate_unit_intel_vrr"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/vlv_dsi.c",
+      "module": "__slate_unit_vlv_dsi"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/display/vlv_dsi_pll.c",
+      "module": "__slate_unit_vlv_dsi_pll"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/pxp/intel_pxp.c",
+      "module": "__slate_unit_intel_pxp"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/pxp/intel_pxp_huc.c",
+      "module": "__slate_unit_intel_pxp_huc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/pxp/intel_pxp_tee.c",
+      "module": "__slate_unit_intel_pxp_tee"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,237 @@
+{
+  "units": [
+    {
+      "file": "crypto/api.c",
+      "module": "__slate_unit_api"
+    },
+    {
+      "file": "crypto/cipher.c",
+      "module": "__slate_unit_cipher"
+    },
+    {
+      "file": "crypto/algapi.c",
+      "module": "__slate_unit_algapi"
+    },
+    {
+      "file": "crypto/scatterwalk.c",
+      "module": "__slate_unit_scatterwalk"
+    },
+    {
+      "file": "crypto/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "crypto/aead.c",
+      "module": "__slate_unit_aead"
+    },
+    {
+      "file": "crypto/geniv.c",
+      "module": "__slate_unit_geniv"
+    },
+    {
+      "file": "crypto/lskcipher.c",
+      "module": "__slate_unit_lskcipher"
+    },
+    {
+      "file": "crypto/skcipher.c",
+      "module": "__slate_unit_skcipher"
+    },
+    {
+      "file": "crypto/seqiv.c",
+      "module": "__slate_unit_seqiv"
+    },
+    {
+      "file": "crypto/echainiv.c",
+      "module": "__slate_unit_echainiv"
+    },
+    {
+      "file": "crypto/ahash.c",
+      "module": "__slate_unit_ahash"
+    },
+    {
+      "file": "crypto/shash.c",
+      "module": "__slate_unit_shash"
+    },
+    {
+      "file": "crypto/akcipher.c",
+      "module": "__slate_unit_akcipher"
+    },
+    {
+      "file": "crypto/sig.c",
+      "module": "__slate_unit_sig"
+    },
+    {
+      "file": "crypto/rsa.c",
+      "module": "__slate_unit_rsa"
+    },
+    {
+      "file": "crypto/rsa_helper.c",
+      "module": "__slate_unit_rsa_helper"
+    },
+    {
+      "file": "crypto/rsa-pkcs1pad.c",
+      "module": "__slate_unit_rsa_pkcs1pad"
+    },
+    {
+      "file": "crypto/rsassa-pkcs1.c",
+      "module": "__slate_unit_rsassa_pkcs1"
+    },
+    {
+      "file": "crypto/acompress.c",
+      "module": "__slate_unit_acompress"
+    },
+    {
+      "file": "crypto/scompress.c",
+      "module": "__slate_unit_scompress"
+    },
+    {
+      "file": "crypto/algboss.c",
+      "module": "__slate_unit_algboss"
+    },
+    {
+      "file": "crypto/testmgr.c",
+      "module": "__slate_unit_testmgr"
+    },
+    {
+      "file": "crypto/cmac.c",
+      "module": "__slate_unit_cmac"
+    },
+    {
+      "file": "crypto/hmac.c",
+      "module": "__slate_unit_hmac"
+    },
+    {
+      "file": "crypto/sha1.c",
+      "module": "__slate_unit_sha1"
+    },
+    {
+      "file": "crypto/sha256.c",
+      "module": "__slate_unit_sha256"
+    },
+    {
+      "file": "crypto/sha512.c",
+      "module": "__slate_unit_sha512"
+    },
+    {
+      "file": "crypto/ecb.c",
+      "module": "__slate_unit_ecb"
+    },
+    {
+      "file": "crypto/cbc.c",
+      "module": "__slate_unit_cbc"
+    },
+    {
+      "file": "crypto/cts.c",
+      "module": "__slate_unit_cts"
+    },
+    {
+      "file": "crypto/ctr.c",
+      "module": "__slate_unit_ctr"
+    },
+    {
+      "file": "crypto/gcm.c",
+      "module": "__slate_unit_gcm"
+    },
+    {
+      "file": "crypto/ccm.c",
+      "module": "__slate_unit_ccm"
+    },
+    {
+      "file": "crypto/aes.c",
+      "module": "__slate_unit_aes"
+    },
+    {
+      "file": "crypto/camellia_generic.c",
+      "module": "__slate_unit_camellia_generic"
+    },
+    {
+      "file": "crypto/authenc.c",
+      "module": "__slate_unit_authenc"
+    },
+    {
+      "file": "crypto/authencesn.c",
+      "module": "__slate_unit_authencesn"
+    },
+    {
+      "file": "crypto/krb5enc.c",
+      "module": "__slate_unit_krb5enc"
+    },
+    {
+      "file": "crypto/lzo.c",
+      "module": "__slate_unit_lzo"
+    },
+    {
+      "file": "crypto/lzo-rle.c",
+      "module": "__slate_unit_lzo_rle"
+    },
+    {
+      "file": "crypto/lz4.c",
+      "module": "__slate_unit_lz4"
+    },
+    {
+      "file": "crypto/asymmetric_keys/asymmetric_type.c",
+      "module": "__slate_unit_asymmetric_type"
+    },
+    {
+      "file": "crypto/asymmetric_keys/restrict.c",
+      "module": "__slate_unit_restrict"
+    },
+    {
+      "file": "crypto/asymmetric_keys/signature.c",
+      "module": "__slate_unit_signature"
+    },
+    {
+      "file": "crypto/asymmetric_keys/public_key.c",
+      "module": "__slate_unit_public_key"
+    },
+    {
+      "file": "crypto/asymmetric_keys/x509_cert_parser.c",
+      "module": "__slate_unit_x509_cert_parser"
+    },
+    {
+      "file": "crypto/asymmetric_keys/x509_loader.c",
+      "module": "__slate_unit_x509_loader"
+    },
+    {
+      "file": "crypto/asymmetric_keys/x509_public_key.c",
+      "module": "__slate_unit_x509_public_key"
+    },
+    {
+      "file": "crypto/asymmetric_keys/pkcs7_parser.c",
+      "module": "__slate_unit_pkcs7_parser"
+    },
+    {
+      "file": "crypto/asymmetric_keys/pkcs7_trust.c",
+      "module": "__slate_unit_pkcs7_trust"
+    },
+    {
+      "file": "crypto/asymmetric_keys/pkcs7_verify.c",
+      "module": "__slate_unit_pkcs7_verify"
+    },
+    {
+      "file": "crypto/krb5/krb5_kdf.c",
+      "module": "__slate_unit_krb5_kdf"
+    },
+    {
+      "file": "crypto/krb5/krb5_api.c",
+      "module": "__slate_unit_krb5_api"
+    },
+    {
+      "file": "crypto/krb5/rfc3961_simplified.c",
+      "module": "__slate_unit_rfc3961_simplified"
+    },
+    {
+      "file": "crypto/krb5/rfc3962_aes.c",
+      "module": "__slate_unit_rfc3962_aes"
+    },
+    {
+      "file": "crypto/krb5/rfc6803_camellia.c",
+      "module": "__slate_unit_rfc6803_camellia"
+    },
+    {
+      "file": "crypto/krb5/rfc8009_aes2.c",
+      "module": "__slate_unit_rfc8009_aes2"
+    }
+  ],
+  "version": 1
+}

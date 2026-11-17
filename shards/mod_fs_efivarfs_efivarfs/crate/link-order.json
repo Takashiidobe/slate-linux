@@ -1,0 +1,25 @@
+{
+  "units": [
+    {
+      "file": "build-clang/fs/efivarfs/efivarfs.mod.c",
+      "module": "__slate_unit_efivarfs_mod"
+    },
+    {
+      "file": "fs/efivarfs/inode.c",
+      "module": "__slate_unit_inode"
+    },
+    {
+      "file": "fs/efivarfs/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "fs/efivarfs/super.c",
+      "module": "__slate_unit_super"
+    },
+    {
+      "file": "fs/efivarfs/vars.c",
+      "module": "__slate_unit_vars"
+    }
+  ],
+  "version": 1
+}

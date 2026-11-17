@@ -1,0 +1,41 @@
+{
+  "units": [
+    {
+      "file": "drivers/video/aperture.c",
+      "module": "__slate_unit_aperture"
+    },
+    {
+      "file": "drivers/video/screen_info_generic.c",
+      "module": "__slate_unit_screen_info_generic"
+    },
+    {
+      "file": "drivers/video/screen_info_pci.c",
+      "module": "__slate_unit_screen_info_pci"
+    },
+    {
+      "file": "drivers/video/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "drivers/video/nomodeset.c",
+      "module": "__slate_unit_nomodeset"
+    },
+    {
+      "file": "drivers/video/hdmi.c",
+      "module": "__slate_unit_hdmi"
+    },
+    {
+      "file": "drivers/video/console/dummycon.c",
+      "module": "__slate_unit_dummycon"
+    },
+    {
+      "file": "drivers/video/console/vgacon.c",
+      "module": "__slate_unit_vgacon"
+    },
+    {
+      "file": "drivers/video/backlight/backlight.c",
+      "module": "__slate_unit_backlight"
+    }
+  ],
+  "version": 1
+}

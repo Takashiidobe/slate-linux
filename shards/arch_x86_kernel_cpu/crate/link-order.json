@@ -1,0 +1,185 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/kernel/cpu/cacheinfo.c",
+      "module": "__slate_unit_cacheinfo"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/scattered.c",
+      "module": "__slate_unit_scattered"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/topology_common.c",
+      "module": "__slate_unit_topology_common"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/topology_ext.c",
+      "module": "__slate_unit_topology_ext"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/topology_amd.c",
+      "module": "__slate_unit_topology_amd"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/cpuid_parser.c",
+      "module": "__slate_unit_cpuid_parser"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/rdrand.c",
+      "module": "__slate_unit_rdrand"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/match.c",
+      "module": "__slate_unit_match"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/bugs.c",
+      "module": "__slate_unit_bugs"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/aperfmperf.c",
+      "module": "__slate_unit_aperfmperf"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/cpuid-deps.c",
+      "module": "__slate_unit_cpuid_deps"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/cpuid_0x2_table.c",
+      "module": "__slate_unit_cpuid_0x2_table"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/umwait.c",
+      "module": "__slate_unit_umwait"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/powerflags.c",
+      "module": "__slate_unit_powerflags"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/topology.c",
+      "module": "__slate_unit_topology"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/feat_ctl.c",
+      "module": "__slate_unit_feat_ctl"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/intel.c",
+      "module": "__slate_unit_cpu_intel"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/tsx.c",
+      "module": "__slate_unit_tsx"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/intel_epb.c",
+      "module": "__slate_unit_intel_epb"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/amd.c",
+      "module": "__slate_unit_cpu_amd"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/amd_cache_disable.c",
+      "module": "__slate_unit_amd_cache_disable"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/hygon.c",
+      "module": "__slate_unit_hygon"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/centaur.c",
+      "module": "__slate_unit_centaur"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/zhaoxin.c",
+      "module": "__slate_unit_zhaoxin"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/core.c",
+      "module": "__slate_unit_mce_core"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/severity.c",
+      "module": "__slate_unit_severity"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/genpool.c",
+      "module": "__slate_unit_genpool"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/intel.c",
+      "module": "__slate_unit_mce_intel"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/amd.c",
+      "module": "__slate_unit_mce_amd"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mce/threshold.c",
+      "module": "__slate_unit_threshold"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mtrr/mtrr.c",
+      "module": "__slate_unit_mtrr"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mtrr/if.c",
+      "module": "__slate_unit_if"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mtrr/generic.c",
+      "module": "__slate_unit_generic"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mtrr/cleanup.c",
+      "module": "__slate_unit_cleanup"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/microcode/core.c",
+      "module": "__slate_unit_microcode_core"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/microcode/intel.c",
+      "module": "__slate_unit_microcode_intel"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/microcode/amd.c",
+      "module": "__slate_unit_microcode_amd"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/perfctr-watchdog.c",
+      "module": "__slate_unit_perfctr_watchdog"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/vmware.c",
+      "module": "__slate_unit_vmware"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/hypervisor.c",
+      "module": "__slate_unit_hypervisor"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/mshyperv.c",
+      "module": "__slate_unit_mshyperv"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/debugfs.c",
+      "module": "__slate_unit_debugfs"
+    },
+    {
+      "file": "arch/x86/kernel/cpu/bus_lock.c",
+      "module": "__slate_unit_bus_lock"
+    }
+  ],
+  "version": 1
+}

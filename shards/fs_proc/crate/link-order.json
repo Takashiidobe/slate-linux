@@ -1,0 +1,117 @@
+{
+  "units": [
+    {
+      "file": "fs/proc/task_mmu.c",
+      "module": "__slate_unit_task_mmu"
+    },
+    {
+      "file": "fs/proc/inode.c",
+      "module": "__slate_unit_inode"
+    },
+    {
+      "file": "fs/proc/root.c",
+      "module": "__slate_unit_root"
+    },
+    {
+      "file": "fs/proc/base.c",
+      "module": "__slate_unit_base"
+    },
+    {
+      "file": "fs/proc/generic.c",
+      "module": "__slate_unit_generic"
+    },
+    {
+      "file": "fs/proc/array.c",
+      "module": "__slate_unit_array"
+    },
+    {
+      "file": "fs/proc/fd.c",
+      "module": "__slate_unit_fd"
+    },
+    {
+      "file": "fs/proc/proc_tty.c",
+      "module": "__slate_unit_proc_tty"
+    },
+    {
+      "file": "fs/proc/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "fs/proc/consoles.c",
+      "module": "__slate_unit_consoles"
+    },
+    {
+      "file": "fs/proc/cpuinfo.c",
+      "module": "__slate_unit_cpuinfo"
+    },
+    {
+      "file": "fs/proc/devices.c",
+      "module": "__slate_unit_devices"
+    },
+    {
+      "file": "fs/proc/loadavg.c",
+      "module": "__slate_unit_loadavg"
+    },
+    {
+      "file": "fs/proc/meminfo.c",
+      "module": "__slate_unit_meminfo"
+    },
+    {
+      "file": "fs/proc/stat.c",
+      "module": "__slate_unit_stat"
+    },
+    {
+      "file": "fs/proc/uptime.c",
+      "module": "__slate_unit_uptime"
+    },
+    {
+      "file": "fs/proc/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "fs/proc/version.c",
+      "module": "__slate_unit_version"
+    },
+    {
+      "file": "fs/proc/softirqs.c",
+      "module": "__slate_unit_softirqs"
+    },
+    {
+      "file": "fs/proc/namespaces.c",
+      "module": "__slate_unit_namespaces"
+    },
+    {
+      "file": "fs/proc/self.c",
+      "module": "__slate_unit_self"
+    },
+    {
+      "file": "fs/proc/thread_self.c",
+      "module": "__slate_unit_thread_self"
+    },
+    {
+      "file": "fs/proc/proc_sysctl.c",
+      "module": "__slate_unit_proc_sysctl"
+    },
+    {
+      "file": "fs/proc/proc_net.c",
+      "module": "__slate_unit_proc_net"
+    },
+    {
+      "file": "fs/proc/kcore.c",
+      "module": "__slate_unit_kcore"
+    },
+    {
+      "file": "fs/proc/vmcore.c",
+      "module": "__slate_unit_vmcore"
+    },
+    {
+      "file": "fs/proc/kmsg.c",
+      "module": "__slate_unit_kmsg"
+    },
+    {
+      "file": "fs/proc/page.c",
+      "module": "__slate_unit_page"
+    }
+  ],
+  "version": 1
+}

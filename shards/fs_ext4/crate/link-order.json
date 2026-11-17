@@ -1,0 +1,145 @@
+{
+  "units": [
+    {
+      "file": "fs/ext4/balloc.c",
+      "module": "__slate_unit_balloc"
+    },
+    {
+      "file": "fs/ext4/bitmap.c",
+      "module": "__slate_unit_bitmap"
+    },
+    {
+      "file": "fs/ext4/block_validity.c",
+      "module": "__slate_unit_block_validity"
+    },
+    {
+      "file": "fs/ext4/dir.c",
+      "module": "__slate_unit_dir"
+    },
+    {
+      "file": "fs/ext4/ext4_jbd2.c",
+      "module": "__slate_unit_ext4_jbd2"
+    },
+    {
+      "file": "fs/ext4/extents.c",
+      "module": "__slate_unit_extents"
+    },
+    {
+      "file": "fs/ext4/extents_status.c",
+      "module": "__slate_unit_extents_status"
+    },
+    {
+      "file": "fs/ext4/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "fs/ext4/fsmap.c",
+      "module": "__slate_unit_fsmap"
+    },
+    {
+      "file": "fs/ext4/fsync.c",
+      "module": "__slate_unit_fsync"
+    },
+    {
+      "file": "fs/ext4/hash.c",
+      "module": "__slate_unit_hash"
+    },
+    {
+      "file": "fs/ext4/ialloc.c",
+      "module": "__slate_unit_ialloc"
+    },
+    {
+      "file": "fs/ext4/indirect.c",
+      "module": "__slate_unit_indirect"
+    },
+    {
+      "file": "fs/ext4/inline.c",
+      "module": "__slate_unit_inline"
+    },
+    {
+      "file": "fs/ext4/inode.c",
+      "module": "__slate_unit_inode"
+    },
+    {
+      "file": "fs/ext4/ioctl.c",
+      "module": "__slate_unit_ioctl"
+    },
+    {
+      "file": "fs/ext4/mballoc.c",
+      "module": "__slate_unit_mballoc"
+    },
+    {
+      "file": "fs/ext4/migrate.c",
+      "module": "__slate_unit_migrate"
+    },
+    {
+      "file": "fs/ext4/mmp.c",
+      "module": "__slate_unit_mmp"
+    },
+    {
+      "file": "fs/ext4/move_extent.c",
+      "module": "__slate_unit_move_extent"
+    },
+    {
+      "file": "fs/ext4/namei.c",
+      "module": "__slate_unit_namei"
+    },
+    {
+      "file": "fs/ext4/page-io.c",
+      "module": "__slate_unit_page_io"
+    },
+    {
+      "file": "fs/ext4/readpage.c",
+      "module": "__slate_unit_readpage"
+    },
+    {
+      "file": "fs/ext4/resize.c",
+      "module": "__slate_unit_resize"
+    },
+    {
+      "file": "fs/ext4/super.c",
+      "module": "__slate_unit_super"
+    },
+    {
+      "file": "fs/ext4/symlink.c",
+      "module": "__slate_unit_symlink"
+    },
+    {
+      "file": "fs/ext4/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "fs/ext4/xattr.c",
+      "module": "__slate_unit_xattr"
+    },
+    {
+      "file": "fs/ext4/xattr_hurd.c",
+      "module": "__slate_unit_xattr_hurd"
+    },
+    {
+      "file": "fs/ext4/xattr_trusted.c",
+      "module": "__slate_unit_xattr_trusted"
+    },
+    {
+      "file": "fs/ext4/xattr_user.c",
+      "module": "__slate_unit_xattr_user"
+    },
+    {
+      "file": "fs/ext4/fast_commit.c",
+      "module": "__slate_unit_fast_commit"
+    },
+    {
+      "file": "fs/ext4/orphan.c",
+      "module": "__slate_unit_orphan"
+    },
+    {
+      "file": "fs/ext4/acl.c",
+      "module": "__slate_unit_acl"
+    },
+    {
+      "file": "fs/ext4/xattr_security.c",
+      "module": "__slate_unit_xattr_security"
+    }
+  ],
+  "version": 1
+}

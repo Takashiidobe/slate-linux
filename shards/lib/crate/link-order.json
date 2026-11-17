@@ -1,0 +1,429 @@
+{
+  "units": [
+    {
+      "file": "lib/lockref.c",
+      "module": "__slate_unit_lockref"
+    },
+    {
+      "file": "lib/bcd.c",
+      "module": "__slate_unit_bcd"
+    },
+    {
+      "file": "lib/sort.c",
+      "module": "__slate_unit_sort"
+    },
+    {
+      "file": "lib/parser.c",
+      "module": "__slate_unit_parser"
+    },
+    {
+      "file": "lib/debug_locks.c",
+      "module": "__slate_unit_debug_locks"
+    },
+    {
+      "file": "lib/random32.c",
+      "module": "__slate_unit_random32"
+    },
+    {
+      "file": "lib/bust_spinlocks.c",
+      "module": "__slate_unit_bust_spinlocks"
+    },
+    {
+      "file": "lib/kasprintf.c",
+      "module": "__slate_unit_kasprintf"
+    },
+    {
+      "file": "lib/bitmap.c",
+      "module": "__slate_unit_bitmap"
+    },
+    {
+      "file": "lib/scatterlist.c",
+      "module": "__slate_unit_scatterlist"
+    },
+    {
+      "file": "lib/list_sort.c",
+      "module": "__slate_unit_list_sort"
+    },
+    {
+      "file": "lib/uuid.c",
+      "module": "__slate_unit_uuid"
+    },
+    {
+      "file": "lib/iov_iter.c",
+      "module": "__slate_unit_iov_iter"
+    },
+    {
+      "file": "lib/clz_ctz.c",
+      "module": "__slate_unit_clz_ctz"
+    },
+    {
+      "file": "lib/bsearch.c",
+      "module": "__slate_unit_bsearch"
+    },
+    {
+      "file": "lib/find_bit.c",
+      "module": "__slate_unit_find_bit"
+    },
+    {
+      "file": "lib/llist.c",
+      "module": "__slate_unit_llist"
+    },
+    {
+      "file": "lib/lwq.c",
+      "module": "__slate_unit_lwq"
+    },
+    {
+      "file": "lib/memweight.c",
+      "module": "__slate_unit_memweight"
+    },
+    {
+      "file": "lib/kfifo.c",
+      "module": "__slate_unit_kfifo"
+    },
+    {
+      "file": "lib/percpu-refcount.c",
+      "module": "__slate_unit_percpu_refcount"
+    },
+    {
+      "file": "lib/rhashtable.c",
+      "module": "__slate_unit_rhashtable"
+    },
+    {
+      "file": "lib/base64.c",
+      "module": "__slate_unit_base64"
+    },
+    {
+      "file": "lib/once.c",
+      "module": "__slate_unit_once"
+    },
+    {
+      "file": "lib/refcount.c",
+      "module": "__slate_unit_refcount"
+    },
+    {
+      "file": "lib/rcuref.c",
+      "module": "__slate_unit_rcuref"
+    },
+    {
+      "file": "lib/usercopy.c",
+      "module": "__slate_unit_usercopy"
+    },
+    {
+      "file": "lib/errseq.c",
+      "module": "__slate_unit_errseq"
+    },
+    {
+      "file": "lib/bucket_locks.c",
+      "module": "__slate_unit_bucket_locks"
+    },
+    {
+      "file": "lib/generic-radix-tree.c",
+      "module": "__slate_unit_generic_radix_tree"
+    },
+    {
+      "file": "lib/bitmap-str.c",
+      "module": "__slate_unit_bitmap_str"
+    },
+    {
+      "file": "lib/string_helpers.c",
+      "module": "__slate_unit_string_helpers"
+    },
+    {
+      "file": "lib/hexdump.c",
+      "module": "__slate_unit_hexdump"
+    },
+    {
+      "file": "lib/kstrtox.c",
+      "module": "__slate_unit_kstrtox"
+    },
+    {
+      "file": "lib/iomap.c",
+      "module": "__slate_unit_iomap"
+    },
+    {
+      "file": "lib/iomap_copy.c",
+      "module": "__slate_unit_iomap_copy"
+    },
+    {
+      "file": "lib/devres.c",
+      "module": "__slate_unit_devres"
+    },
+    {
+      "file": "lib/check_signature.c",
+      "module": "__slate_unit_check_signature"
+    },
+    {
+      "file": "lib/interval_tree.c",
+      "module": "__slate_unit_interval_tree"
+    },
+    {
+      "file": "lib/assoc_array.c",
+      "module": "__slate_unit_assoc_array"
+    },
+    {
+      "file": "lib/bitrev.c",
+      "module": "__slate_unit_bitrev"
+    },
+    {
+      "file": "lib/xxhash.c",
+      "module": "__slate_unit_xxhash"
+    },
+    {
+      "file": "lib/genalloc.c",
+      "module": "__slate_unit_genalloc"
+    },
+    {
+      "file": "lib/percpu_counter.c",
+      "module": "__slate_unit_percpu_counter"
+    },
+    {
+      "file": "lib/syscall.c",
+      "module": "__slate_unit_syscall"
+    },
+    {
+      "file": "lib/errname.c",
+      "module": "__slate_unit_errname"
+    },
+    {
+      "file": "lib/nlattr.c",
+      "module": "__slate_unit_nlattr"
+    },
+    {
+      "file": "lib/cpu_rmap.c",
+      "module": "__slate_unit_cpu_rmap"
+    },
+    {
+      "file": "lib/dynamic_queue_limits.c",
+      "module": "__slate_unit_dynamic_queue_limits"
+    },
+    {
+      "file": "lib/glob.c",
+      "module": "__slate_unit_glob"
+    },
+    {
+      "file": "lib/strncpy_from_user.c",
+      "module": "__slate_unit_strncpy_from_user"
+    },
+    {
+      "file": "lib/strnlen_user.c",
+      "module": "__slate_unit_strnlen_user"
+    },
+    {
+      "file": "lib/net_utils.c",
+      "module": "__slate_unit_net_utils"
+    },
+    {
+      "file": "lib/sg_pool.c",
+      "module": "__slate_unit_sg_pool"
+    },
+    {
+      "file": "lib/stackdepot.c",
+      "module": "__slate_unit_stackdepot"
+    },
+    {
+      "file": "lib/asn1_decoder.c",
+      "module": "__slate_unit_asn1_decoder"
+    },
+    {
+      "file": "lib/oid_registry.c",
+      "module": "__slate_unit_oid_registry"
+    },
+    {
+      "file": "lib/ucs2_string.c",
+      "module": "__slate_unit_ucs2_string"
+    },
+    {
+      "file": "lib/sbitmap.c",
+      "module": "__slate_unit_sbitmap"
+    },
+    {
+      "file": "lib/group_cpus.c",
+      "module": "__slate_unit_group_cpus"
+    },
+    {
+      "file": "lib/fw_table.c",
+      "module": "__slate_unit_fw_table"
+    },
+    {
+      "file": "lib/argv_split.c",
+      "module": "__slate_unit_argv_split"
+    },
+    {
+      "file": "lib/bug.c",
+      "module": "__slate_unit_bug"
+    },
+    {
+      "file": "lib/buildid.c",
+      "module": "__slate_unit_buildid"
+    },
+    {
+      "file": "lib/clz_tab.c",
+      "module": "__slate_unit_clz_tab"
+    },
+    {
+      "file": "lib/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "lib/cpumask.c",
+      "module": "__slate_unit_cpumask"
+    },
+    {
+      "file": "lib/ctype.c",
+      "module": "__slate_unit_ctype"
+    },
+    {
+      "file": "lib/dec_and_lock.c",
+      "module": "__slate_unit_dec_and_lock"
+    },
+    {
+      "file": "lib/decompress.c",
+      "module": "__slate_unit_decompress"
+    },
+    {
+      "file": "lib/decompress_bunzip2.c",
+      "module": "__slate_unit_decompress_bunzip2"
+    },
+    {
+      "file": "lib/decompress_inflate.c",
+      "module": "__slate_unit_decompress_inflate"
+    },
+    {
+      "file": "lib/decompress_unlz4.c",
+      "module": "__slate_unit_decompress_unlz4"
+    },
+    {
+      "file": "lib/decompress_unlzma.c",
+      "module": "__slate_unit_decompress_unlzma"
+    },
+    {
+      "file": "lib/decompress_unlzo.c",
+      "module": "__slate_unit_decompress_unlzo"
+    },
+    {
+      "file": "lib/decompress_unxz.c",
+      "module": "__slate_unit_decompress_unxz"
+    },
+    {
+      "file": "lib/decompress_unzstd.c",
+      "module": "__slate_unit_decompress_unzstd"
+    },
+    {
+      "file": "lib/dump_stack.c",
+      "module": "__slate_unit_dump_stack"
+    },
+    {
+      "file": "lib/earlycpio.c",
+      "module": "__slate_unit_earlycpio"
+    },
+    {
+      "file": "lib/extable.c",
+      "module": "__slate_unit_extable"
+    },
+    {
+      "file": "lib/flex_proportions.c",
+      "module": "__slate_unit_flex_proportions"
+    },
+    {
+      "file": "lib/idr.c",
+      "module": "__slate_unit_idr"
+    },
+    {
+      "file": "lib/iomem_copy.c",
+      "module": "__slate_unit_iomem_copy"
+    },
+    {
+      "file": "lib/irq_regs.c",
+      "module": "__slate_unit_irq_regs"
+    },
+    {
+      "file": "lib/is_single_threaded.c",
+      "module": "__slate_unit_is_single_threaded"
+    },
+    {
+      "file": "lib/klist.c",
+      "module": "__slate_unit_klist"
+    },
+    {
+      "file": "lib/kobject.c",
+      "module": "__slate_unit_kobject"
+    },
+    {
+      "file": "lib/kobject_uevent.c",
+      "module": "__slate_unit_kobject_uevent"
+    },
+    {
+      "file": "lib/logic_pio.c",
+      "module": "__slate_unit_logic_pio"
+    },
+    {
+      "file": "lib/maple_tree.c",
+      "module": "__slate_unit_maple_tree"
+    },
+    {
+      "file": "lib/memcat_p.c",
+      "module": "__slate_unit_memcat_p"
+    },
+    {
+      "file": "lib/nmi_backtrace.c",
+      "module": "__slate_unit_nmi_backtrace"
+    },
+    {
+      "file": "lib/objpool.c",
+      "module": "__slate_unit_objpool"
+    },
+    {
+      "file": "lib/plist.c",
+      "module": "__slate_unit_plist"
+    },
+    {
+      "file": "lib/radix-tree.c",
+      "module": "__slate_unit_radix_tree"
+    },
+    {
+      "file": "lib/ratelimit.c",
+      "module": "__slate_unit_ratelimit"
+    },
+    {
+      "file": "lib/rbtree.c",
+      "module": "__slate_unit_rbtree"
+    },
+    {
+      "file": "lib/seq_buf.c",
+      "module": "__slate_unit_seq_buf"
+    },
+    {
+      "file": "lib/siphash.c",
+      "module": "__slate_unit_siphash"
+    },
+    {
+      "file": "lib/string.c",
+      "module": "__slate_unit_string"
+    },
+    {
+      "file": "lib/sys_info.c",
+      "module": "__slate_unit_sys_info"
+    },
+    {
+      "file": "lib/timerqueue.c",
+      "module": "__slate_unit_timerqueue"
+    },
+    {
+      "file": "lib/union_find.c",
+      "module": "__slate_unit_union_find"
+    },
+    {
+      "file": "lib/vsprintf.c",
+      "module": "__slate_unit_vsprintf"
+    },
+    {
+      "file": "lib/win_minmax.c",
+      "module": "__slate_unit_win_minmax"
+    },
+    {
+      "file": "lib/xarray.c",
+      "module": "__slate_unit_xarray"
+    }
+  ],
+  "version": 1
+}

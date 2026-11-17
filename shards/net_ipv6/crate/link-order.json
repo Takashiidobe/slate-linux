@@ -1,0 +1,213 @@
+{
+  "units": [
+    {
+      "file": "net/ipv6/af_inet6.c",
+      "module": "__slate_unit_af_inet6"
+    },
+    {
+      "file": "net/ipv6/anycast.c",
+      "module": "__slate_unit_anycast"
+    },
+    {
+      "file": "net/ipv6/ip6_output.c",
+      "module": "__slate_unit_ip6_output"
+    },
+    {
+      "file": "net/ipv6/ip6_input.c",
+      "module": "__slate_unit_ip6_input"
+    },
+    {
+      "file": "net/ipv6/addrconf.c",
+      "module": "__slate_unit_addrconf"
+    },
+    {
+      "file": "net/ipv6/addrlabel.c",
+      "module": "__slate_unit_addrlabel"
+    },
+    {
+      "file": "net/ipv6/route.c",
+      "module": "__slate_unit_route"
+    },
+    {
+      "file": "net/ipv6/ip6_fib.c",
+      "module": "__slate_unit_ip6_fib"
+    },
+    {
+      "file": "net/ipv6/ipv6_sockglue.c",
+      "module": "__slate_unit_ipv6_sockglue"
+    },
+    {
+      "file": "net/ipv6/ndisc.c",
+      "module": "__slate_unit_ndisc"
+    },
+    {
+      "file": "net/ipv6/udp.c",
+      "module": "__slate_unit_udp"
+    },
+    {
+      "file": "net/ipv6/raw.c",
+      "module": "__slate_unit_raw"
+    },
+    {
+      "file": "net/ipv6/icmp.c",
+      "module": "__slate_unit_icmp"
+    },
+    {
+      "file": "net/ipv6/mcast.c",
+      "module": "__slate_unit_mcast"
+    },
+    {
+      "file": "net/ipv6/reassembly.c",
+      "module": "__slate_unit_reassembly"
+    },
+    {
+      "file": "net/ipv6/tcp_ipv6.c",
+      "module": "__slate_unit_tcp_ipv6"
+    },
+    {
+      "file": "net/ipv6/ping.c",
+      "module": "__slate_unit_ping"
+    },
+    {
+      "file": "net/ipv6/exthdrs.c",
+      "module": "__slate_unit_exthdrs"
+    },
+    {
+      "file": "net/ipv6/datagram.c",
+      "module": "__slate_unit_datagram"
+    },
+    {
+      "file": "net/ipv6/ip6_flowlabel.c",
+      "module": "__slate_unit_ip6_flowlabel"
+    },
+    {
+      "file": "net/ipv6/inet6_connection_sock.c",
+      "module": "__slate_unit_inet6_connection_sock"
+    },
+    {
+      "file": "net/ipv6/udp_offload.c",
+      "module": "__slate_unit_udp_offload"
+    },
+    {
+      "file": "net/ipv6/seg6.c",
+      "module": "__slate_unit_seg6"
+    },
+    {
+      "file": "net/ipv6/fib6_notifier.c",
+      "module": "__slate_unit_fib6_notifier"
+    },
+    {
+      "file": "net/ipv6/rpl.c",
+      "module": "__slate_unit_rpl"
+    },
+    {
+      "file": "net/ipv6/ioam6.c",
+      "module": "__slate_unit_ioam6"
+    },
+    {
+      "file": "net/ipv6/sysctl_net_ipv6.c",
+      "module": "__slate_unit_sysctl_net_ipv6"
+    },
+    {
+      "file": "net/ipv6/xfrm6_policy.c",
+      "module": "__slate_unit_xfrm6_policy"
+    },
+    {
+      "file": "net/ipv6/xfrm6_state.c",
+      "module": "__slate_unit_xfrm6_state"
+    },
+    {
+      "file": "net/ipv6/xfrm6_input.c",
+      "module": "__slate_unit_xfrm6_input"
+    },
+    {
+      "file": "net/ipv6/xfrm6_output.c",
+      "module": "__slate_unit_xfrm6_output"
+    },
+    {
+      "file": "net/ipv6/xfrm6_protocol.c",
+      "module": "__slate_unit_xfrm6_protocol"
+    },
+    {
+      "file": "net/ipv6/netfilter.c",
+      "module": "__slate_unit_netfilter"
+    },
+    {
+      "file": "net/ipv6/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "net/ipv6/syncookies.c",
+      "module": "__slate_unit_syncookies"
+    },
+    {
+      "file": "net/ipv6/calipso.c",
+      "module": "__slate_unit_calipso"
+    },
+    {
+      "file": "net/ipv6/ah6.c",
+      "module": "__slate_unit_ah6"
+    },
+    {
+      "file": "net/ipv6/esp6.c",
+      "module": "__slate_unit_esp6"
+    },
+    {
+      "file": "net/ipv6/netfilter/nf_defrag_ipv6_hooks.c",
+      "module": "__slate_unit_nf_defrag_ipv6_hooks"
+    },
+    {
+      "file": "net/ipv6/netfilter/nf_conntrack_reasm.c",
+      "module": "__slate_unit_nf_conntrack_reasm"
+    },
+    {
+      "file": "net/ipv6/netfilter/ip6t_ipv6header.c",
+      "module": "__slate_unit_ip6t_ipv6header"
+    },
+    {
+      "file": "net/ipv6/addrconf_core.c",
+      "module": "__slate_unit_addrconf_core"
+    },
+    {
+      "file": "net/ipv6/exthdrs_core.c",
+      "module": "__slate_unit_exthdrs_core"
+    },
+    {
+      "file": "net/ipv6/ip6_checksum.c",
+      "module": "__slate_unit_ip6_checksum"
+    },
+    {
+      "file": "net/ipv6/ip6_icmp.c",
+      "module": "__slate_unit_ip6_icmp"
+    },
+    {
+      "file": "net/ipv6/output_core.c",
+      "module": "__slate_unit_output_core"
+    },
+    {
+      "file": "net/ipv6/protocol.c",
+      "module": "__slate_unit_protocol"
+    },
+    {
+      "file": "net/ipv6/ip6_offload.c",
+      "module": "__slate_unit_ip6_offload"
+    },
+    {
+      "file": "net/ipv6/exthdrs_offload.c",
+      "module": "__slate_unit_exthdrs_offload"
+    },
+    {
+      "file": "net/ipv6/inet6_hashtables.c",
+      "module": "__slate_unit_inet6_hashtables"
+    },
+    {
+      "file": "net/ipv6/mcast_snoop.c",
+      "module": "__slate_unit_mcast_snoop"
+    },
+    {
+      "file": "net/ipv6/ndisc_snoop.c",
+      "module": "__slate_unit_ndisc_snoop"
+    }
+  ],
+  "version": 1
+}

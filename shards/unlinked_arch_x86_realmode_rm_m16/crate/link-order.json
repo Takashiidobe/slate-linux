@@ -1,0 +1,29 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/realmode/rm/regs.c",
+      "module": "__slate_unit_regs"
+    },
+    {
+      "file": "arch/x86/realmode/rm/video-bios.c",
+      "module": "__slate_unit_video_bios"
+    },
+    {
+      "file": "arch/x86/realmode/rm/video-mode.c",
+      "module": "__slate_unit_video_mode"
+    },
+    {
+      "file": "arch/x86/realmode/rm/video-vesa.c",
+      "module": "__slate_unit_video_vesa"
+    },
+    {
+      "file": "arch/x86/realmode/rm/video-vga.c",
+      "module": "__slate_unit_video_vga"
+    },
+    {
+      "file": "arch/x86/realmode/rm/wakemain.c",
+      "module": "__slate_unit_wakemain"
+    }
+  ],
+  "version": 1
+}

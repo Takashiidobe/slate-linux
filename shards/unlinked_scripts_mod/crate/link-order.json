@@ -1,0 +1,9 @@
+{
+  "units": [
+    {
+      "file": "scripts/mod/empty.c",
+      "module": "__slate_unit_empty"
+    }
+  ],
+  "version": 1
+}

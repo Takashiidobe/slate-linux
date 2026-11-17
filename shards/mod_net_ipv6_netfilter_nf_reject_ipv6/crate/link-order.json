@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/ipv6/netfilter/nf_reject_ipv6.mod.c",
+      "module": "__slate_unit_nf_reject_ipv6_mod"
+    },
+    {
+      "file": "net/ipv6/netfilter/nf_reject_ipv6.c",
+      "module": "__slate_unit_nf_reject_ipv6"
+    }
+  ],
+  "version": 1
+}

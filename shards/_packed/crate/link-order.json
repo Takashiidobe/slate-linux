@@ -1,0 +1,477 @@
+{
+  "units": [
+    {
+      "file": "build-clang/arch/x86/entry/vdso/vdso64/vdso64-image.c",
+      "module": "__slate_unit_vdso64_image"
+    },
+    {
+      "file": "build-clang/arch/x86/entry/vdso/vdso32/vdso32-image.c",
+      "module": "__slate_unit_vdso32_image"
+    },
+    {
+      "file": "arch/x86/realmode/init.c",
+      "module": "__slate_unit_realmode_init"
+    },
+    {
+      "file": "build-clang/arch/x86/kernel/cpu/capflags.c",
+      "module": "__slate_unit_capflags"
+    },
+    {
+      "file": "arch/x86/virt/svm/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "certs/system_keyring.c",
+      "module": "__slate_unit_system_keyring"
+    },
+    {
+      "file": "build-clang/crypto/rsapubkey.asn1.c",
+      "module": "__slate_unit_rsapubkey_asn1"
+    },
+    {
+      "file": "build-clang/crypto/rsaprivkey.asn1.c",
+      "module": "__slate_unit_rsaprivkey_asn1"
+    },
+    {
+      "file": "build-clang/crypto/asymmetric_keys/x509.asn1.c",
+      "module": "__slate_unit_x509_asn1"
+    },
+    {
+      "file": "build-clang/crypto/asymmetric_keys/x509_akid.asn1.c",
+      "module": "__slate_unit_x509_akid_asn1"
+    },
+    {
+      "file": "build-clang/crypto/asymmetric_keys/pkcs7.asn1.c",
+      "module": "__slate_unit_pkcs7_asn1"
+    },
+    {
+      "file": "drivers/irqchip/irq-msi-lib.c",
+      "module": "__slate_unit_irq_msi_lib"
+    },
+    {
+      "file": "drivers/leds/led-core.c",
+      "module": "__slate_unit_led_core"
+    },
+    {
+      "file": "drivers/leds/led-class.c",
+      "module": "__slate_unit_led_class"
+    },
+    {
+      "file": "drivers/leds/led-triggers.c",
+      "module": "__slate_unit_led_triggers"
+    },
+    {
+      "file": "build-clang/drivers/tty/vt/defkeymap.c",
+      "module": "__slate_unit_defkeymap"
+    },
+    {
+      "file": "build-clang/drivers/tty/vt/consolemap_deftbl.c",
+      "module": "__slate_unit_consolemap_deftbl"
+    },
+    {
+      "file": "drivers/iommu/amd/iommu.c",
+      "module": "__slate_unit_amd_iommu"
+    },
+    {
+      "file": "drivers/iommu/amd/init.c",
+      "module": "__slate_unit_amd_init"
+    },
+    {
+      "file": "drivers/iommu/amd/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "drivers/iommu/amd/ppr.c",
+      "module": "__slate_unit_ppr"
+    },
+    {
+      "file": "drivers/iommu/amd/pasid.c",
+      "module": "__slate_unit_amd_pasid"
+    },
+    {
+      "file": "drivers/iommu/intel/iommu.c",
+      "module": "__slate_unit_intel_iommu"
+    },
+    {
+      "file": "drivers/iommu/intel/pasid.c",
+      "module": "__slate_unit_intel_pasid"
+    },
+    {
+      "file": "drivers/iommu/intel/nested.c",
+      "module": "__slate_unit_nested"
+    },
+    {
+      "file": "drivers/iommu/intel/cache.c",
+      "module": "__slate_unit_cache"
+    },
+    {
+      "file": "drivers/iommu/intel/prq.c",
+      "module": "__slate_unit_prq"
+    },
+    {
+      "file": "drivers/iommu/intel/dmar.c",
+      "module": "__slate_unit_dmar"
+    },
+    {
+      "file": "drivers/iommu/intel/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "drivers/iommu/intel/irq_remapping.c",
+      "module": "__slate_unit_intel_irq_remapping"
+    },
+    {
+      "file": "drivers/iommu/intel/perfmon.c",
+      "module": "__slate_unit_perfmon"
+    },
+    {
+      "file": "drivers/iommu/generic_pt/fmt/iommu_amdv1.c",
+      "module": "__slate_unit_iommu_amdv1"
+    },
+    {
+      "file": "drivers/iommu/generic_pt/fmt/iommu_vtdss.c",
+      "module": "__slate_unit_iommu_vtdss"
+    },
+    {
+      "file": "drivers/iommu/generic_pt/fmt/iommu_x86_64.c",
+      "module": "__slate_unit_iommu_x86_64"
+    },
+    {
+      "file": "drivers/iommu/iommu.c",
+      "module": "__slate_unit_iommu_iommu"
+    },
+    {
+      "file": "drivers/iommu/iommu-pages.c",
+      "module": "__slate_unit_iommu_pages"
+    },
+    {
+      "file": "drivers/iommu/iommu-traces.c",
+      "module": "__slate_unit_iommu_traces"
+    },
+    {
+      "file": "drivers/iommu/iommu-sysfs.c",
+      "module": "__slate_unit_iommu_sysfs"
+    },
+    {
+      "file": "drivers/iommu/dma-iommu.c",
+      "module": "__slate_unit_dma_iommu"
+    },
+    {
+      "file": "drivers/iommu/iova.c",
+      "module": "__slate_unit_iova"
+    },
+    {
+      "file": "drivers/iommu/irq_remapping.c",
+      "module": "__slate_unit_iommu_irq_remapping"
+    },
+    {
+      "file": "drivers/iommu/iommu-sva.c",
+      "module": "__slate_unit_iommu_sva"
+    },
+    {
+      "file": "drivers/iommu/io-pgfault.c",
+      "module": "__slate_unit_io_pgfault"
+    },
+    {
+      "file": "drivers/misc/eeprom/eeprom_93cx6.c",
+      "module": "__slate_unit_eeprom_93cx6"
+    },
+    {
+      "file": "drivers/misc/mei/init.c",
+      "module": "__slate_unit_mei_init"
+    },
+    {
+      "file": "drivers/misc/mei/hbm.c",
+      "module": "__slate_unit_hbm"
+    },
+    {
+      "file": "drivers/misc/mei/interrupt.c",
+      "module": "__slate_unit_interrupt"
+    },
+    {
+      "file": "drivers/misc/mei/client.c",
+      "module": "__slate_unit_client"
+    },
+    {
+      "file": "drivers/misc/mei/main.c",
+      "module": "__slate_unit_main"
+    },
+    {
+      "file": "drivers/misc/mei/dma-ring.c",
+      "module": "__slate_unit_dma_ring"
+    },
+    {
+      "file": "drivers/misc/mei/bus.c",
+      "module": "__slate_unit_bus"
+    },
+    {
+      "file": "drivers/misc/mei/bus-fixup.c",
+      "module": "__slate_unit_bus_fixup"
+    },
+    {
+      "file": "drivers/misc/mei/debugfs.c",
+      "module": "__slate_unit_debugfs"
+    },
+    {
+      "file": "drivers/misc/mei/mei-trace.c",
+      "module": "__slate_unit_mei_trace"
+    },
+    {
+      "file": "drivers/misc/mei/pci-me.c",
+      "module": "__slate_unit_pci_me"
+    },
+    {
+      "file": "drivers/misc/mei/hw-me.c",
+      "module": "__slate_unit_hw_me"
+    },
+    {
+      "file": "drivers/macintosh/mac_hid.c",
+      "module": "__slate_unit_mac_hid"
+    },
+    {
+      "file": "drivers/input/serio/serio.c",
+      "module": "__slate_unit_serio"
+    },
+    {
+      "file": "drivers/input/serio/i8042.c",
+      "module": "__slate_unit_i8042"
+    },
+    {
+      "file": "drivers/input/serio/serport.c",
+      "module": "__slate_unit_serport"
+    },
+    {
+      "file": "drivers/input/serio/libps2.c",
+      "module": "__slate_unit_libps2"
+    },
+    {
+      "file": "drivers/input/input.c",
+      "module": "__slate_unit_input"
+    },
+    {
+      "file": "drivers/input/input-compat.c",
+      "module": "__slate_unit_input_compat"
+    },
+    {
+      "file": "drivers/input/input-mt.c",
+      "module": "__slate_unit_input_mt"
+    },
+    {
+      "file": "drivers/input/input-poller.c",
+      "module": "__slate_unit_input_poller"
+    },
+    {
+      "file": "drivers/input/ff-core.c",
+      "module": "__slate_unit_ff_core"
+    },
+    {
+      "file": "drivers/input/touchscreen.c",
+      "module": "__slate_unit_touchscreen"
+    },
+    {
+      "file": "drivers/input/touch-overlay.c",
+      "module": "__slate_unit_touch_overlay"
+    },
+    {
+      "file": "drivers/input/ff-memless.c",
+      "module": "__slate_unit_ff_memless"
+    },
+    {
+      "file": "drivers/input/sparse-keymap.c",
+      "module": "__slate_unit_sparse_keymap"
+    },
+    {
+      "file": "drivers/input/vivaldi-fmap.c",
+      "module": "__slate_unit_vivaldi_fmap"
+    },
+    {
+      "file": "drivers/input/input-leds.c",
+      "module": "__slate_unit_input_leds"
+    },
+    {
+      "file": "drivers/input/evdev.c",
+      "module": "__slate_unit_evdev"
+    },
+    {
+      "file": "drivers/input/keyboard/atkbd.c",
+      "module": "__slate_unit_atkbd"
+    },
+    {
+      "file": "drivers/input/mouse/psmouse-base.c",
+      "module": "__slate_unit_psmouse_base"
+    },
+    {
+      "file": "drivers/input/mouse/synaptics.c",
+      "module": "__slate_unit_synaptics"
+    },
+    {
+      "file": "drivers/input/mouse/focaltech.c",
+      "module": "__slate_unit_focaltech"
+    },
+    {
+      "file": "drivers/input/mouse/alps.c",
+      "module": "__slate_unit_alps"
+    },
+    {
+      "file": "drivers/input/mouse/byd.c",
+      "module": "__slate_unit_byd"
+    },
+    {
+      "file": "drivers/input/mouse/logips2pp.c",
+      "module": "__slate_unit_logips2pp"
+    },
+    {
+      "file": "drivers/input/mouse/lifebook.c",
+      "module": "__slate_unit_lifebook"
+    },
+    {
+      "file": "drivers/input/mouse/trackpoint.c",
+      "module": "__slate_unit_trackpoint"
+    },
+    {
+      "file": "drivers/input/mouse/cypress_ps2.c",
+      "module": "__slate_unit_cypress_ps2"
+    },
+    {
+      "file": "drivers/input/mouse/psmouse-smbus.c",
+      "module": "__slate_unit_psmouse_smbus"
+    },
+    {
+      "file": "drivers/md/md.c",
+      "module": "__slate_unit_md"
+    },
+    {
+      "file": "drivers/md/md-bitmap.c",
+      "module": "__slate_unit_md_bitmap"
+    },
+    {
+      "file": "drivers/md/md-autodetect.c",
+      "module": "__slate_unit_md_autodetect"
+    },
+    {
+      "file": "drivers/md/dm.c",
+      "module": "__slate_unit_dm"
+    },
+    {
+      "file": "drivers/md/dm-table.c",
+      "module": "__slate_unit_dm_table"
+    },
+    {
+      "file": "drivers/md/dm-target.c",
+      "module": "__slate_unit_dm_target"
+    },
+    {
+      "file": "drivers/md/dm-linear.c",
+      "module": "__slate_unit_dm_linear"
+    },
+    {
+      "file": "drivers/md/dm-stripe.c",
+      "module": "__slate_unit_dm_stripe"
+    },
+    {
+      "file": "drivers/md/dm-ioctl.c",
+      "module": "__slate_unit_dm_ioctl"
+    },
+    {
+      "file": "drivers/md/dm-io.c",
+      "module": "__slate_unit_dm_io"
+    },
+    {
+      "file": "drivers/md/dm-kcopyd.c",
+      "module": "__slate_unit_dm_kcopyd"
+    },
+    {
+      "file": "drivers/md/dm-sysfs.c",
+      "module": "__slate_unit_dm_sysfs"
+    },
+    {
+      "file": "drivers/md/dm-stats.c",
+      "module": "__slate_unit_dm_stats"
+    },
+    {
+      "file": "drivers/md/dm-rq.c",
+      "module": "__slate_unit_dm_rq"
+    },
+    {
+      "file": "drivers/md/dm-io-rewind.c",
+      "module": "__slate_unit_dm_io_rewind"
+    },
+    {
+      "file": "drivers/md/dm-builtin.c",
+      "module": "__slate_unit_dm_builtin"
+    },
+    {
+      "file": "drivers/md/dm-raid1.c",
+      "module": "__slate_unit_dm_raid1"
+    },
+    {
+      "file": "drivers/md/dm-log.c",
+      "module": "__slate_unit_dm_log"
+    },
+    {
+      "file": "drivers/md/dm-region-hash.c",
+      "module": "__slate_unit_dm_region_hash"
+    },
+    {
+      "file": "drivers/md/dm-zero.c",
+      "module": "__slate_unit_dm_zero"
+    },
+    {
+      "file": "drivers/platform/x86/wmi-bmof.c",
+      "module": "__slate_unit_wmi_bmof"
+    },
+    {
+      "file": "drivers/platform/x86/eeepc-laptop.c",
+      "module": "__slate_unit_eeepc_laptop"
+    },
+    {
+      "file": "drivers/platform/x86/p2sb.c",
+      "module": "__slate_unit_p2sb"
+    },
+    {
+      "file": "drivers/platform/wmi/core.c",
+      "module": "__slate_unit_wmi_core"
+    },
+    {
+      "file": "drivers/platform/wmi/marshalling.c",
+      "module": "__slate_unit_marshalling"
+    },
+    {
+      "file": "drivers/platform/wmi/string.c",
+      "module": "__slate_unit_string"
+    },
+    {
+      "file": "drivers/mailbox/mailbox.c",
+      "module": "__slate_unit_mailbox"
+    },
+    {
+      "file": "drivers/mailbox/pcc.c",
+      "module": "__slate_unit_pcc"
+    },
+    {
+      "file": "drivers/nvmem/core.c",
+      "module": "__slate_unit_nvmem_core"
+    },
+    {
+      "file": "build-clang/net/wireless/shipped-certs.c",
+      "module": "__slate_unit_shipped_certs"
+    },
+    {
+      "file": "arch/x86/power/cpu.c",
+      "module": "__slate_unit_cpu"
+    },
+    {
+      "file": "arch/x86/power/hibernate_64.c",
+      "module": "__slate_unit_hibernate_64"
+    },
+    {
+      "file": "arch/x86/power/hibernate.c",
+      "module": "__slate_unit_hibernate"
+    },
+    {
+      "file": "arch/x86/video/video-common.c",
+      "module": "__slate_unit_video_common"
+    }
+  ],
+  "version": 1
+}

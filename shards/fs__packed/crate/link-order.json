@@ -1,0 +1,481 @@
+{
+  "units": [
+    {
+      "file": "fs/notify/fsnotify.c",
+      "module": "__slate_unit_fsnotify"
+    },
+    {
+      "file": "fs/notify/notification.c",
+      "module": "__slate_unit_notification"
+    },
+    {
+      "file": "fs/notify/group.c",
+      "module": "__slate_unit_group"
+    },
+    {
+      "file": "fs/notify/mark.c",
+      "module": "__slate_unit_mark"
+    },
+    {
+      "file": "fs/notify/fdinfo.c",
+      "module": "__slate_unit_fdinfo"
+    },
+    {
+      "file": "fs/notify/dnotify/dnotify.c",
+      "module": "__slate_unit_dnotify"
+    },
+    {
+      "file": "fs/notify/inotify/inotify_fsnotify.c",
+      "module": "__slate_unit_inotify_fsnotify"
+    },
+    {
+      "file": "fs/notify/inotify/inotify_user.c",
+      "module": "__slate_unit_inotify_user"
+    },
+    {
+      "file": "fs/nfs_common/nfsacl.c",
+      "module": "__slate_unit_nfsacl"
+    },
+    {
+      "file": "fs/nfs_common/grace.c",
+      "module": "__slate_unit_grace"
+    },
+    {
+      "file": "fs/nfs_common/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "fs/iomap/trace.c",
+      "module": "__slate_unit_iomap_trace"
+    },
+    {
+      "file": "fs/iomap/iter.c",
+      "module": "__slate_unit_iter"
+    },
+    {
+      "file": "fs/iomap/buffered-io.c",
+      "module": "__slate_unit_buffered_io"
+    },
+    {
+      "file": "fs/iomap/direct-io.c",
+      "module": "__slate_unit_direct_io"
+    },
+    {
+      "file": "fs/iomap/ioend.c",
+      "module": "__slate_unit_ioend"
+    },
+    {
+      "file": "fs/iomap/fiemap.c",
+      "module": "__slate_unit_fiemap"
+    },
+    {
+      "file": "fs/iomap/seek.c",
+      "module": "__slate_unit_seek"
+    },
+    {
+      "file": "fs/iomap/bio.c",
+      "module": "__slate_unit_bio"
+    },
+    {
+      "file": "fs/iomap/swapfile.c",
+      "module": "__slate_unit_swapfile"
+    },
+    {
+      "file": "fs/quota/dquot.c",
+      "module": "__slate_unit_dquot"
+    },
+    {
+      "file": "fs/quota/quota_v2.c",
+      "module": "__slate_unit_quota_v2"
+    },
+    {
+      "file": "fs/quota/quota_tree.c",
+      "module": "__slate_unit_quota_tree"
+    },
+    {
+      "file": "fs/quota/quota.c",
+      "module": "__slate_unit_quota"
+    },
+    {
+      "file": "fs/quota/kqid.c",
+      "module": "__slate_unit_kqid"
+    },
+    {
+      "file": "fs/quota/netlink.c",
+      "module": "__slate_unit_quota_netlink"
+    },
+    {
+      "file": "fs/kernfs/mount.c",
+      "module": "__slate_unit_mount"
+    },
+    {
+      "file": "fs/kernfs/inode.c",
+      "module": "__slate_unit_kernfs_inode"
+    },
+    {
+      "file": "fs/kernfs/dir.c",
+      "module": "__slate_unit_kernfs_dir"
+    },
+    {
+      "file": "fs/kernfs/file.c",
+      "module": "__slate_unit_kernfs_file"
+    },
+    {
+      "file": "fs/kernfs/symlink.c",
+      "module": "__slate_unit_kernfs_symlink"
+    },
+    {
+      "file": "fs/devpts/inode.c",
+      "module": "__slate_unit_devpts_inode"
+    },
+    {
+      "file": "fs/netfs/buffered_read.c",
+      "module": "__slate_unit_buffered_read"
+    },
+    {
+      "file": "fs/netfs/buffered_write.c",
+      "module": "__slate_unit_buffered_write"
+    },
+    {
+      "file": "fs/netfs/direct_read.c",
+      "module": "__slate_unit_direct_read"
+    },
+    {
+      "file": "fs/netfs/direct_write.c",
+      "module": "__slate_unit_direct_write"
+    },
+    {
+      "file": "fs/netfs/iterator.c",
+      "module": "__slate_unit_iterator"
+    },
+    {
+      "file": "fs/netfs/locking.c",
+      "module": "__slate_unit_locking"
+    },
+    {
+      "file": "fs/netfs/main.c",
+      "module": "__slate_unit_main"
+    },
+    {
+      "file": "fs/netfs/misc.c",
+      "module": "__slate_unit_netfs_misc"
+    },
+    {
+      "file": "fs/netfs/objects.c",
+      "module": "__slate_unit_objects"
+    },
+    {
+      "file": "fs/netfs/read_collect.c",
+      "module": "__slate_unit_read_collect"
+    },
+    {
+      "file": "fs/netfs/read_pgpriv2.c",
+      "module": "__slate_unit_read_pgpriv2"
+    },
+    {
+      "file": "fs/netfs/read_retry.c",
+      "module": "__slate_unit_read_retry"
+    },
+    {
+      "file": "fs/netfs/read_single.c",
+      "module": "__slate_unit_read_single"
+    },
+    {
+      "file": "fs/netfs/rolling_buffer.c",
+      "module": "__slate_unit_rolling_buffer"
+    },
+    {
+      "file": "fs/netfs/write_collect.c",
+      "module": "__slate_unit_write_collect"
+    },
+    {
+      "file": "fs/netfs/write_issue.c",
+      "module": "__slate_unit_write_issue"
+    },
+    {
+      "file": "fs/netfs/write_retry.c",
+      "module": "__slate_unit_write_retry"
+    },
+    {
+      "file": "fs/jbd2/transaction.c",
+      "module": "__slate_unit_transaction"
+    },
+    {
+      "file": "fs/jbd2/commit.c",
+      "module": "__slate_unit_commit"
+    },
+    {
+      "file": "fs/jbd2/recovery.c",
+      "module": "__slate_unit_recovery"
+    },
+    {
+      "file": "fs/jbd2/checkpoint.c",
+      "module": "__slate_unit_checkpoint"
+    },
+    {
+      "file": "fs/jbd2/revoke.c",
+      "module": "__slate_unit_revoke"
+    },
+    {
+      "file": "fs/jbd2/journal.c",
+      "module": "__slate_unit_journal"
+    },
+    {
+      "file": "fs/ramfs/inode.c",
+      "module": "__slate_unit_ramfs_inode"
+    },
+    {
+      "file": "fs/ramfs/file-mmu.c",
+      "module": "__slate_unit_file_mmu"
+    },
+    {
+      "file": "fs/hugetlbfs/inode.c",
+      "module": "__slate_unit_hugetlbfs_inode"
+    },
+    {
+      "file": "fs/fat/cache.c",
+      "module": "__slate_unit_cache"
+    },
+    {
+      "file": "fs/fat/dir.c",
+      "module": "__slate_unit_fat_dir"
+    },
+    {
+      "file": "fs/fat/fatent.c",
+      "module": "__slate_unit_fatent"
+    },
+    {
+      "file": "fs/fat/file.c",
+      "module": "__slate_unit_fat_file"
+    },
+    {
+      "file": "fs/fat/inode.c",
+      "module": "__slate_unit_fat_inode"
+    },
+    {
+      "file": "fs/fat/misc.c",
+      "module": "__slate_unit_fat_misc"
+    },
+    {
+      "file": "fs/fat/nfs.c",
+      "module": "__slate_unit_nfs"
+    },
+    {
+      "file": "fs/fat/namei_vfat.c",
+      "module": "__slate_unit_namei_vfat"
+    },
+    {
+      "file": "fs/fat/namei_msdos.c",
+      "module": "__slate_unit_namei_msdos"
+    },
+    {
+      "file": "fs/isofs/namei.c",
+      "module": "__slate_unit_namei"
+    },
+    {
+      "file": "fs/isofs/inode.c",
+      "module": "__slate_unit_isofs_inode"
+    },
+    {
+      "file": "fs/isofs/dir.c",
+      "module": "__slate_unit_isofs_dir"
+    },
+    {
+      "file": "fs/isofs/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "fs/isofs/rock.c",
+      "module": "__slate_unit_rock"
+    },
+    {
+      "file": "fs/isofs/export.c",
+      "module": "__slate_unit_export"
+    },
+    {
+      "file": "fs/isofs/joliet.c",
+      "module": "__slate_unit_joliet"
+    },
+    {
+      "file": "fs/isofs/compress.c",
+      "module": "__slate_unit_compress"
+    },
+    {
+      "file": "fs/exportfs/expfs.c",
+      "module": "__slate_unit_expfs"
+    },
+    {
+      "file": "fs/lockd/clntlock.c",
+      "module": "__slate_unit_clntlock"
+    },
+    {
+      "file": "fs/lockd/clntproc.c",
+      "module": "__slate_unit_clntproc"
+    },
+    {
+      "file": "fs/lockd/clntxdr.c",
+      "module": "__slate_unit_clntxdr"
+    },
+    {
+      "file": "fs/lockd/host.c",
+      "module": "__slate_unit_host"
+    },
+    {
+      "file": "fs/lockd/svc.c",
+      "module": "__slate_unit_svc"
+    },
+    {
+      "file": "fs/lockd/svclock.c",
+      "module": "__slate_unit_svclock"
+    },
+    {
+      "file": "fs/lockd/svcshare.c",
+      "module": "__slate_unit_svcshare"
+    },
+    {
+      "file": "fs/lockd/svcproc.c",
+      "module": "__slate_unit_svcproc"
+    },
+    {
+      "file": "fs/lockd/svcsubs.c",
+      "module": "__slate_unit_svcsubs"
+    },
+    {
+      "file": "fs/lockd/mon.c",
+      "module": "__slate_unit_mon"
+    },
+    {
+      "file": "fs/lockd/trace.c",
+      "module": "__slate_unit_lockd_trace"
+    },
+    {
+      "file": "fs/lockd/netlink.c",
+      "module": "__slate_unit_lockd_netlink"
+    },
+    {
+      "file": "fs/lockd/nlm3xdr_gen.c",
+      "module": "__slate_unit_nlm3xdr_gen"
+    },
+    {
+      "file": "fs/lockd/clnt4xdr.c",
+      "module": "__slate_unit_clnt4xdr"
+    },
+    {
+      "file": "fs/lockd/svc4proc.c",
+      "module": "__slate_unit_svc4proc"
+    },
+    {
+      "file": "fs/lockd/nlm4xdr_gen.c",
+      "module": "__slate_unit_nlm4xdr_gen"
+    },
+    {
+      "file": "fs/lockd/procfs.c",
+      "module": "__slate_unit_procfs"
+    },
+    {
+      "file": "fs/nls/nls_base.c",
+      "module": "__slate_unit_nls_base"
+    },
+    {
+      "file": "fs/nls/nls_cp437.c",
+      "module": "__slate_unit_nls_cp437"
+    },
+    {
+      "file": "fs/nls/nls_ascii.c",
+      "module": "__slate_unit_nls_ascii"
+    },
+    {
+      "file": "fs/nls/nls_iso8859-1.c",
+      "module": "__slate_unit_nls_iso8859_1"
+    },
+    {
+      "file": "fs/nls/nls_utf8.c",
+      "module": "__slate_unit_nls_utf8"
+    },
+    {
+      "file": "fs/autofs/init.c",
+      "module": "__slate_unit_init"
+    },
+    {
+      "file": "fs/autofs/inode.c",
+      "module": "__slate_unit_autofs_inode"
+    },
+    {
+      "file": "fs/autofs/root.c",
+      "module": "__slate_unit_root"
+    },
+    {
+      "file": "fs/autofs/symlink.c",
+      "module": "__slate_unit_autofs_symlink"
+    },
+    {
+      "file": "fs/autofs/waitq.c",
+      "module": "__slate_unit_waitq"
+    },
+    {
+      "file": "fs/autofs/expire.c",
+      "module": "__slate_unit_expire"
+    },
+    {
+      "file": "fs/autofs/dev-ioctl.c",
+      "module": "__slate_unit_dev_ioctl"
+    },
+    {
+      "file": "fs/9p/vfs_super.c",
+      "module": "__slate_unit_vfs_super"
+    },
+    {
+      "file": "fs/9p/vfs_inode.c",
+      "module": "__slate_unit_vfs_inode"
+    },
+    {
+      "file": "fs/9p/vfs_inode_dotl.c",
+      "module": "__slate_unit_vfs_inode_dotl"
+    },
+    {
+      "file": "fs/9p/vfs_addr.c",
+      "module": "__slate_unit_vfs_addr"
+    },
+    {
+      "file": "fs/9p/vfs_file.c",
+      "module": "__slate_unit_vfs_file"
+    },
+    {
+      "file": "fs/9p/vfs_dir.c",
+      "module": "__slate_unit_vfs_dir"
+    },
+    {
+      "file": "fs/9p/vfs_dentry.c",
+      "module": "__slate_unit_vfs_dentry"
+    },
+    {
+      "file": "fs/9p/v9fs.c",
+      "module": "__slate_unit_v9fs"
+    },
+    {
+      "file": "fs/9p/fid.c",
+      "module": "__slate_unit_fid"
+    },
+    {
+      "file": "fs/9p/xattr.c",
+      "module": "__slate_unit_xattr"
+    },
+    {
+      "file": "fs/debugfs/inode.c",
+      "module": "__slate_unit_debugfs_inode"
+    },
+    {
+      "file": "fs/debugfs/file.c",
+      "module": "__slate_unit_debugfs_file"
+    },
+    {
+      "file": "fs/tracefs/inode.c",
+      "module": "__slate_unit_tracefs_inode"
+    },
+    {
+      "file": "fs/tracefs/event_inode.c",
+      "module": "__slate_unit_event_inode"
+    }
+  ],
+  "version": 1
+}

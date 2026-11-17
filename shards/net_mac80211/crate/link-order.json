@@ -1,0 +1,189 @@
+{
+  "units": [
+    {
+      "file": "net/mac80211/main.c",
+      "module": "__slate_unit_main"
+    },
+    {
+      "file": "net/mac80211/status.c",
+      "module": "__slate_unit_status"
+    },
+    {
+      "file": "net/mac80211/driver-ops.c",
+      "module": "__slate_unit_driver_ops"
+    },
+    {
+      "file": "net/mac80211/sta_info.c",
+      "module": "__slate_unit_sta_info"
+    },
+    {
+      "file": "net/mac80211/wep.c",
+      "module": "__slate_unit_wep"
+    },
+    {
+      "file": "net/mac80211/aead_api.c",
+      "module": "__slate_unit_aead_api"
+    },
+    {
+      "file": "net/mac80211/wpa.c",
+      "module": "__slate_unit_wpa"
+    },
+    {
+      "file": "net/mac80211/scan.c",
+      "module": "__slate_unit_scan"
+    },
+    {
+      "file": "net/mac80211/offchannel.c",
+      "module": "__slate_unit_offchannel"
+    },
+    {
+      "file": "net/mac80211/ht.c",
+      "module": "__slate_unit_ht"
+    },
+    {
+      "file": "net/mac80211/agg-tx.c",
+      "module": "__slate_unit_agg_tx"
+    },
+    {
+      "file": "net/mac80211/agg-rx.c",
+      "module": "__slate_unit_agg_rx"
+    },
+    {
+      "file": "net/mac80211/vht.c",
+      "module": "__slate_unit_vht"
+    },
+    {
+      "file": "net/mac80211/he.c",
+      "module": "__slate_unit_he"
+    },
+    {
+      "file": "net/mac80211/s1g.c",
+      "module": "__slate_unit_s1g"
+    },
+    {
+      "file": "net/mac80211/ibss.c",
+      "module": "__slate_unit_ibss"
+    },
+    {
+      "file": "net/mac80211/iface.c",
+      "module": "__slate_unit_iface"
+    },
+    {
+      "file": "net/mac80211/link.c",
+      "module": "__slate_unit_link"
+    },
+    {
+      "file": "net/mac80211/rate.c",
+      "module": "__slate_unit_rate"
+    },
+    {
+      "file": "net/mac80211/tkip.c",
+      "module": "__slate_unit_tkip"
+    },
+    {
+      "file": "net/mac80211/aes_cmac.c",
+      "module": "__slate_unit_aes_cmac"
+    },
+    {
+      "file": "net/mac80211/aes_gmac.c",
+      "module": "__slate_unit_aes_gmac"
+    },
+    {
+      "file": "net/mac80211/fils_aead.c",
+      "module": "__slate_unit_fils_aead"
+    },
+    {
+      "file": "net/mac80211/cfg.c",
+      "module": "__slate_unit_cfg"
+    },
+    {
+      "file": "net/mac80211/ethtool.c",
+      "module": "__slate_unit_ethtool"
+    },
+    {
+      "file": "net/mac80211/rx.c",
+      "module": "__slate_unit_rx"
+    },
+    {
+      "file": "net/mac80211/spectmgmt.c",
+      "module": "__slate_unit_spectmgmt"
+    },
+    {
+      "file": "net/mac80211/tx.c",
+      "module": "__slate_unit_tx"
+    },
+    {
+      "file": "net/mac80211/key.c",
+      "module": "__slate_unit_key"
+    },
+    {
+      "file": "net/mac80211/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "net/mac80211/parse.c",
+      "module": "__slate_unit_parse"
+    },
+    {
+      "file": "net/mac80211/wme.c",
+      "module": "__slate_unit_wme"
+    },
+    {
+      "file": "net/mac80211/chan.c",
+      "module": "__slate_unit_chan"
+    },
+    {
+      "file": "net/mac80211/ap.c",
+      "module": "__slate_unit_ap"
+    },
+    {
+      "file": "net/mac80211/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "net/mac80211/mlme.c",
+      "module": "__slate_unit_mlme"
+    },
+    {
+      "file": "net/mac80211/tdls.c",
+      "module": "__slate_unit_tdls"
+    },
+    {
+      "file": "net/mac80211/ocb.c",
+      "module": "__slate_unit_ocb"
+    },
+    {
+      "file": "net/mac80211/airtime.c",
+      "module": "__slate_unit_airtime"
+    },
+    {
+      "file": "net/mac80211/eht.c",
+      "module": "__slate_unit_eht"
+    },
+    {
+      "file": "net/mac80211/uhr.c",
+      "module": "__slate_unit_uhr"
+    },
+    {
+      "file": "net/mac80211/nan.c",
+      "module": "__slate_unit_nan"
+    },
+    {
+      "file": "net/mac80211/led.c",
+      "module": "__slate_unit_led"
+    },
+    {
+      "file": "net/mac80211/pm.c",
+      "module": "__slate_unit_pm"
+    },
+    {
+      "file": "net/mac80211/rc80211_minstrel_ht.c",
+      "module": "__slate_unit_rc80211_minstrel_ht"
+    },
+    {
+      "file": "net/mac80211/wbrf.c",
+      "module": "__slate_unit_wbrf"
+    }
+  ],
+  "version": 1
+}

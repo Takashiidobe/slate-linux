@@ -1,0 +1,41 @@
+{
+  "units": [
+    {
+      "file": "drivers/rtc/lib.c",
+      "module": "__slate_unit_lib"
+    },
+    {
+      "file": "drivers/rtc/class.c",
+      "module": "__slate_unit_class"
+    },
+    {
+      "file": "drivers/rtc/interface.c",
+      "module": "__slate_unit_interface"
+    },
+    {
+      "file": "drivers/rtc/nvmem.c",
+      "module": "__slate_unit_nvmem"
+    },
+    {
+      "file": "drivers/rtc/dev.c",
+      "module": "__slate_unit_dev"
+    },
+    {
+      "file": "drivers/rtc/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "drivers/rtc/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "drivers/rtc/rtc-mc146818-lib.c",
+      "module": "__slate_unit_rtc_mc146818_lib"
+    },
+    {
+      "file": "drivers/rtc/rtc-cmos.c",
+      "module": "__slate_unit_rtc_cmos"
+    }
+  ],
+  "version": 1
+}

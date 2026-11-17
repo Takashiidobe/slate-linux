@@ -1,0 +1,49 @@
+{
+  "units": [
+    {
+      "file": "drivers/pnp/core.c",
+      "module": "__slate_unit_pnp_core"
+    },
+    {
+      "file": "drivers/pnp/card.c",
+      "module": "__slate_unit_card"
+    },
+    {
+      "file": "drivers/pnp/driver.c",
+      "module": "__slate_unit_driver"
+    },
+    {
+      "file": "drivers/pnp/resource.c",
+      "module": "__slate_unit_resource"
+    },
+    {
+      "file": "drivers/pnp/manager.c",
+      "module": "__slate_unit_manager"
+    },
+    {
+      "file": "drivers/pnp/support.c",
+      "module": "__slate_unit_support"
+    },
+    {
+      "file": "drivers/pnp/interface.c",
+      "module": "__slate_unit_interface"
+    },
+    {
+      "file": "drivers/pnp/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "drivers/pnp/system.c",
+      "module": "__slate_unit_system"
+    },
+    {
+      "file": "drivers/pnp/pnpacpi/core.c",
+      "module": "__slate_unit_pnpacpi_core"
+    },
+    {
+      "file": "drivers/pnp/pnpacpi/rsparser.c",
+      "module": "__slate_unit_rsparser"
+    }
+  ],
+  "version": 1
+}

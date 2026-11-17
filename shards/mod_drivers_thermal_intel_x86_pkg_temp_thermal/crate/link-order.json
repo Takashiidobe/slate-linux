@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/drivers/thermal/intel/x86_pkg_temp_thermal.mod.c",
+      "module": "__slate_unit_x86_pkg_temp_thermal_mod"
+    },
+    {
+      "file": "drivers/thermal/intel/x86_pkg_temp_thermal.c",
+      "module": "__slate_unit_x86_pkg_temp_thermal"
+    }
+  ],
+  "version": 1
+}

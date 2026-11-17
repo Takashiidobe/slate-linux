@@ -1,0 +1,9 @@
+{
+  "units": [
+    {
+      "file": "init/version-timestamp.c",
+      "module": "__slate_unit_version_timestamp"
+    }
+  ],
+  "version": 1
+}

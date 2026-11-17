@@ -1,0 +1,485 @@
+{
+  "units": [
+    {
+      "file": "drivers/acpi/numa/srat.c",
+      "module": "__slate_unit_srat"
+    },
+    {
+      "file": "drivers/acpi/x86/apple.c",
+      "module": "__slate_unit_apple"
+    },
+    {
+      "file": "drivers/acpi/x86/cmos_rtc.c",
+      "module": "__slate_unit_cmos_rtc"
+    },
+    {
+      "file": "drivers/acpi/x86/lpss.c",
+      "module": "__slate_unit_lpss"
+    },
+    {
+      "file": "drivers/acpi/x86/s2idle.c",
+      "module": "__slate_unit_s2idle"
+    },
+    {
+      "file": "drivers/acpi/x86/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "drivers/acpi/x86/blacklist.c",
+      "module": "__slate_unit_blacklist"
+    },
+    {
+      "file": "drivers/dma/dmaengine.c",
+      "module": "__slate_unit_dmaengine"
+    },
+    {
+      "file": "drivers/dma/virt-dma.c",
+      "module": "__slate_unit_virt_dma"
+    },
+    {
+      "file": "drivers/dma/acpi-dma.c",
+      "module": "__slate_unit_acpi_dma"
+    },
+    {
+      "file": "drivers/dma/dw/core.c",
+      "module": "__slate_unit_dw_core"
+    },
+    {
+      "file": "drivers/dma/dw/dw.c",
+      "module": "__slate_unit_dw"
+    },
+    {
+      "file": "drivers/dma/dw/idma32.c",
+      "module": "__slate_unit_idma32"
+    },
+    {
+      "file": "drivers/dma/dw/acpi.c",
+      "module": "__slate_unit_acpi"
+    },
+    {
+      "file": "drivers/dma/hsu/hsu.c",
+      "module": "__slate_unit_hsu"
+    },
+    {
+      "file": "drivers/char/mem.c",
+      "module": "__slate_unit_mem"
+    },
+    {
+      "file": "drivers/char/random.c",
+      "module": "__slate_unit_random"
+    },
+    {
+      "file": "drivers/char/misc.c",
+      "module": "__slate_unit_misc"
+    },
+    {
+      "file": "drivers/char/virtio_console.c",
+      "module": "__slate_unit_virtio_console"
+    },
+    {
+      "file": "drivers/char/hpet.c",
+      "module": "__slate_unit_hpet"
+    },
+    {
+      "file": "drivers/char/nvram.c",
+      "module": "__slate_unit_nvram"
+    },
+    {
+      "file": "drivers/char/hw_random/core.c",
+      "module": "__slate_unit_hw_random_core"
+    },
+    {
+      "file": "drivers/char/hw_random/via-rng.c",
+      "module": "__slate_unit_via_rng"
+    },
+    {
+      "file": "drivers/char/agp/backend.c",
+      "module": "__slate_unit_backend"
+    },
+    {
+      "file": "drivers/char/agp/generic.c",
+      "module": "__slate_unit_generic"
+    },
+    {
+      "file": "drivers/char/agp/isoch.c",
+      "module": "__slate_unit_isoch"
+    },
+    {
+      "file": "drivers/char/agp/amd64-agp.c",
+      "module": "__slate_unit_amd64_agp"
+    },
+    {
+      "file": "drivers/char/agp/intel-agp.c",
+      "module": "__slate_unit_intel_agp"
+    },
+    {
+      "file": "drivers/char/agp/intel-gtt.c",
+      "module": "__slate_unit_intel_gtt"
+    },
+    {
+      "file": "drivers/gpu/buddy.c",
+      "module": "__slate_unit_buddy"
+    },
+    {
+      "file": "drivers/connector/cn_queue.c",
+      "module": "__slate_unit_cn_queue"
+    },
+    {
+      "file": "drivers/connector/connector.c",
+      "module": "__slate_unit_connector"
+    },
+    {
+      "file": "drivers/connector/cn_proc.c",
+      "module": "__slate_unit_cn_proc"
+    },
+    {
+      "file": "drivers/block/loop.c",
+      "module": "__slate_unit_loop"
+    },
+    {
+      "file": "drivers/block/virtio_blk.c",
+      "module": "__slate_unit_virtio_blk"
+    },
+    {
+      "file": "drivers/dma-buf/dma-buf.c",
+      "module": "__slate_unit_dma_buf"
+    },
+    {
+      "file": "drivers/dma-buf/dma-fence.c",
+      "module": "__slate_unit_dma_fence"
+    },
+    {
+      "file": "drivers/dma-buf/dma-fence-array.c",
+      "module": "__slate_unit_dma_fence_array"
+    },
+    {
+      "file": "drivers/dma-buf/dma-fence-chain.c",
+      "module": "__slate_unit_dma_fence_chain"
+    },
+    {
+      "file": "drivers/dma-buf/dma-fence-unwrap.c",
+      "module": "__slate_unit_dma_fence_unwrap"
+    },
+    {
+      "file": "drivers/dma-buf/dma-resv.c",
+      "module": "__slate_unit_dma_resv"
+    },
+    {
+      "file": "drivers/dma-buf/dma-buf-mapping.c",
+      "module": "__slate_unit_dma_buf_mapping"
+    },
+    {
+      "file": "drivers/dma-buf/sync_file.c",
+      "module": "__slate_unit_sync_file"
+    },
+    {
+      "file": "drivers/ata/libata-core.c",
+      "module": "__slate_unit_libata_core"
+    },
+    {
+      "file": "drivers/ata/libata-scsi.c",
+      "module": "__slate_unit_libata_scsi"
+    },
+    {
+      "file": "drivers/ata/libata-eh.c",
+      "module": "__slate_unit_libata_eh"
+    },
+    {
+      "file": "drivers/ata/libata-transport.c",
+      "module": "__slate_unit_libata_transport"
+    },
+    {
+      "file": "drivers/ata/libata-trace.c",
+      "module": "__slate_unit_libata_trace"
+    },
+    {
+      "file": "drivers/ata/libata-sata.c",
+      "module": "__slate_unit_libata_sata"
+    },
+    {
+      "file": "drivers/ata/libata-sff.c",
+      "module": "__slate_unit_libata_sff"
+    },
+    {
+      "file": "drivers/ata/libata-pmp.c",
+      "module": "__slate_unit_libata_pmp"
+    },
+    {
+      "file": "drivers/ata/libata-acpi.c",
+      "module": "__slate_unit_libata_acpi"
+    },
+    {
+      "file": "drivers/ata/libata-pata-timings.c",
+      "module": "__slate_unit_libata_pata_timings"
+    },
+    {
+      "file": "drivers/ata/ahci.c",
+      "module": "__slate_unit_ahci"
+    },
+    {
+      "file": "drivers/ata/libahci.c",
+      "module": "__slate_unit_libahci"
+    },
+    {
+      "file": "drivers/ata/ata_piix.c",
+      "module": "__slate_unit_ata_piix"
+    },
+    {
+      "file": "drivers/ata/pata_amd.c",
+      "module": "__slate_unit_pata_amd"
+    },
+    {
+      "file": "drivers/ata/pata_oldpiix.c",
+      "module": "__slate_unit_pata_oldpiix"
+    },
+    {
+      "file": "drivers/ata/pata_sch.c",
+      "module": "__slate_unit_pata_sch"
+    },
+    {
+      "file": "drivers/firewire/init_ohci1394_dma.c",
+      "module": "__slate_unit_init_ohci1394_dma"
+    },
+    {
+      "file": "drivers/cdrom/cdrom.c",
+      "module": "__slate_unit_cdrom"
+    },
+    {
+      "file": "drivers/i2c/i2c-boardinfo.c",
+      "module": "__slate_unit_i2c_boardinfo"
+    },
+    {
+      "file": "drivers/i2c/i2c-core-base.c",
+      "module": "__slate_unit_i2c_core_base"
+    },
+    {
+      "file": "drivers/i2c/i2c-core-smbus.c",
+      "module": "__slate_unit_i2c_core_smbus"
+    },
+    {
+      "file": "drivers/i2c/i2c-core-acpi.c",
+      "module": "__slate_unit_i2c_core_acpi"
+    },
+    {
+      "file": "drivers/i2c/i2c-smbus.c",
+      "module": "__slate_unit_i2c_smbus"
+    },
+    {
+      "file": "drivers/i2c/algos/i2c-algo-bit.c",
+      "module": "__slate_unit_i2c_algo_bit"
+    },
+    {
+      "file": "drivers/i2c/busses/i2c-i801.c",
+      "module": "__slate_unit_i2c_i801"
+    },
+    {
+      "file": "drivers/hwmon/hwmon.c",
+      "module": "__slate_unit_hwmon"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq.c",
+      "module": "__slate_unit_cpufreq"
+    },
+    {
+      "file": "drivers/cpufreq/freq_table.c",
+      "module": "__slate_unit_freq_table"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq_performance.c",
+      "module": "__slate_unit_cpufreq_performance"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq_userspace.c",
+      "module": "__slate_unit_cpufreq_userspace"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq_ondemand.c",
+      "module": "__slate_unit_cpufreq_ondemand"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq_governor.c",
+      "module": "__slate_unit_cpufreq_governor"
+    },
+    {
+      "file": "drivers/cpufreq/cpufreq_governor_attr_set.c",
+      "module": "__slate_unit_cpufreq_governor_attr_set"
+    },
+    {
+      "file": "drivers/cpufreq/acpi-cpufreq.c",
+      "module": "__slate_unit_acpi_cpufreq"
+    },
+    {
+      "file": "drivers/cpufreq/amd-pstate.c",
+      "module": "__slate_unit_amd_pstate"
+    },
+    {
+      "file": "drivers/cpufreq/amd-pstate-trace.c",
+      "module": "__slate_unit_amd_pstate_trace"
+    },
+    {
+      "file": "drivers/cpufreq/intel_pstate.c",
+      "module": "__slate_unit_intel_pstate"
+    },
+    {
+      "file": "drivers/cpuidle/cpuidle.c",
+      "module": "__slate_unit_cpuidle"
+    },
+    {
+      "file": "drivers/cpuidle/driver.c",
+      "module": "__slate_unit_driver"
+    },
+    {
+      "file": "drivers/cpuidle/governor.c",
+      "module": "__slate_unit_governor"
+    },
+    {
+      "file": "drivers/cpuidle/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "drivers/cpuidle/governors/menu.c",
+      "module": "__slate_unit_menu"
+    },
+    {
+      "file": "drivers/cpuidle/governors/haltpoll.c",
+      "module": "__slate_unit_haltpoll"
+    },
+    {
+      "file": "drivers/cpuidle/poll_state.c",
+      "module": "__slate_unit_poll_state"
+    },
+    {
+      "file": "drivers/cpuidle/cpuidle-haltpoll.c",
+      "module": "__slate_unit_cpuidle_haltpoll"
+    },
+    {
+      "file": "drivers/firmware/dmi_scan.c",
+      "module": "__slate_unit_dmi_scan"
+    },
+    {
+      "file": "drivers/firmware/dmi-id.c",
+      "module": "__slate_unit_dmi_id"
+    },
+    {
+      "file": "drivers/firmware/memmap.c",
+      "module": "__slate_unit_firmware_memmap"
+    },
+    {
+      "file": "drivers/firmware/efi/efi-bgrt.c",
+      "module": "__slate_unit_efi_bgrt"
+    },
+    {
+      "file": "drivers/firmware/efi/efi.c",
+      "module": "__slate_unit_efi"
+    },
+    {
+      "file": "drivers/firmware/efi/vars.c",
+      "module": "__slate_unit_vars"
+    },
+    {
+      "file": "drivers/firmware/efi/reboot.c",
+      "module": "__slate_unit_reboot"
+    },
+    {
+      "file": "drivers/firmware/efi/memattr.c",
+      "module": "__slate_unit_memattr"
+    },
+    {
+      "file": "drivers/firmware/efi/tpm.c",
+      "module": "__slate_unit_tpm"
+    },
+    {
+      "file": "drivers/firmware/efi/memmap.c",
+      "module": "__slate_unit_efi_memmap"
+    },
+    {
+      "file": "drivers/firmware/efi/esrt.c",
+      "module": "__slate_unit_esrt"
+    },
+    {
+      "file": "drivers/firmware/efi/runtime-wrappers.c",
+      "module": "__slate_unit_runtime_wrappers"
+    },
+    {
+      "file": "drivers/firmware/efi/earlycon.c",
+      "module": "__slate_unit_earlycon"
+    },
+    {
+      "file": "drivers/clocksource/acpi_pm.c",
+      "module": "__slate_unit_acpi_pm"
+    },
+    {
+      "file": "drivers/clocksource/i8253.c",
+      "module": "__slate_unit_i8253"
+    },
+    {
+      "file": "drivers/hid/hid-core.c",
+      "module": "__slate_unit_hid_hid_core"
+    },
+    {
+      "file": "drivers/hid/hid-input.c",
+      "module": "__slate_unit_hid_input"
+    },
+    {
+      "file": "drivers/hid/hid-quirks.c",
+      "module": "__slate_unit_hid_quirks"
+    },
+    {
+      "file": "drivers/hid/hid-debug.c",
+      "module": "__slate_unit_hid_debug"
+    },
+    {
+      "file": "drivers/hid/hidraw.c",
+      "module": "__slate_unit_hidraw"
+    },
+    {
+      "file": "drivers/hid/hid-generic.c",
+      "module": "__slate_unit_hid_generic"
+    },
+    {
+      "file": "drivers/hid/hid-gyration.c",
+      "module": "__slate_unit_hid_gyration"
+    },
+    {
+      "file": "drivers/hid/hid-ntrig.c",
+      "module": "__slate_unit_hid_ntrig"
+    },
+    {
+      "file": "drivers/hid/hid-pl.c",
+      "module": "__slate_unit_hid_pl"
+    },
+    {
+      "file": "drivers/hid/hid-petalynx.c",
+      "module": "__slate_unit_hid_petalynx"
+    },
+    {
+      "file": "drivers/hid/hid-samsung.c",
+      "module": "__slate_unit_hid_samsung"
+    },
+    {
+      "file": "drivers/hid/hid-sony.c",
+      "module": "__slate_unit_hid_sony"
+    },
+    {
+      "file": "drivers/hid/hid-sunplus.c",
+      "module": "__slate_unit_hid_sunplus"
+    },
+    {
+      "file": "drivers/hid/hid-topseed.c",
+      "module": "__slate_unit_hid_topseed"
+    },
+    {
+      "file": "drivers/hid/usbhid/hid-core.c",
+      "module": "__slate_unit_usbhid_hid_core"
+    },
+    {
+      "file": "drivers/hid/usbhid/hiddev.c",
+      "module": "__slate_unit_hiddev"
+    },
+    {
+      "file": "drivers/hid/usbhid/hid-pidff.c",
+      "module": "__slate_unit_hid_pidff"
+    }
+  ],
+  "version": 1
+}

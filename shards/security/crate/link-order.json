@@ -1,0 +1,185 @@
+{
+  "units": [
+    {
+      "file": "security/keys/gc.c",
+      "module": "__slate_unit_gc"
+    },
+    {
+      "file": "security/keys/key.c",
+      "module": "__slate_unit_key"
+    },
+    {
+      "file": "security/keys/keyring.c",
+      "module": "__slate_unit_keyring"
+    },
+    {
+      "file": "security/keys/keyctl.c",
+      "module": "__slate_unit_keyctl"
+    },
+    {
+      "file": "security/keys/permission.c",
+      "module": "__slate_unit_permission"
+    },
+    {
+      "file": "security/keys/process_keys.c",
+      "module": "__slate_unit_process_keys"
+    },
+    {
+      "file": "security/keys/request_key.c",
+      "module": "__slate_unit_request_key"
+    },
+    {
+      "file": "security/keys/request_key_auth.c",
+      "module": "__slate_unit_request_key_auth"
+    },
+    {
+      "file": "security/keys/user_defined.c",
+      "module": "__slate_unit_user_defined"
+    },
+    {
+      "file": "security/keys/compat.c",
+      "module": "__slate_unit_compat"
+    },
+    {
+      "file": "security/keys/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "security/keys/sysctl.c",
+      "module": "__slate_unit_sysctl"
+    },
+    {
+      "file": "security/keys/keyctl_pkey.c",
+      "module": "__slate_unit_keyctl_pkey"
+    },
+    {
+      "file": "security/commoncap.c",
+      "module": "__slate_unit_commoncap"
+    },
+    {
+      "file": "security/lsm_syscalls.c",
+      "module": "__slate_unit_lsm_syscalls"
+    },
+    {
+      "file": "security/min_addr.c",
+      "module": "__slate_unit_min_addr"
+    },
+    {
+      "file": "security/security.c",
+      "module": "__slate_unit_security"
+    },
+    {
+      "file": "security/lsm_notifier.c",
+      "module": "__slate_unit_lsm_notifier"
+    },
+    {
+      "file": "security/lsm_init.c",
+      "module": "__slate_unit_lsm_init"
+    },
+    {
+      "file": "security/selinux/avc.c",
+      "module": "__slate_unit_avc"
+    },
+    {
+      "file": "security/selinux/hooks.c",
+      "module": "__slate_unit_hooks"
+    },
+    {
+      "file": "security/selinux/selinuxfs.c",
+      "module": "__slate_unit_selinuxfs"
+    },
+    {
+      "file": "security/selinux/netlink.c",
+      "module": "__slate_unit_netlink"
+    },
+    {
+      "file": "security/selinux/nlmsgtab.c",
+      "module": "__slate_unit_nlmsgtab"
+    },
+    {
+      "file": "security/selinux/netif.c",
+      "module": "__slate_unit_netif"
+    },
+    {
+      "file": "security/selinux/netnode.c",
+      "module": "__slate_unit_netnode"
+    },
+    {
+      "file": "security/selinux/netport.c",
+      "module": "__slate_unit_netport"
+    },
+    {
+      "file": "security/selinux/status.c",
+      "module": "__slate_unit_status"
+    },
+    {
+      "file": "security/selinux/initcalls.c",
+      "module": "__slate_unit_initcalls"
+    },
+    {
+      "file": "security/selinux/ss/ebitmap.c",
+      "module": "__slate_unit_ebitmap"
+    },
+    {
+      "file": "security/selinux/ss/hashtab.c",
+      "module": "__slate_unit_hashtab"
+    },
+    {
+      "file": "security/selinux/ss/symtab.c",
+      "module": "__slate_unit_symtab"
+    },
+    {
+      "file": "security/selinux/ss/sidtab.c",
+      "module": "__slate_unit_sidtab"
+    },
+    {
+      "file": "security/selinux/ss/avtab.c",
+      "module": "__slate_unit_avtab"
+    },
+    {
+      "file": "security/selinux/ss/policydb.c",
+      "module": "__slate_unit_policydb"
+    },
+    {
+      "file": "security/selinux/ss/services.c",
+      "module": "__slate_unit_services"
+    },
+    {
+      "file": "security/selinux/ss/conditional.c",
+      "module": "__slate_unit_conditional"
+    },
+    {
+      "file": "security/selinux/ss/mls.c",
+      "module": "__slate_unit_mls"
+    },
+    {
+      "file": "security/selinux/ss/context.c",
+      "module": "__slate_unit_context"
+    },
+    {
+      "file": "security/selinux/netlabel.c",
+      "module": "__slate_unit_netlabel"
+    },
+    {
+      "file": "security/lsm_audit.c",
+      "module": "__slate_unit_lsm_audit"
+    },
+    {
+      "file": "security/device_cgroup.c",
+      "module": "__slate_unit_device_cgroup"
+    },
+    {
+      "file": "security/integrity/iint.c",
+      "module": "__slate_unit_iint"
+    },
+    {
+      "file": "security/integrity/integrity_audit.c",
+      "module": "__slate_unit_integrity_audit"
+    },
+    {
+      "file": "security/integrity/efi_secureboot.c",
+      "module": "__slate_unit_efi_secureboot"
+    }
+  ],
+  "version": 1
+}

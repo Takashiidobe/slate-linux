@@ -1,0 +1,309 @@
+{
+  "units": [
+    {
+      "file": "net/devres.c",
+      "module": "__slate_unit_devres"
+    },
+    {
+      "file": "net/socket.c",
+      "module": "__slate_unit_socket"
+    },
+    {
+      "file": "net/compat.c",
+      "module": "__slate_unit_compat"
+    },
+    {
+      "file": "net/ethernet/eth.c",
+      "module": "__slate_unit_eth"
+    },
+    {
+      "file": "net/sched/sch_generic.c",
+      "module": "__slate_unit_sch_generic"
+    },
+    {
+      "file": "net/sched/sch_mq.c",
+      "module": "__slate_unit_sch_mq"
+    },
+    {
+      "file": "net/sched/sch_frag.c",
+      "module": "__slate_unit_sch_frag"
+    },
+    {
+      "file": "net/sched/sch_api.c",
+      "module": "__slate_unit_sch_api"
+    },
+    {
+      "file": "net/sched/sch_blackhole.c",
+      "module": "__slate_unit_sch_blackhole"
+    },
+    {
+      "file": "net/sched/cls_api.c",
+      "module": "__slate_unit_cls_api"
+    },
+    {
+      "file": "net/sched/act_api.c",
+      "module": "__slate_unit_act_api"
+    },
+    {
+      "file": "net/sched/sch_fifo.c",
+      "module": "__slate_unit_sch_fifo"
+    },
+    {
+      "file": "net/sched/cls_cgroup.c",
+      "module": "__slate_unit_cls_cgroup"
+    },
+    {
+      "file": "net/sched/ematch.c",
+      "module": "__slate_unit_ematch"
+    },
+    {
+      "file": "net/netlink/af_netlink.c",
+      "module": "__slate_unit_af_netlink"
+    },
+    {
+      "file": "net/netlink/genetlink.c",
+      "module": "__slate_unit_genetlink"
+    },
+    {
+      "file": "net/netlink/policy.c",
+      "module": "__slate_unit_policy"
+    },
+    {
+      "file": "net/xfrm/xfrm_policy.c",
+      "module": "__slate_unit_xfrm_policy"
+    },
+    {
+      "file": "net/xfrm/xfrm_state.c",
+      "module": "__slate_unit_xfrm_state"
+    },
+    {
+      "file": "net/xfrm/xfrm_hash.c",
+      "module": "__slate_unit_xfrm_hash"
+    },
+    {
+      "file": "net/xfrm/xfrm_input.c",
+      "module": "__slate_unit_xfrm_input"
+    },
+    {
+      "file": "net/xfrm/xfrm_output.c",
+      "module": "__slate_unit_xfrm_output"
+    },
+    {
+      "file": "net/xfrm/xfrm_sysctl.c",
+      "module": "__slate_unit_xfrm_sysctl"
+    },
+    {
+      "file": "net/xfrm/xfrm_replay.c",
+      "module": "__slate_unit_xfrm_replay"
+    },
+    {
+      "file": "net/xfrm/xfrm_device.c",
+      "module": "__slate_unit_xfrm_device"
+    },
+    {
+      "file": "net/xfrm/xfrm_nat_keepalive.c",
+      "module": "__slate_unit_xfrm_nat_keepalive"
+    },
+    {
+      "file": "net/xfrm/xfrm_algo.c",
+      "module": "__slate_unit_xfrm_algo"
+    },
+    {
+      "file": "net/xfrm/xfrm_user.c",
+      "module": "__slate_unit_xfrm_user"
+    },
+    {
+      "file": "net/unix/af_unix.c",
+      "module": "__slate_unit_af_unix"
+    },
+    {
+      "file": "net/unix/garbage.c",
+      "module": "__slate_unit_garbage"
+    },
+    {
+      "file": "net/unix/sysctl_net_unix.c",
+      "module": "__slate_unit_sysctl_net_unix"
+    },
+    {
+      "file": "net/packet/af_packet.c",
+      "module": "__slate_unit_af_packet"
+    },
+    {
+      "file": "net/wireless/core.c",
+      "module": "__slate_unit_wireless_core"
+    },
+    {
+      "file": "net/wireless/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "net/wireless/radiotap.c",
+      "module": "__slate_unit_radiotap"
+    },
+    {
+      "file": "net/wireless/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "net/wireless/reg.c",
+      "module": "__slate_unit_reg"
+    },
+    {
+      "file": "net/wireless/scan.c",
+      "module": "__slate_unit_scan"
+    },
+    {
+      "file": "net/wireless/nl80211.c",
+      "module": "__slate_unit_nl80211"
+    },
+    {
+      "file": "net/wireless/mlme.c",
+      "module": "__slate_unit_mlme"
+    },
+    {
+      "file": "net/wireless/ibss.c",
+      "module": "__slate_unit_ibss"
+    },
+    {
+      "file": "net/wireless/sme.c",
+      "module": "__slate_unit_sme"
+    },
+    {
+      "file": "net/wireless/chan.c",
+      "module": "__slate_unit_chan"
+    },
+    {
+      "file": "net/wireless/ethtool.c",
+      "module": "__slate_unit_ethtool"
+    },
+    {
+      "file": "net/wireless/mesh.c",
+      "module": "__slate_unit_mesh"
+    },
+    {
+      "file": "net/wireless/ap.c",
+      "module": "__slate_unit_ap"
+    },
+    {
+      "file": "net/wireless/trace.c",
+      "module": "__slate_unit_wireless_trace"
+    },
+    {
+      "file": "net/wireless/ocb.c",
+      "module": "__slate_unit_ocb"
+    },
+    {
+      "file": "net/wireless/michael-mic.c",
+      "module": "__slate_unit_michael_mic"
+    },
+    {
+      "file": "net/wireless/pmsr.c",
+      "module": "__slate_unit_pmsr"
+    },
+    {
+      "file": "net/netlabel/netlabel_user.c",
+      "module": "__slate_unit_netlabel_user"
+    },
+    {
+      "file": "net/netlabel/netlabel_kapi.c",
+      "module": "__slate_unit_netlabel_kapi"
+    },
+    {
+      "file": "net/netlabel/netlabel_domainhash.c",
+      "module": "__slate_unit_netlabel_domainhash"
+    },
+    {
+      "file": "net/netlabel/netlabel_addrlist.c",
+      "module": "__slate_unit_netlabel_addrlist"
+    },
+    {
+      "file": "net/netlabel/netlabel_mgmt.c",
+      "module": "__slate_unit_netlabel_mgmt"
+    },
+    {
+      "file": "net/netlabel/netlabel_unlabeled.c",
+      "module": "__slate_unit_netlabel_unlabeled"
+    },
+    {
+      "file": "net/netlabel/netlabel_cipso_v4.c",
+      "module": "__slate_unit_netlabel_cipso_v4"
+    },
+    {
+      "file": "net/netlabel/netlabel_calipso.c",
+      "module": "__slate_unit_netlabel_calipso"
+    },
+    {
+      "file": "net/rfkill/core.c",
+      "module": "__slate_unit_rfkill_core"
+    },
+    {
+      "file": "net/rfkill/input.c",
+      "module": "__slate_unit_input"
+    },
+    {
+      "file": "net/9p/mod.c",
+      "module": "__slate_unit_mod"
+    },
+    {
+      "file": "net/9p/client.c",
+      "module": "__slate_unit_client"
+    },
+    {
+      "file": "net/9p/error.c",
+      "module": "__slate_unit_error"
+    },
+    {
+      "file": "net/9p/protocol.c",
+      "module": "__slate_unit_protocol"
+    },
+    {
+      "file": "net/9p/trans_common.c",
+      "module": "__slate_unit_trans_common"
+    },
+    {
+      "file": "net/9p/trans_fd.c",
+      "module": "__slate_unit_trans_fd"
+    },
+    {
+      "file": "net/9p/trans_virtio.c",
+      "module": "__slate_unit_trans_virtio"
+    },
+    {
+      "file": "net/sysctl_net.c",
+      "module": "__slate_unit_sysctl_net"
+    },
+    {
+      "file": "net/dns_resolver/dns_key.c",
+      "module": "__slate_unit_dns_key"
+    },
+    {
+      "file": "net/dns_resolver/dns_query.c",
+      "module": "__slate_unit_dns_query"
+    },
+    {
+      "file": "net/handshake/alert.c",
+      "module": "__slate_unit_alert"
+    },
+    {
+      "file": "net/handshake/genl.c",
+      "module": "__slate_unit_genl"
+    },
+    {
+      "file": "net/handshake/netlink.c",
+      "module": "__slate_unit_netlink"
+    },
+    {
+      "file": "net/handshake/request.c",
+      "module": "__slate_unit_request"
+    },
+    {
+      "file": "net/handshake/tlshd.c",
+      "module": "__slate_unit_tlshd"
+    },
+    {
+      "file": "net/handshake/trace.c",
+      "module": "__slate_unit_handshake_trace"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,213 @@
+{
+  "units": [
+    {
+      "file": "net/core/sock.c",
+      "module": "__slate_unit_sock"
+    },
+    {
+      "file": "net/core/skbuff.c",
+      "module": "__slate_unit_skbuff"
+    },
+    {
+      "file": "net/core/datagram.c",
+      "module": "__slate_unit_datagram"
+    },
+    {
+      "file": "net/core/stream.c",
+      "module": "__slate_unit_stream"
+    },
+    {
+      "file": "net/core/scm.c",
+      "module": "__slate_unit_scm"
+    },
+    {
+      "file": "net/core/gen_stats.c",
+      "module": "__slate_unit_gen_stats"
+    },
+    {
+      "file": "net/core/gen_estimator.c",
+      "module": "__slate_unit_gen_estimator"
+    },
+    {
+      "file": "net/core/net_namespace.c",
+      "module": "__slate_unit_net_namespace"
+    },
+    {
+      "file": "net/core/secure_seq.c",
+      "module": "__slate_unit_secure_seq"
+    },
+    {
+      "file": "net/core/flow_dissector.c",
+      "module": "__slate_unit_flow_dissector"
+    },
+    {
+      "file": "net/core/sysctl_net_core.c",
+      "module": "__slate_unit_sysctl_net_core"
+    },
+    {
+      "file": "net/core/dev.c",
+      "module": "__slate_unit_dev"
+    },
+    {
+      "file": "net/core/dev_api.c",
+      "module": "__slate_unit_dev_api"
+    },
+    {
+      "file": "net/core/dev_addr_lists.c",
+      "module": "__slate_unit_dev_addr_lists"
+    },
+    {
+      "file": "net/core/dst.c",
+      "module": "__slate_unit_dst"
+    },
+    {
+      "file": "net/core/netevent.c",
+      "module": "__slate_unit_netevent"
+    },
+    {
+      "file": "net/core/neighbour.c",
+      "module": "__slate_unit_neighbour"
+    },
+    {
+      "file": "net/core/rtnetlink.c",
+      "module": "__slate_unit_rtnetlink"
+    },
+    {
+      "file": "net/core/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "net/core/link_watch.c",
+      "module": "__slate_unit_link_watch"
+    },
+    {
+      "file": "net/core/filter.c",
+      "module": "__slate_unit_filter"
+    },
+    {
+      "file": "net/core/sock_diag.c",
+      "module": "__slate_unit_sock_diag"
+    },
+    {
+      "file": "net/core/dev_ioctl.c",
+      "module": "__slate_unit_dev_ioctl"
+    },
+    {
+      "file": "net/core/tso.c",
+      "module": "__slate_unit_tso"
+    },
+    {
+      "file": "net/core/sock_reuseport.c",
+      "module": "__slate_unit_sock_reuseport"
+    },
+    {
+      "file": "net/core/fib_notifier.c",
+      "module": "__slate_unit_fib_notifier"
+    },
+    {
+      "file": "net/core/xdp.c",
+      "module": "__slate_unit_xdp"
+    },
+    {
+      "file": "net/core/flow_offload.c",
+      "module": "__slate_unit_flow_offload"
+    },
+    {
+      "file": "net/core/gro.c",
+      "module": "__slate_unit_gro"
+    },
+    {
+      "file": "net/core/netdev-genl.c",
+      "module": "__slate_unit_netdev_genl"
+    },
+    {
+      "file": "net/core/netdev-genl-gen.c",
+      "module": "__slate_unit_netdev_genl_gen"
+    },
+    {
+      "file": "net/core/netdev_work.c",
+      "module": "__slate_unit_netdev_work"
+    },
+    {
+      "file": "net/core/gso.c",
+      "module": "__slate_unit_gso"
+    },
+    {
+      "file": "net/core/net-sysfs.c",
+      "module": "__slate_unit_net_sysfs"
+    },
+    {
+      "file": "net/core/hotdata.c",
+      "module": "__slate_unit_hotdata"
+    },
+    {
+      "file": "net/core/netdev_config.c",
+      "module": "__slate_unit_netdev_config"
+    },
+    {
+      "file": "net/core/netdev_rx_queue.c",
+      "module": "__slate_unit_netdev_rx_queue"
+    },
+    {
+      "file": "net/core/netdev_queues.c",
+      "module": "__slate_unit_netdev_queues"
+    },
+    {
+      "file": "net/core/page_pool.c",
+      "module": "__slate_unit_page_pool"
+    },
+    {
+      "file": "net/core/page_pool_user.c",
+      "module": "__slate_unit_page_pool_user"
+    },
+    {
+      "file": "net/core/net-procfs.c",
+      "module": "__slate_unit_net_procfs"
+    },
+    {
+      "file": "net/core/netpoll.c",
+      "module": "__slate_unit_netpoll"
+    },
+    {
+      "file": "net/core/fib_rules.c",
+      "module": "__slate_unit_fib_rules"
+    },
+    {
+      "file": "net/core/net-traces.c",
+      "module": "__slate_unit_net_traces"
+    },
+    {
+      "file": "net/core/selftests.c",
+      "module": "__slate_unit_selftests"
+    },
+    {
+      "file": "net/core/ptp_classifier.c",
+      "module": "__slate_unit_ptp_classifier"
+    },
+    {
+      "file": "net/core/netprio_cgroup.c",
+      "module": "__slate_unit_netprio_cgroup"
+    },
+    {
+      "file": "net/core/netclassid_cgroup.c",
+      "module": "__slate_unit_netclassid_cgroup"
+    },
+    {
+      "file": "net/core/dst_cache.c",
+      "module": "__slate_unit_dst_cache"
+    },
+    {
+      "file": "net/core/gro_cells.c",
+      "module": "__slate_unit_gro_cells"
+    },
+    {
+      "file": "net/core/failover.c",
+      "module": "__slate_unit_failover"
+    },
+    {
+      "file": "net/core/devmem.c",
+      "module": "__slate_unit_devmem"
+    }
+  ],
+  "version": 1
+}

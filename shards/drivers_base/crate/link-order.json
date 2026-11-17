@@ -1,0 +1,193 @@
+{
+  "units": [
+    {
+      "file": "drivers/base/component.c",
+      "module": "__slate_unit_component"
+    },
+    {
+      "file": "drivers/base/core.c",
+      "module": "__slate_unit_core"
+    },
+    {
+      "file": "drivers/base/bus.c",
+      "module": "__slate_unit_bus"
+    },
+    {
+      "file": "drivers/base/dd.c",
+      "module": "__slate_unit_dd"
+    },
+    {
+      "file": "drivers/base/syscore.c",
+      "module": "__slate_unit_syscore"
+    },
+    {
+      "file": "drivers/base/driver.c",
+      "module": "__slate_unit_driver"
+    },
+    {
+      "file": "drivers/base/class.c",
+      "module": "__slate_unit_class"
+    },
+    {
+      "file": "drivers/base/platform.c",
+      "module": "__slate_unit_platform"
+    },
+    {
+      "file": "drivers/base/cpu.c",
+      "module": "__slate_unit_cpu"
+    },
+    {
+      "file": "drivers/base/firmware.c",
+      "module": "__slate_unit_firmware"
+    },
+    {
+      "file": "drivers/base/init.c",
+      "module": "__slate_unit_init"
+    },
+    {
+      "file": "drivers/base/map.c",
+      "module": "__slate_unit_map"
+    },
+    {
+      "file": "drivers/base/devres.c",
+      "module": "__slate_unit_devres"
+    },
+    {
+      "file": "drivers/base/attribute_container.c",
+      "module": "__slate_unit_attribute_container"
+    },
+    {
+      "file": "drivers/base/transport_class.c",
+      "module": "__slate_unit_transport_class"
+    },
+    {
+      "file": "drivers/base/topology.c",
+      "module": "__slate_unit_topology"
+    },
+    {
+      "file": "drivers/base/container.c",
+      "module": "__slate_unit_container"
+    },
+    {
+      "file": "drivers/base/property.c",
+      "module": "__slate_unit_property"
+    },
+    {
+      "file": "drivers/base/cacheinfo.c",
+      "module": "__slate_unit_cacheinfo"
+    },
+    {
+      "file": "drivers/base/swnode.c",
+      "module": "__slate_unit_swnode"
+    },
+    {
+      "file": "drivers/base/faux.c",
+      "module": "__slate_unit_faux"
+    },
+    {
+      "file": "drivers/base/auxiliary.c",
+      "module": "__slate_unit_auxiliary"
+    },
+    {
+      "file": "drivers/base/devtmpfs.c",
+      "module": "__slate_unit_devtmpfs"
+    },
+    {
+      "file": "drivers/base/power/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "drivers/base/power/generic_ops.c",
+      "module": "__slate_unit_generic_ops"
+    },
+    {
+      "file": "drivers/base/power/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "drivers/base/power/qos.c",
+      "module": "__slate_unit_qos"
+    },
+    {
+      "file": "drivers/base/power/runtime.c",
+      "module": "__slate_unit_runtime"
+    },
+    {
+      "file": "drivers/base/power/wakeirq.c",
+      "module": "__slate_unit_wakeirq"
+    },
+    {
+      "file": "drivers/base/power/main.c",
+      "module": "__slate_unit_power_main"
+    },
+    {
+      "file": "drivers/base/power/wakeup.c",
+      "module": "__slate_unit_wakeup"
+    },
+    {
+      "file": "drivers/base/power/wakeup_stats.c",
+      "module": "__slate_unit_wakeup_stats"
+    },
+    {
+      "file": "drivers/base/power/trace.c",
+      "module": "__slate_unit_power_trace"
+    },
+    {
+      "file": "drivers/base/firmware_loader/main.c",
+      "module": "__slate_unit_firmware_loader_main"
+    },
+    {
+      "file": "drivers/base/firmware_loader/builtin/main.c",
+      "module": "__slate_unit_builtin_main"
+    },
+    {
+      "file": "drivers/base/node.c",
+      "module": "__slate_unit_node"
+    },
+    {
+      "file": "drivers/base/module.c",
+      "module": "__slate_unit_module"
+    },
+    {
+      "file": "drivers/base/auxiliary_sysfs.c",
+      "module": "__slate_unit_auxiliary_sysfs"
+    },
+    {
+      "file": "drivers/base/regmap/regmap.c",
+      "module": "__slate_unit_regmap"
+    },
+    {
+      "file": "drivers/base/regmap/regcache.c",
+      "module": "__slate_unit_regcache"
+    },
+    {
+      "file": "drivers/base/regmap/regcache-rbtree.c",
+      "module": "__slate_unit_regcache_rbtree"
+    },
+    {
+      "file": "drivers/base/regmap/regcache-flat.c",
+      "module": "__slate_unit_regcache_flat"
+    },
+    {
+      "file": "drivers/base/regmap/regcache-maple.c",
+      "module": "__slate_unit_regcache_maple"
+    },
+    {
+      "file": "drivers/base/regmap/regmap-debugfs.c",
+      "module": "__slate_unit_regmap_debugfs"
+    },
+    {
+      "file": "drivers/base/platform-msi.c",
+      "module": "__slate_unit_platform_msi"
+    },
+    {
+      "file": "drivers/base/physical_location.c",
+      "module": "__slate_unit_physical_location"
+    },
+    {
+      "file": "drivers/base/trace.c",
+      "module": "__slate_unit_base_trace"
+    }
+  ],
+  "version": 1
+}

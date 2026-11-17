@@ -1,0 +1,157 @@
+{
+  "units": [
+    {
+      "file": "net/sunrpc/clnt.c",
+      "module": "__slate_unit_clnt"
+    },
+    {
+      "file": "net/sunrpc/xprt.c",
+      "module": "__slate_unit_xprt"
+    },
+    {
+      "file": "net/sunrpc/socklib.c",
+      "module": "__slate_unit_socklib"
+    },
+    {
+      "file": "net/sunrpc/xprtsock.c",
+      "module": "__slate_unit_xprtsock"
+    },
+    {
+      "file": "net/sunrpc/sched.c",
+      "module": "__slate_unit_sched"
+    },
+    {
+      "file": "net/sunrpc/auth.c",
+      "module": "__slate_unit_auth"
+    },
+    {
+      "file": "net/sunrpc/auth_null.c",
+      "module": "__slate_unit_auth_null"
+    },
+    {
+      "file": "net/sunrpc/auth_tls.c",
+      "module": "__slate_unit_auth_tls"
+    },
+    {
+      "file": "net/sunrpc/auth_unix.c",
+      "module": "__slate_unit_auth_unix"
+    },
+    {
+      "file": "net/sunrpc/svc.c",
+      "module": "__slate_unit_svc"
+    },
+    {
+      "file": "net/sunrpc/svcsock.c",
+      "module": "__slate_unit_svcsock"
+    },
+    {
+      "file": "net/sunrpc/svcauth.c",
+      "module": "__slate_unit_svcauth"
+    },
+    {
+      "file": "net/sunrpc/svcauth_unix.c",
+      "module": "__slate_unit_svcauth_unix"
+    },
+    {
+      "file": "net/sunrpc/addr.c",
+      "module": "__slate_unit_addr"
+    },
+    {
+      "file": "net/sunrpc/rpcb_clnt.c",
+      "module": "__slate_unit_rpcb_clnt"
+    },
+    {
+      "file": "net/sunrpc/timer.c",
+      "module": "__slate_unit_timer"
+    },
+    {
+      "file": "net/sunrpc/xdr.c",
+      "module": "__slate_unit_xdr"
+    },
+    {
+      "file": "net/sunrpc/sunrpc_syms.c",
+      "module": "__slate_unit_sunrpc_syms"
+    },
+    {
+      "file": "net/sunrpc/cache.c",
+      "module": "__slate_unit_cache"
+    },
+    {
+      "file": "net/sunrpc/rpc_pipe.c",
+      "module": "__slate_unit_rpc_pipe"
+    },
+    {
+      "file": "net/sunrpc/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "net/sunrpc/svc_xprt.c",
+      "module": "__slate_unit_svc_xprt"
+    },
+    {
+      "file": "net/sunrpc/xprtmultipath.c",
+      "module": "__slate_unit_xprtmultipath"
+    },
+    {
+      "file": "net/sunrpc/netlink.c",
+      "module": "__slate_unit_netlink"
+    },
+    {
+      "file": "net/sunrpc/backchannel_rqst.c",
+      "module": "__slate_unit_backchannel_rqst"
+    },
+    {
+      "file": "net/sunrpc/stats.c",
+      "module": "__slate_unit_stats"
+    },
+    {
+      "file": "net/sunrpc/sysctl.c",
+      "module": "__slate_unit_sysctl"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/auth_gss.c",
+      "module": "__slate_unit_auth_gss"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_mech_switch.c",
+      "module": "__slate_unit_gss_mech_switch"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/svcauth_gss.c",
+      "module": "__slate_unit_svcauth_gss"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_rpc_upcall.c",
+      "module": "__slate_unit_gss_rpc_upcall"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_rpc_xdr.c",
+      "module": "__slate_unit_gss_rpc_xdr"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_krb5_mech.c",
+      "module": "__slate_unit_gss_krb5_mech"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_krb5_seal.c",
+      "module": "__slate_unit_gss_krb5_seal"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_krb5_unseal.c",
+      "module": "__slate_unit_gss_krb5_unseal"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_krb5_wrap.c",
+      "module": "__slate_unit_gss_krb5_wrap"
+    },
+    {
+      "file": "net/sunrpc/auth_gss/gss_krb5_crypto.c",
+      "module": "__slate_unit_gss_krb5_crypto"
+    }
+  ],
+  "version": 1
+}

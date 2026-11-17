@@ -1,0 +1,253 @@
+{
+  "units": [
+    {
+      "file": "net/ipv4/route.c",
+      "module": "__slate_unit_route"
+    },
+    {
+      "file": "net/ipv4/inetpeer.c",
+      "module": "__slate_unit_inetpeer"
+    },
+    {
+      "file": "net/ipv4/protocol.c",
+      "module": "__slate_unit_protocol"
+    },
+    {
+      "file": "net/ipv4/ip_input.c",
+      "module": "__slate_unit_ip_input"
+    },
+    {
+      "file": "net/ipv4/ip_fragment.c",
+      "module": "__slate_unit_ip_fragment"
+    },
+    {
+      "file": "net/ipv4/ip_forward.c",
+      "module": "__slate_unit_ip_forward"
+    },
+    {
+      "file": "net/ipv4/ip_options.c",
+      "module": "__slate_unit_ip_options"
+    },
+    {
+      "file": "net/ipv4/ip_output.c",
+      "module": "__slate_unit_ip_output"
+    },
+    {
+      "file": "net/ipv4/ip_sockglue.c",
+      "module": "__slate_unit_ip_sockglue"
+    },
+    {
+      "file": "net/ipv4/inet_hashtables.c",
+      "module": "__slate_unit_inet_hashtables"
+    },
+    {
+      "file": "net/ipv4/inet_timewait_sock.c",
+      "module": "__slate_unit_inet_timewait_sock"
+    },
+    {
+      "file": "net/ipv4/inet_connection_sock.c",
+      "module": "__slate_unit_inet_connection_sock"
+    },
+    {
+      "file": "net/ipv4/tcp.c",
+      "module": "__slate_unit_tcp"
+    },
+    {
+      "file": "net/ipv4/tcp_input.c",
+      "module": "__slate_unit_tcp_input"
+    },
+    {
+      "file": "net/ipv4/tcp_output.c",
+      "module": "__slate_unit_tcp_output"
+    },
+    {
+      "file": "net/ipv4/tcp_timer.c",
+      "module": "__slate_unit_tcp_timer"
+    },
+    {
+      "file": "net/ipv4/tcp_ipv4.c",
+      "module": "__slate_unit_tcp_ipv4"
+    },
+    {
+      "file": "net/ipv4/tcp_minisocks.c",
+      "module": "__slate_unit_tcp_minisocks"
+    },
+    {
+      "file": "net/ipv4/tcp_cong.c",
+      "module": "__slate_unit_tcp_cong"
+    },
+    {
+      "file": "net/ipv4/tcp_metrics.c",
+      "module": "__slate_unit_tcp_metrics"
+    },
+    {
+      "file": "net/ipv4/tcp_fastopen.c",
+      "module": "__slate_unit_tcp_fastopen"
+    },
+    {
+      "file": "net/ipv4/tcp_recovery.c",
+      "module": "__slate_unit_tcp_recovery"
+    },
+    {
+      "file": "net/ipv4/tcp_ulp.c",
+      "module": "__slate_unit_tcp_ulp"
+    },
+    {
+      "file": "net/ipv4/tcp_offload.c",
+      "module": "__slate_unit_tcp_offload"
+    },
+    {
+      "file": "net/ipv4/tcp_plb.c",
+      "module": "__slate_unit_tcp_plb"
+    },
+    {
+      "file": "net/ipv4/datagram.c",
+      "module": "__slate_unit_datagram"
+    },
+    {
+      "file": "net/ipv4/raw.c",
+      "module": "__slate_unit_raw"
+    },
+    {
+      "file": "net/ipv4/udp.c",
+      "module": "__slate_unit_udp"
+    },
+    {
+      "file": "net/ipv4/udp_offload.c",
+      "module": "__slate_unit_udp_offload"
+    },
+    {
+      "file": "net/ipv4/arp.c",
+      "module": "__slate_unit_arp"
+    },
+    {
+      "file": "net/ipv4/icmp.c",
+      "module": "__slate_unit_icmp"
+    },
+    {
+      "file": "net/ipv4/devinet.c",
+      "module": "__slate_unit_devinet"
+    },
+    {
+      "file": "net/ipv4/af_inet.c",
+      "module": "__slate_unit_af_inet"
+    },
+    {
+      "file": "net/ipv4/igmp.c",
+      "module": "__slate_unit_igmp"
+    },
+    {
+      "file": "net/ipv4/fib_frontend.c",
+      "module": "__slate_unit_fib_frontend"
+    },
+    {
+      "file": "net/ipv4/fib_semantics.c",
+      "module": "__slate_unit_fib_semantics"
+    },
+    {
+      "file": "net/ipv4/fib_trie.c",
+      "module": "__slate_unit_fib_trie"
+    },
+    {
+      "file": "net/ipv4/fib_notifier.c",
+      "module": "__slate_unit_fib_notifier"
+    },
+    {
+      "file": "net/ipv4/inet_fragment.c",
+      "module": "__slate_unit_inet_fragment"
+    },
+    {
+      "file": "net/ipv4/ping.c",
+      "module": "__slate_unit_ping"
+    },
+    {
+      "file": "net/ipv4/ip_tunnel_core.c",
+      "module": "__slate_unit_ip_tunnel_core"
+    },
+    {
+      "file": "net/ipv4/gre_offload.c",
+      "module": "__slate_unit_gre_offload"
+    },
+    {
+      "file": "net/ipv4/metrics.c",
+      "module": "__slate_unit_metrics"
+    },
+    {
+      "file": "net/ipv4/netlink.c",
+      "module": "__slate_unit_netlink"
+    },
+    {
+      "file": "net/ipv4/nexthop.c",
+      "module": "__slate_unit_nexthop"
+    },
+    {
+      "file": "net/ipv4/udp_tunnel_stub.c",
+      "module": "__slate_unit_udp_tunnel_stub"
+    },
+    {
+      "file": "net/ipv4/sysctl_net_ipv4.c",
+      "module": "__slate_unit_sysctl_net_ipv4"
+    },
+    {
+      "file": "net/ipv4/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "net/ipv4/fib_rules.c",
+      "module": "__slate_unit_fib_rules"
+    },
+    {
+      "file": "net/ipv4/ipmr.c",
+      "module": "__slate_unit_ipmr"
+    },
+    {
+      "file": "net/ipv4/ipmr_base.c",
+      "module": "__slate_unit_ipmr_base"
+    },
+    {
+      "file": "net/ipv4/syncookies.c",
+      "module": "__slate_unit_syncookies"
+    },
+    {
+      "file": "net/ipv4/ipconfig.c",
+      "module": "__slate_unit_ipconfig"
+    },
+    {
+      "file": "net/ipv4/netfilter.c",
+      "module": "__slate_unit_netfilter"
+    },
+    {
+      "file": "net/ipv4/netfilter/nf_defrag_ipv4.c",
+      "module": "__slate_unit_nf_defrag_ipv4"
+    },
+    {
+      "file": "net/ipv4/tcp_cubic.c",
+      "module": "__slate_unit_tcp_cubic"
+    },
+    {
+      "file": "net/ipv4/cipso_ipv4.c",
+      "module": "__slate_unit_cipso_ipv4"
+    },
+    {
+      "file": "net/ipv4/xfrm4_policy.c",
+      "module": "__slate_unit_xfrm4_policy"
+    },
+    {
+      "file": "net/ipv4/xfrm4_state.c",
+      "module": "__slate_unit_xfrm4_state"
+    },
+    {
+      "file": "net/ipv4/xfrm4_input.c",
+      "module": "__slate_unit_xfrm4_input"
+    },
+    {
+      "file": "net/ipv4/xfrm4_output.c",
+      "module": "__slate_unit_xfrm4_output"
+    },
+    {
+      "file": "net/ipv4/xfrm4_protocol.c",
+      "module": "__slate_unit_xfrm4_protocol"
+    }
+  ],
+  "version": 1
+}

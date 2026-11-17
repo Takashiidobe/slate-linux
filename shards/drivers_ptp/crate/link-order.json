@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "file": "drivers/ptp/ptp_clock.c",
+      "module": "__slate_unit_ptp_clock"
+    },
+    {
+      "file": "drivers/ptp/ptp_chardev.c",
+      "module": "__slate_unit_ptp_chardev"
+    },
+    {
+      "file": "drivers/ptp/ptp_sysfs.c",
+      "module": "__slate_unit_ptp_sysfs"
+    },
+    {
+      "file": "drivers/ptp/ptp_vclock.c",
+      "module": "__slate_unit_ptp_vclock"
+    },
+    {
+      "file": "drivers/ptp/ptp_kvm_x86.c",
+      "module": "__slate_unit_ptp_kvm_x86"
+    },
+    {
+      "file": "drivers/ptp/ptp_kvm_common.c",
+      "module": "__slate_unit_ptp_kvm_common"
+    },
+    {
+      "file": "drivers/ptp/ptp_vmclock.c",
+      "module": "__slate_unit_ptp_vmclock"
+    }
+  ],
+  "version": 1
+}

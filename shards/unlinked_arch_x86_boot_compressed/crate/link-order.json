@@ -1,0 +1,53 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/boot/compressed/acpi.c",
+      "module": "__slate_unit_acpi"
+    },
+    {
+      "file": "arch/x86/boot/compressed/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "arch/x86/boot/compressed/cpuflags.c",
+      "module": "__slate_unit_cpuflags"
+    },
+    {
+      "file": "arch/x86/boot/compressed/early_serial_console.c",
+      "module": "__slate_unit_early_serial_console"
+    },
+    {
+      "file": "arch/x86/boot/compressed/efi.c",
+      "module": "__slate_unit_efi"
+    },
+    {
+      "file": "arch/x86/boot/compressed/error.c",
+      "module": "__slate_unit_error"
+    },
+    {
+      "file": "arch/x86/boot/compressed/ident_map_64.c",
+      "module": "__slate_unit_ident_map_64"
+    },
+    {
+      "file": "arch/x86/boot/compressed/idt_64.c",
+      "module": "__slate_unit_idt_64"
+    },
+    {
+      "file": "arch/x86/boot/compressed/kaslr.c",
+      "module": "__slate_unit_kaslr"
+    },
+    {
+      "file": "arch/x86/boot/compressed/misc.c",
+      "module": "__slate_unit_misc"
+    },
+    {
+      "file": "arch/x86/boot/compressed/pgtable_64.c",
+      "module": "__slate_unit_pgtable_64"
+    },
+    {
+      "file": "arch/x86/boot/compressed/string.c",
+      "module": "__slate_unit_string"
+    }
+  ],
+  "version": 1
+}

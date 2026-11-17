@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/ipv4/tunnel4.mod.c",
+      "module": "__slate_unit_tunnel4_mod"
+    },
+    {
+      "file": "net/ipv4/tunnel4.c",
+      "module": "__slate_unit_tunnel4"
+    }
+  ],
+  "version": 1
+}

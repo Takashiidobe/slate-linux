@@ -1,0 +1,149 @@
+{
+  "units": [
+    {
+      "file": "drivers/acpi/acpica/tbxfroot.c",
+      "module": "__slate_unit_tbxfroot"
+    },
+    {
+      "file": "drivers/acpi/acpica/utaddress.c",
+      "module": "__slate_unit_utaddress"
+    },
+    {
+      "file": "drivers/acpi/acpica/utalloc.c",
+      "module": "__slate_unit_utalloc"
+    },
+    {
+      "file": "drivers/acpi/acpica/utascii.c",
+      "module": "__slate_unit_utascii"
+    },
+    {
+      "file": "drivers/acpi/acpica/utbuffer.c",
+      "module": "__slate_unit_utbuffer"
+    },
+    {
+      "file": "drivers/acpi/acpica/utcksum.c",
+      "module": "__slate_unit_utcksum"
+    },
+    {
+      "file": "drivers/acpi/acpica/utcopy.c",
+      "module": "__slate_unit_utcopy"
+    },
+    {
+      "file": "drivers/acpi/acpica/utexcep.c",
+      "module": "__slate_unit_utexcep"
+    },
+    {
+      "file": "drivers/acpi/acpica/utdebug.c",
+      "module": "__slate_unit_utdebug"
+    },
+    {
+      "file": "drivers/acpi/acpica/utdecode.c",
+      "module": "__slate_unit_utdecode"
+    },
+    {
+      "file": "drivers/acpi/acpica/utdelete.c",
+      "module": "__slate_unit_utdelete"
+    },
+    {
+      "file": "drivers/acpi/acpica/uterror.c",
+      "module": "__slate_unit_uterror"
+    },
+    {
+      "file": "drivers/acpi/acpica/uteval.c",
+      "module": "__slate_unit_uteval"
+    },
+    {
+      "file": "drivers/acpi/acpica/utglobal.c",
+      "module": "__slate_unit_utglobal"
+    },
+    {
+      "file": "drivers/acpi/acpica/uthex.c",
+      "module": "__slate_unit_uthex"
+    },
+    {
+      "file": "drivers/acpi/acpica/utids.c",
+      "module": "__slate_unit_utids"
+    },
+    {
+      "file": "drivers/acpi/acpica/utinit.c",
+      "module": "__slate_unit_utinit"
+    },
+    {
+      "file": "drivers/acpi/acpica/utlock.c",
+      "module": "__slate_unit_utlock"
+    },
+    {
+      "file": "drivers/acpi/acpica/utmath.c",
+      "module": "__slate_unit_utmath"
+    },
+    {
+      "file": "drivers/acpi/acpica/utmisc.c",
+      "module": "__slate_unit_utmisc"
+    },
+    {
+      "file": "drivers/acpi/acpica/utmutex.c",
+      "module": "__slate_unit_utmutex"
+    },
+    {
+      "file": "drivers/acpi/acpica/utnonansi.c",
+      "module": "__slate_unit_utnonansi"
+    },
+    {
+      "file": "drivers/acpi/acpica/utobject.c",
+      "module": "__slate_unit_utobject"
+    },
+    {
+      "file": "drivers/acpi/acpica/utosi.c",
+      "module": "__slate_unit_utosi"
+    },
+    {
+      "file": "drivers/acpi/acpica/utownerid.c",
+      "module": "__slate_unit_utownerid"
+    },
+    {
+      "file": "drivers/acpi/acpica/utpredef.c",
+      "module": "__slate_unit_utpredef"
+    },
+    {
+      "file": "drivers/acpi/acpica/utresdecode.c",
+      "module": "__slate_unit_utresdecode"
+    },
+    {
+      "file": "drivers/acpi/acpica/utresrc.c",
+      "module": "__slate_unit_utresrc"
+    },
+    {
+      "file": "drivers/acpi/acpica/utstate.c",
+      "module": "__slate_unit_utstate"
+    },
+    {
+      "file": "drivers/acpi/acpica/utstring.c",
+      "module": "__slate_unit_utstring"
+    },
+    {
+      "file": "drivers/acpi/acpica/utstrsuppt.c",
+      "module": "__slate_unit_utstrsuppt"
+    },
+    {
+      "file": "drivers/acpi/acpica/utstrtoul64.c",
+      "module": "__slate_unit_utstrtoul64"
+    },
+    {
+      "file": "drivers/acpi/acpica/utxface.c",
+      "module": "__slate_unit_utxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/utxfinit.c",
+      "module": "__slate_unit_utxfinit"
+    },
+    {
+      "file": "drivers/acpi/acpica/utxferror.c",
+      "module": "__slate_unit_utxferror"
+    },
+    {
+      "file": "drivers/acpi/acpica/utxfmutex.c",
+      "module": "__slate_unit_utxfmutex"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,313 @@
+{
+  "units": [
+    {
+      "file": "kernel/fork.c",
+      "module": "__slate_unit_fork"
+    },
+    {
+      "file": "kernel/exec_domain.c",
+      "module": "__slate_unit_exec_domain"
+    },
+    {
+      "file": "kernel/exec_state.c",
+      "module": "__slate_unit_exec_state"
+    },
+    {
+      "file": "kernel/panic.c",
+      "module": "__slate_unit_panic"
+    },
+    {
+      "file": "kernel/cpu.c",
+      "module": "__slate_unit_cpu"
+    },
+    {
+      "file": "kernel/exit.c",
+      "module": "__slate_unit_exit"
+    },
+    {
+      "file": "kernel/softirq.c",
+      "module": "__slate_unit_softirq"
+    },
+    {
+      "file": "kernel/resource.c",
+      "module": "__slate_unit_resource"
+    },
+    {
+      "file": "kernel/sysctl.c",
+      "module": "__slate_unit_sysctl"
+    },
+    {
+      "file": "kernel/capability.c",
+      "module": "__slate_unit_capability"
+    },
+    {
+      "file": "kernel/ptrace.c",
+      "module": "__slate_unit_ptrace"
+    },
+    {
+      "file": "kernel/user.c",
+      "module": "__slate_unit_user"
+    },
+    {
+      "file": "kernel/signal.c",
+      "module": "__slate_unit_signal"
+    },
+    {
+      "file": "kernel/sys.c",
+      "module": "__slate_unit_sys"
+    },
+    {
+      "file": "kernel/umh.c",
+      "module": "__slate_unit_umh"
+    },
+    {
+      "file": "kernel/workqueue.c",
+      "module": "__slate_unit_workqueue"
+    },
+    {
+      "file": "kernel/pid.c",
+      "module": "__slate_unit_pid"
+    },
+    {
+      "file": "kernel/task_work.c",
+      "module": "__slate_unit_task_work"
+    },
+    {
+      "file": "kernel/extable.c",
+      "module": "__slate_unit_extable"
+    },
+    {
+      "file": "kernel/params.c",
+      "module": "__slate_unit_params"
+    },
+    {
+      "file": "kernel/kthread.c",
+      "module": "__slate_unit_kthread"
+    },
+    {
+      "file": "kernel/sys_ni.c",
+      "module": "__slate_unit_sys_ni"
+    },
+    {
+      "file": "kernel/nsproxy.c",
+      "module": "__slate_unit_nsproxy"
+    },
+    {
+      "file": "kernel/nstree.c",
+      "module": "__slate_unit_nstree"
+    },
+    {
+      "file": "kernel/nscommon.c",
+      "module": "__slate_unit_nscommon"
+    },
+    {
+      "file": "kernel/notifier.c",
+      "module": "__slate_unit_notifier"
+    },
+    {
+      "file": "kernel/ksysfs.c",
+      "module": "__slate_unit_ksysfs"
+    },
+    {
+      "file": "kernel/cred.c",
+      "module": "__slate_unit_cred"
+    },
+    {
+      "file": "kernel/reboot.c",
+      "module": "__slate_unit_reboot"
+    },
+    {
+      "file": "kernel/async.c",
+      "module": "__slate_unit_async"
+    },
+    {
+      "file": "kernel/range.c",
+      "module": "__slate_unit_range"
+    },
+    {
+      "file": "kernel/smpboot.c",
+      "module": "__slate_unit_smpboot"
+    },
+    {
+      "file": "kernel/ucount.c",
+      "module": "__slate_unit_ucount"
+    },
+    {
+      "file": "kernel/regset.c",
+      "module": "__slate_unit_regset"
+    },
+    {
+      "file": "kernel/ksyms_common.c",
+      "module": "__slate_unit_ksyms_common"
+    },
+    {
+      "file": "kernel/groups.c",
+      "module": "__slate_unit_groups"
+    },
+    {
+      "file": "kernel/kcmp.c",
+      "module": "__slate_unit_kcmp"
+    },
+    {
+      "file": "kernel/freezer.c",
+      "module": "__slate_unit_freezer"
+    },
+    {
+      "file": "kernel/profile.c",
+      "module": "__slate_unit_profile"
+    },
+    {
+      "file": "kernel/stacktrace.c",
+      "module": "__slate_unit_stacktrace"
+    },
+    {
+      "file": "kernel/dma.c",
+      "module": "__slate_unit_dma"
+    },
+    {
+      "file": "kernel/smp.c",
+      "module": "__slate_unit_smp"
+    },
+    {
+      "file": "kernel/uid16.c",
+      "module": "__slate_unit_uid16"
+    },
+    {
+      "file": "kernel/kallsyms.c",
+      "module": "__slate_unit_kallsyms"
+    },
+    {
+      "file": "kernel/acct.c",
+      "module": "__slate_unit_acct"
+    },
+    {
+      "file": "kernel/vmcore_info.c",
+      "module": "__slate_unit_vmcore_info"
+    },
+    {
+      "file": "kernel/elfcorehdr.c",
+      "module": "__slate_unit_elfcorehdr"
+    },
+    {
+      "file": "kernel/crash_reserve.c",
+      "module": "__slate_unit_crash_reserve"
+    },
+    {
+      "file": "kernel/kexec_core.c",
+      "module": "__slate_unit_kexec_core"
+    },
+    {
+      "file": "kernel/crash_core.c",
+      "module": "__slate_unit_crash_core"
+    },
+    {
+      "file": "kernel/kexec.c",
+      "module": "__slate_unit_kexec"
+    },
+    {
+      "file": "kernel/compat.c",
+      "module": "__slate_unit_compat"
+    },
+    {
+      "file": "kernel/utsname.c",
+      "module": "__slate_unit_utsname"
+    },
+    {
+      "file": "kernel/pid_namespace.c",
+      "module": "__slate_unit_pid_namespace"
+    },
+    {
+      "file": "kernel/stop_machine.c",
+      "module": "__slate_unit_stop_machine"
+    },
+    {
+      "file": "kernel/audit.c",
+      "module": "__slate_unit_audit"
+    },
+    {
+      "file": "kernel/auditfilter.c",
+      "module": "__slate_unit_auditfilter"
+    },
+    {
+      "file": "kernel/auditsc.c",
+      "module": "__slate_unit_auditsc"
+    },
+    {
+      "file": "kernel/audit_watch.c",
+      "module": "__slate_unit_audit_watch"
+    },
+    {
+      "file": "kernel/audit_fsnotify.c",
+      "module": "__slate_unit_audit_fsnotify"
+    },
+    {
+      "file": "kernel/audit_tree.c",
+      "module": "__slate_unit_audit_tree"
+    },
+    {
+      "file": "kernel/kprobes.c",
+      "module": "__slate_unit_kprobes"
+    },
+    {
+      "file": "kernel/seccomp.c",
+      "module": "__slate_unit_seccomp"
+    },
+    {
+      "file": "kernel/relay.c",
+      "module": "__slate_unit_relay"
+    },
+    {
+      "file": "kernel/utsname_sysctl.c",
+      "module": "__slate_unit_utsname_sysctl"
+    },
+    {
+      "file": "kernel/delayacct.c",
+      "module": "__slate_unit_delayacct"
+    },
+    {
+      "file": "kernel/taskstats.c",
+      "module": "__slate_unit_taskstats"
+    },
+    {
+      "file": "kernel/tsacct.c",
+      "module": "__slate_unit_tsacct"
+    },
+    {
+      "file": "kernel/tracepoint.c",
+      "module": "__slate_unit_tracepoint"
+    },
+    {
+      "file": "kernel/irq_work.c",
+      "module": "__slate_unit_irq_work"
+    },
+    {
+      "file": "kernel/static_call.c",
+      "module": "__slate_unit_static_call"
+    },
+    {
+      "file": "kernel/static_call_inline.c",
+      "module": "__slate_unit_static_call_inline"
+    },
+    {
+      "file": "kernel/padata.c",
+      "module": "__slate_unit_padata"
+    },
+    {
+      "file": "kernel/jump_label.c",
+      "module": "__slate_unit_jump_label"
+    },
+    {
+      "file": "kernel/context_tracking.c",
+      "module": "__slate_unit_context_tracking"
+    },
+    {
+      "file": "kernel/iomem.c",
+      "module": "__slate_unit_iomem"
+    },
+    {
+      "file": "kernel/rseq.c",
+      "module": "__slate_unit_rseq"
+    }
+  ],
+  "version": 1
+}

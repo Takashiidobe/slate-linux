@@ -1,0 +1,173 @@
+{
+  "units": [
+    {
+      "file": "drivers/tty/tty_io.c",
+      "module": "__slate_unit_tty_io"
+    },
+    {
+      "file": "drivers/tty/n_tty.c",
+      "module": "__slate_unit_n_tty"
+    },
+    {
+      "file": "drivers/tty/tty_ioctl.c",
+      "module": "__slate_unit_tty_ioctl"
+    },
+    {
+      "file": "drivers/tty/tty_ldisc.c",
+      "module": "__slate_unit_tty_ldisc"
+    },
+    {
+      "file": "drivers/tty/tty_buffer.c",
+      "module": "__slate_unit_tty_buffer"
+    },
+    {
+      "file": "drivers/tty/tty_port.c",
+      "module": "__slate_unit_tty_port"
+    },
+    {
+      "file": "drivers/tty/tty_mutex.c",
+      "module": "__slate_unit_tty_mutex"
+    },
+    {
+      "file": "drivers/tty/tty_ldsem.c",
+      "module": "__slate_unit_tty_ldsem"
+    },
+    {
+      "file": "drivers/tty/tty_baudrate.c",
+      "module": "__slate_unit_tty_baudrate"
+    },
+    {
+      "file": "drivers/tty/tty_jobctrl.c",
+      "module": "__slate_unit_tty_jobctrl"
+    },
+    {
+      "file": "drivers/tty/n_null.c",
+      "module": "__slate_unit_n_null"
+    },
+    {
+      "file": "drivers/tty/pty.c",
+      "module": "__slate_unit_pty"
+    },
+    {
+      "file": "drivers/tty/tty_audit.c",
+      "module": "__slate_unit_tty_audit"
+    },
+    {
+      "file": "drivers/tty/sysrq.c",
+      "module": "__slate_unit_sysrq"
+    },
+    {
+      "file": "drivers/tty/vt/vt_ioctl.c",
+      "module": "__slate_unit_vt_ioctl"
+    },
+    {
+      "file": "drivers/tty/vt/vc_screen.c",
+      "module": "__slate_unit_vc_screen"
+    },
+    {
+      "file": "drivers/tty/vt/selection.c",
+      "module": "__slate_unit_selection"
+    },
+    {
+      "file": "drivers/tty/vt/keyboard.c",
+      "module": "__slate_unit_keyboard"
+    },
+    {
+      "file": "drivers/tty/vt/vt.c",
+      "module": "__slate_unit_vt"
+    },
+    {
+      "file": "drivers/tty/vt/consolemap.c",
+      "module": "__slate_unit_consolemap"
+    },
+    {
+      "file": "drivers/tty/vt/ucs.c",
+      "module": "__slate_unit_ucs"
+    },
+    {
+      "file": "drivers/tty/hvc/hvc_console.c",
+      "module": "__slate_unit_hvc_console"
+    },
+    {
+      "file": "drivers/tty/serial/serial_core.c",
+      "module": "__slate_unit_serial_core"
+    },
+    {
+      "file": "drivers/tty/serial/serial_base_bus.c",
+      "module": "__slate_unit_serial_base_bus"
+    },
+    {
+      "file": "drivers/tty/serial/serial_ctrl.c",
+      "module": "__slate_unit_serial_ctrl"
+    },
+    {
+      "file": "drivers/tty/serial/serial_port.c",
+      "module": "__slate_unit_serial_port"
+    },
+    {
+      "file": "drivers/tty/serial/earlycon.c",
+      "module": "__slate_unit_earlycon"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_core.c",
+      "module": "__slate_unit__8250_core"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_platform.c",
+      "module": "__slate_unit__8250_platform"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_pnp.c",
+      "module": "__slate_unit__8250_pnp"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_port.c",
+      "module": "__slate_unit__8250_port"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_dma.c",
+      "module": "__slate_unit__8250_dma"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_dwlib.c",
+      "module": "__slate_unit__8250_dwlib"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_pcilib.c",
+      "module": "__slate_unit__8250_pcilib"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_rsa.c",
+      "module": "__slate_unit__8250_rsa"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_early.c",
+      "module": "__slate_unit__8250_early"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_exar.c",
+      "module": "__slate_unit__8250_exar"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_lpss.c",
+      "module": "__slate_unit__8250_lpss"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_mid.c",
+      "module": "__slate_unit__8250_mid"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_mxpcie.c",
+      "module": "__slate_unit__8250_mxpcie"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_pci.c",
+      "module": "__slate_unit__8250_pci"
+    },
+    {
+      "file": "drivers/tty/serial/8250/8250_pericom.c",
+      "module": "__slate_unit__8250_pericom"
+    }
+  ],
+  "version": 1
+}

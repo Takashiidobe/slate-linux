@@ -1,0 +1,277 @@
+{
+  "units": [
+    {
+      "file": "fs/open.c",
+      "module": "__slate_unit_open"
+    },
+    {
+      "file": "fs/read_write.c",
+      "module": "__slate_unit_read_write"
+    },
+    {
+      "file": "fs/file_table.c",
+      "module": "__slate_unit_file_table"
+    },
+    {
+      "file": "fs/super.c",
+      "module": "__slate_unit_super"
+    },
+    {
+      "file": "fs/char_dev.c",
+      "module": "__slate_unit_char_dev"
+    },
+    {
+      "file": "fs/stat.c",
+      "module": "__slate_unit_stat"
+    },
+    {
+      "file": "fs/exec.c",
+      "module": "__slate_unit_exec"
+    },
+    {
+      "file": "fs/pipe.c",
+      "module": "__slate_unit_pipe"
+    },
+    {
+      "file": "fs/namei.c",
+      "module": "__slate_unit_namei"
+    },
+    {
+      "file": "fs/fcntl.c",
+      "module": "__slate_unit_fcntl"
+    },
+    {
+      "file": "fs/ioctl.c",
+      "module": "__slate_unit_ioctl"
+    },
+    {
+      "file": "fs/readdir.c",
+      "module": "__slate_unit_readdir"
+    },
+    {
+      "file": "fs/select.c",
+      "module": "__slate_unit_select"
+    },
+    {
+      "file": "fs/dcache.c",
+      "module": "__slate_unit_dcache"
+    },
+    {
+      "file": "fs/inode.c",
+      "module": "__slate_unit_inode"
+    },
+    {
+      "file": "fs/attr.c",
+      "module": "__slate_unit_attr"
+    },
+    {
+      "file": "fs/bad_inode.c",
+      "module": "__slate_unit_bad_inode"
+    },
+    {
+      "file": "fs/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "fs/filesystems.c",
+      "module": "__slate_unit_filesystems"
+    },
+    {
+      "file": "fs/namespace.c",
+      "module": "__slate_unit_namespace"
+    },
+    {
+      "file": "fs/seq_file.c",
+      "module": "__slate_unit_seq_file"
+    },
+    {
+      "file": "fs/xattr.c",
+      "module": "__slate_unit_xattr"
+    },
+    {
+      "file": "fs/libfs.c",
+      "module": "__slate_unit_libfs"
+    },
+    {
+      "file": "fs/fs-writeback.c",
+      "module": "__slate_unit_fs_writeback"
+    },
+    {
+      "file": "fs/pnode.c",
+      "module": "__slate_unit_pnode"
+    },
+    {
+      "file": "fs/splice.c",
+      "module": "__slate_unit_splice"
+    },
+    {
+      "file": "fs/sync.c",
+      "module": "__slate_unit_sync"
+    },
+    {
+      "file": "fs/utimes.c",
+      "module": "__slate_unit_utimes"
+    },
+    {
+      "file": "fs/d_path.c",
+      "module": "__slate_unit_d_path"
+    },
+    {
+      "file": "fs/stack.c",
+      "module": "__slate_unit_stack"
+    },
+    {
+      "file": "fs/fs_struct.c",
+      "module": "__slate_unit_fs_struct"
+    },
+    {
+      "file": "fs/statfs.c",
+      "module": "__slate_unit_statfs"
+    },
+    {
+      "file": "fs/fs_pin.c",
+      "module": "__slate_unit_fs_pin"
+    },
+    {
+      "file": "fs/nsfs.c",
+      "module": "__slate_unit_nsfs"
+    },
+    {
+      "file": "fs/fs_dirent.c",
+      "module": "__slate_unit_fs_dirent"
+    },
+    {
+      "file": "fs/fs_context.c",
+      "module": "__slate_unit_fs_context"
+    },
+    {
+      "file": "fs/fs_parser.c",
+      "module": "__slate_unit_fs_parser"
+    },
+    {
+      "file": "fs/fsopen.c",
+      "module": "__slate_unit_fsopen"
+    },
+    {
+      "file": "fs/init.c",
+      "module": "__slate_unit_init"
+    },
+    {
+      "file": "fs/kernel_read_file.c",
+      "module": "__slate_unit_kernel_read_file"
+    },
+    {
+      "file": "fs/mnt_idmapping.c",
+      "module": "__slate_unit_mnt_idmapping"
+    },
+    {
+      "file": "fs/remap_range.c",
+      "module": "__slate_unit_remap_range"
+    },
+    {
+      "file": "fs/pidfs.c",
+      "module": "__slate_unit_pidfs"
+    },
+    {
+      "file": "fs/file_attr.c",
+      "module": "__slate_unit_file_attr"
+    },
+    {
+      "file": "fs/fserror.c",
+      "module": "__slate_unit_fserror"
+    },
+    {
+      "file": "fs/nullfs.c",
+      "module": "__slate_unit_nullfs"
+    },
+    {
+      "file": "fs/failfs.c",
+      "module": "__slate_unit_failfs"
+    },
+    {
+      "file": "fs/buffer.c",
+      "module": "__slate_unit_buffer"
+    },
+    {
+      "file": "fs/mpage.c",
+      "module": "__slate_unit_mpage"
+    },
+    {
+      "file": "fs/proc_namespace.c",
+      "module": "__slate_unit_proc_namespace"
+    },
+    {
+      "file": "fs/direct-io.c",
+      "module": "__slate_unit_direct_io"
+    },
+    {
+      "file": "fs/eventpoll.c",
+      "module": "__slate_unit_eventpoll"
+    },
+    {
+      "file": "fs/anon_inodes.c",
+      "module": "__slate_unit_anon_inodes"
+    },
+    {
+      "file": "fs/signalfd.c",
+      "module": "__slate_unit_signalfd"
+    },
+    {
+      "file": "fs/timerfd.c",
+      "module": "__slate_unit_timerfd"
+    },
+    {
+      "file": "fs/eventfd.c",
+      "module": "__slate_unit_eventfd"
+    },
+    {
+      "file": "fs/aio.c",
+      "module": "__slate_unit_aio"
+    },
+    {
+      "file": "fs/locks.c",
+      "module": "__slate_unit_locks"
+    },
+    {
+      "file": "fs/binfmt_misc.c",
+      "module": "__slate_unit_binfmt_misc"
+    },
+    {
+      "file": "fs/binfmt_script.c",
+      "module": "__slate_unit_binfmt_script"
+    },
+    {
+      "file": "fs/binfmt_elf.c",
+      "module": "__slate_unit_binfmt_elf"
+    },
+    {
+      "file": "fs/compat_binfmt_elf.c",
+      "module": "__slate_unit_compat_binfmt_elf"
+    },
+    {
+      "file": "fs/mbcache.c",
+      "module": "__slate_unit_mbcache"
+    },
+    {
+      "file": "fs/posix_acl.c",
+      "module": "__slate_unit_posix_acl"
+    },
+    {
+      "file": "fs/coredump.c",
+      "module": "__slate_unit_coredump"
+    },
+    {
+      "file": "fs/drop_caches.c",
+      "module": "__slate_unit_drop_caches"
+    },
+    {
+      "file": "fs/sysctls.c",
+      "module": "__slate_unit_sysctls"
+    },
+    {
+      "file": "fs/fhandle.c",
+      "module": "__slate_unit_fhandle"
+    }
+  ],
+  "version": 1
+}

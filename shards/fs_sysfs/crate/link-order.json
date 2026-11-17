@@ -1,0 +1,25 @@
+{
+  "units": [
+    {
+      "file": "fs/sysfs/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "fs/sysfs/dir.c",
+      "module": "__slate_unit_dir"
+    },
+    {
+      "file": "fs/sysfs/symlink.c",
+      "module": "__slate_unit_symlink"
+    },
+    {
+      "file": "fs/sysfs/mount.c",
+      "module": "__slate_unit_mount"
+    },
+    {
+      "file": "fs/sysfs/group.c",
+      "module": "__slate_unit_group"
+    }
+  ],
+  "version": 1
+}

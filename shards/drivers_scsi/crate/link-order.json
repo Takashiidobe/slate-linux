@@ -1,0 +1,109 @@
+{
+  "units": [
+    {
+      "file": "drivers/scsi/scsi.c",
+      "module": "__slate_unit_scsi"
+    },
+    {
+      "file": "drivers/scsi/hosts.c",
+      "module": "__slate_unit_hosts"
+    },
+    {
+      "file": "drivers/scsi/scsi_ioctl.c",
+      "module": "__slate_unit_scsi_ioctl"
+    },
+    {
+      "file": "drivers/scsi/scsicam.c",
+      "module": "__slate_unit_scsicam"
+    },
+    {
+      "file": "drivers/scsi/scsi_error.c",
+      "module": "__slate_unit_scsi_error"
+    },
+    {
+      "file": "drivers/scsi/scsi_lib.c",
+      "module": "__slate_unit_scsi_lib"
+    },
+    {
+      "file": "drivers/scsi/constants.c",
+      "module": "__slate_unit_constants"
+    },
+    {
+      "file": "drivers/scsi/scsi_lib_dma.c",
+      "module": "__slate_unit_scsi_lib_dma"
+    },
+    {
+      "file": "drivers/scsi/scsi_scan.c",
+      "module": "__slate_unit_scsi_scan"
+    },
+    {
+      "file": "drivers/scsi/scsi_sysfs.c",
+      "module": "__slate_unit_scsi_sysfs"
+    },
+    {
+      "file": "drivers/scsi/scsi_devinfo.c",
+      "module": "__slate_unit_scsi_devinfo"
+    },
+    {
+      "file": "drivers/scsi/scsi_sysctl.c",
+      "module": "__slate_unit_scsi_sysctl"
+    },
+    {
+      "file": "drivers/scsi/scsi_proc.c",
+      "module": "__slate_unit_scsi_proc"
+    },
+    {
+      "file": "drivers/scsi/scsi_debugfs.c",
+      "module": "__slate_unit_scsi_debugfs"
+    },
+    {
+      "file": "drivers/scsi/scsi_trace.c",
+      "module": "__slate_unit_scsi_trace"
+    },
+    {
+      "file": "drivers/scsi/scsi_logging.c",
+      "module": "__slate_unit_scsi_logging"
+    },
+    {
+      "file": "drivers/scsi/scsi_pm.c",
+      "module": "__slate_unit_scsi_pm"
+    },
+    {
+      "file": "drivers/scsi/scsi_bsg.c",
+      "module": "__slate_unit_scsi_bsg"
+    },
+    {
+      "file": "drivers/scsi/scsi_common.c",
+      "module": "__slate_unit_scsi_common"
+    },
+    {
+      "file": "drivers/scsi/scsi_transport_spi.c",
+      "module": "__slate_unit_scsi_transport_spi"
+    },
+    {
+      "file": "drivers/scsi/virtio_scsi.c",
+      "module": "__slate_unit_virtio_scsi"
+    },
+    {
+      "file": "drivers/scsi/sd.c",
+      "module": "__slate_unit_sd"
+    },
+    {
+      "file": "drivers/scsi/sr.c",
+      "module": "__slate_unit_sr"
+    },
+    {
+      "file": "drivers/scsi/sr_ioctl.c",
+      "module": "__slate_unit_sr_ioctl"
+    },
+    {
+      "file": "drivers/scsi/sr_vendor.c",
+      "module": "__slate_unit_sr_vendor"
+    },
+    {
+      "file": "drivers/scsi/sg.c",
+      "module": "__slate_unit_sg"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,15 @@
+target/
+cargo-target/
+crate.orig/
+crate.new/
+next/
+__pycache__/
+*.log
+/*.json
+/*.md
+!/README.md
+/shards/*/compile_commands.json
+/linux
+/boot/
+/kselftest/
+/.llog/

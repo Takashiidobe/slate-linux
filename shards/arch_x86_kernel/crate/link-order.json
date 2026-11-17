@@ -1,0 +1,349 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/kernel/head64.c",
+      "module": "__slate_unit_head64"
+    },
+    {
+      "file": "arch/x86/kernel/ebda.c",
+      "module": "__slate_unit_ebda"
+    },
+    {
+      "file": "arch/x86/kernel/platform-quirks.c",
+      "module": "__slate_unit_platform_quirks"
+    },
+    {
+      "file": "arch/x86/kernel/process_64.c",
+      "module": "__slate_unit_process_64"
+    },
+    {
+      "file": "arch/x86/kernel/signal.c",
+      "module": "__slate_unit_signal"
+    },
+    {
+      "file": "arch/x86/kernel/signal_64.c",
+      "module": "__slate_unit_signal_64"
+    },
+    {
+      "file": "arch/x86/kernel/traps.c",
+      "module": "__slate_unit_traps"
+    },
+    {
+      "file": "arch/x86/kernel/idt.c",
+      "module": "__slate_unit_idt"
+    },
+    {
+      "file": "arch/x86/kernel/irq.c",
+      "module": "__slate_unit_irq"
+    },
+    {
+      "file": "arch/x86/kernel/irq_64.c",
+      "module": "__slate_unit_irq_64"
+    },
+    {
+      "file": "arch/x86/kernel/dumpstack_64.c",
+      "module": "__slate_unit_dumpstack_64"
+    },
+    {
+      "file": "arch/x86/kernel/time.c",
+      "module": "__slate_unit_time"
+    },
+    {
+      "file": "arch/x86/kernel/ioport.c",
+      "module": "__slate_unit_ioport"
+    },
+    {
+      "file": "arch/x86/kernel/dumpstack.c",
+      "module": "__slate_unit_dumpstack"
+    },
+    {
+      "file": "arch/x86/kernel/nmi.c",
+      "module": "__slate_unit_nmi"
+    },
+    {
+      "file": "arch/x86/kernel/ldt.c",
+      "module": "__slate_unit_ldt"
+    },
+    {
+      "file": "arch/x86/kernel/setup.c",
+      "module": "__slate_unit_setup"
+    },
+    {
+      "file": "arch/x86/kernel/x86_init.c",
+      "module": "__slate_unit_x86_init"
+    },
+    {
+      "file": "arch/x86/kernel/i8259.c",
+      "module": "__slate_unit_i8259"
+    },
+    {
+      "file": "arch/x86/kernel/irqinit.c",
+      "module": "__slate_unit_irqinit"
+    },
+    {
+      "file": "arch/x86/kernel/jump_label.c",
+      "module": "__slate_unit_jump_label"
+    },
+    {
+      "file": "arch/x86/kernel/irq_work.c",
+      "module": "__slate_unit_irq_work"
+    },
+    {
+      "file": "arch/x86/kernel/probe_roms.c",
+      "module": "__slate_unit_probe_roms"
+    },
+    {
+      "file": "arch/x86/kernel/sys_ia32.c",
+      "module": "__slate_unit_sys_ia32"
+    },
+    {
+      "file": "arch/x86/kernel/signal_32.c",
+      "module": "__slate_unit_signal_32"
+    },
+    {
+      "file": "arch/x86/kernel/sys_x86_64.c",
+      "module": "__slate_unit_sys_x86_64"
+    },
+    {
+      "file": "arch/x86/kernel/espfix_64.c",
+      "module": "__slate_unit_espfix_64"
+    },
+    {
+      "file": "arch/x86/kernel/ksysfs.c",
+      "module": "__slate_unit_ksysfs"
+    },
+    {
+      "file": "arch/x86/kernel/bootflag.c",
+      "module": "__slate_unit_bootflag"
+    },
+    {
+      "file": "arch/x86/kernel/e820.c",
+      "module": "__slate_unit_e820"
+    },
+    {
+      "file": "arch/x86/kernel/pci-dma.c",
+      "module": "__slate_unit_pci_dma"
+    },
+    {
+      "file": "arch/x86/kernel/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "arch/x86/kernel/kdebugfs.c",
+      "module": "__slate_unit_kdebugfs"
+    },
+    {
+      "file": "arch/x86/kernel/alternative.c",
+      "module": "__slate_unit_alternative"
+    },
+    {
+      "file": "arch/x86/kernel/i8253.c",
+      "module": "__slate_unit_i8253"
+    },
+    {
+      "file": "arch/x86/kernel/hw_breakpoint.c",
+      "module": "__slate_unit_hw_breakpoint"
+    },
+    {
+      "file": "arch/x86/kernel/tsc.c",
+      "module": "__slate_unit_tsc"
+    },
+    {
+      "file": "arch/x86/kernel/tsc_msr.c",
+      "module": "__slate_unit_tsc_msr"
+    },
+    {
+      "file": "arch/x86/kernel/io_delay.c",
+      "module": "__slate_unit_io_delay"
+    },
+    {
+      "file": "arch/x86/kernel/rtc.c",
+      "module": "__slate_unit_rtc"
+    },
+    {
+      "file": "arch/x86/kernel/resource.c",
+      "module": "__slate_unit_resource"
+    },
+    {
+      "file": "arch/x86/kernel/static_call.c",
+      "module": "__slate_unit_static_call"
+    },
+    {
+      "file": "arch/x86/kernel/process.c",
+      "module": "__slate_unit_process"
+    },
+    {
+      "file": "arch/x86/kernel/ptrace.c",
+      "module": "__slate_unit_ptrace"
+    },
+    {
+      "file": "arch/x86/kernel/tls.c",
+      "module": "__slate_unit_tls"
+    },
+    {
+      "file": "arch/x86/kernel/step.c",
+      "module": "__slate_unit_step"
+    },
+    {
+      "file": "arch/x86/kernel/i8237.c",
+      "module": "__slate_unit_i8237"
+    },
+    {
+      "file": "arch/x86/kernel/stacktrace.c",
+      "module": "__slate_unit_stacktrace"
+    },
+    {
+      "file": "arch/x86/kernel/reboot.c",
+      "module": "__slate_unit_reboot"
+    },
+    {
+      "file": "arch/x86/kernel/msr.c",
+      "module": "__slate_unit_msr"
+    },
+    {
+      "file": "arch/x86/kernel/cpuid.c",
+      "module": "__slate_unit_cpuid"
+    },
+    {
+      "file": "arch/x86/kernel/early-quirks.c",
+      "module": "__slate_unit_early_quirks"
+    },
+    {
+      "file": "arch/x86/kernel/smp.c",
+      "module": "__slate_unit_smp"
+    },
+    {
+      "file": "arch/x86/kernel/smpboot.c",
+      "module": "__slate_unit_smpboot"
+    },
+    {
+      "file": "arch/x86/kernel/tsc_sync.c",
+      "module": "__slate_unit_tsc_sync"
+    },
+    {
+      "file": "arch/x86/kernel/setup_percpu.c",
+      "module": "__slate_unit_setup_percpu"
+    },
+    {
+      "file": "arch/x86/kernel/mpparse.c",
+      "module": "__slate_unit_mpparse"
+    },
+    {
+      "file": "arch/x86/kernel/trace_clock.c",
+      "module": "__slate_unit_trace_clock"
+    },
+    {
+      "file": "arch/x86/kernel/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "arch/x86/kernel/rethook.c",
+      "module": "__slate_unit_rethook"
+    },
+    {
+      "file": "arch/x86/kernel/vmcore_info_64.c",
+      "module": "__slate_unit_vmcore_info_64"
+    },
+    {
+      "file": "arch/x86/kernel/machine_kexec_64.c",
+      "module": "__slate_unit_machine_kexec_64"
+    },
+    {
+      "file": "arch/x86/kernel/crash_dump_64.c",
+      "module": "__slate_unit_crash_dump_64"
+    },
+    {
+      "file": "arch/x86/kernel/crash.c",
+      "module": "__slate_unit_crash"
+    },
+    {
+      "file": "arch/x86/kernel/module.c",
+      "module": "__slate_unit_module"
+    },
+    {
+      "file": "arch/x86/kernel/early_printk.c",
+      "module": "__slate_unit_early_printk"
+    },
+    {
+      "file": "arch/x86/kernel/hpet.c",
+      "module": "__slate_unit_hpet"
+    },
+    {
+      "file": "arch/x86/kernel/amd_nb.c",
+      "module": "__slate_unit_amd_nb"
+    },
+    {
+      "file": "arch/x86/kernel/amd_node.c",
+      "module": "__slate_unit_amd_node"
+    },
+    {
+      "file": "arch/x86/kernel/kvm.c",
+      "module": "__slate_unit_kvm"
+    },
+    {
+      "file": "arch/x86/kernel/kvmclock.c",
+      "module": "__slate_unit_kvmclock"
+    },
+    {
+      "file": "arch/x86/kernel/paravirt.c",
+      "module": "__slate_unit_paravirt"
+    },
+    {
+      "file": "arch/x86/kernel/paravirt-spinlocks.c",
+      "module": "__slate_unit_paravirt_spinlocks"
+    },
+    {
+      "file": "arch/x86/kernel/pvclock.c",
+      "module": "__slate_unit_pvclock"
+    },
+    {
+      "file": "arch/x86/kernel/pcspeaker.c",
+      "module": "__slate_unit_pcspeaker"
+    },
+    {
+      "file": "arch/x86/kernel/check.c",
+      "module": "__slate_unit_check"
+    },
+    {
+      "file": "arch/x86/kernel/uprobes.c",
+      "module": "__slate_unit_uprobes"
+    },
+    {
+      "file": "arch/x86/kernel/perf_regs.c",
+      "module": "__slate_unit_perf_regs"
+    },
+    {
+      "file": "arch/x86/kernel/itmt.c",
+      "module": "__slate_unit_itmt"
+    },
+    {
+      "file": "arch/x86/kernel/umip.c",
+      "module": "__slate_unit_umip"
+    },
+    {
+      "file": "arch/x86/kernel/unwind_orc.c",
+      "module": "__slate_unit_unwind_orc"
+    },
+    {
+      "file": "arch/x86/kernel/callthunks.c",
+      "module": "__slate_unit_callthunks"
+    },
+    {
+      "file": "arch/x86/kernel/cet.c",
+      "module": "__slate_unit_cet"
+    },
+    {
+      "file": "arch/x86/kernel/audit_64.c",
+      "module": "__slate_unit_audit_64"
+    },
+    {
+      "file": "arch/x86/kernel/mmconf-fam10h_64.c",
+      "module": "__slate_unit_mmconf_fam10h_64"
+    },
+    {
+      "file": "arch/x86/kernel/vsmp_64.c",
+      "module": "__slate_unit_vsmp_64"
+    }
+  ],
+  "version": 1
+}

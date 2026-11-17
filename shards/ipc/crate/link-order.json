@@ -1,0 +1,49 @@
+{
+  "units": [
+    {
+      "file": "ipc/compat.c",
+      "module": "__slate_unit_compat"
+    },
+    {
+      "file": "ipc/util.c",
+      "module": "__slate_unit_util"
+    },
+    {
+      "file": "ipc/msgutil.c",
+      "module": "__slate_unit_msgutil"
+    },
+    {
+      "file": "ipc/msg.c",
+      "module": "__slate_unit_msg"
+    },
+    {
+      "file": "ipc/sem.c",
+      "module": "__slate_unit_sem"
+    },
+    {
+      "file": "ipc/shm.c",
+      "module": "__slate_unit_shm"
+    },
+    {
+      "file": "ipc/syscall.c",
+      "module": "__slate_unit_syscall"
+    },
+    {
+      "file": "ipc/ipc_sysctl.c",
+      "module": "__slate_unit_ipc_sysctl"
+    },
+    {
+      "file": "ipc/mqueue.c",
+      "module": "__slate_unit_mqueue"
+    },
+    {
+      "file": "ipc/namespace.c",
+      "module": "__slate_unit_namespace"
+    },
+    {
+      "file": "ipc/mq_sysctl.c",
+      "module": "__slate_unit_mq_sysctl"
+    }
+  ],
+  "version": 1
+}

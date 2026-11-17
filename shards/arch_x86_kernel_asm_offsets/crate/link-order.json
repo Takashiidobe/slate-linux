@@ -1,0 +1,9 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/kernel/asm-offsets.c",
+      "module": null
+    }
+  ],
+  "version": 1
+}

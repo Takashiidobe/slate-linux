@@ -1,0 +1,185 @@
+{
+  "units": [
+    {
+      "file": "lib/math/div64.c",
+      "module": "__slate_unit_div64"
+    },
+    {
+      "file": "lib/math/gcd.c",
+      "module": "__slate_unit_gcd"
+    },
+    {
+      "file": "lib/math/lcm.c",
+      "module": "__slate_unit_lcm"
+    },
+    {
+      "file": "lib/math/int_log.c",
+      "module": "__slate_unit_int_log"
+    },
+    {
+      "file": "lib/math/int_pow.c",
+      "module": "__slate_unit_int_pow"
+    },
+    {
+      "file": "lib/math/int_sqrt.c",
+      "module": "__slate_unit_int_sqrt"
+    },
+    {
+      "file": "lib/math/reciprocal_div.c",
+      "module": "__slate_unit_reciprocal_div"
+    },
+    {
+      "file": "lib/math/rational.c",
+      "module": "__slate_unit_rational"
+    },
+    {
+      "file": "lib/crc/crc16.c",
+      "module": "__slate_unit_crc16"
+    },
+    {
+      "file": "lib/crc/crc-ccitt.c",
+      "module": "__slate_unit_crc_ccitt"
+    },
+    {
+      "file": "lib/crc/crc32-main.c",
+      "module": "__slate_unit_crc32_main"
+    },
+    {
+      "file": "lib/vdso/datastore.c",
+      "module": "__slate_unit_datastore"
+    },
+    {
+      "file": "lib/zlib_inflate/inffast.c",
+      "module": "__slate_unit_inffast"
+    },
+    {
+      "file": "lib/zlib_inflate/inflate.c",
+      "module": "__slate_unit_inflate"
+    },
+    {
+      "file": "lib/zlib_inflate/infutil.c",
+      "module": "__slate_unit_infutil"
+    },
+    {
+      "file": "lib/zlib_inflate/inftrees.c",
+      "module": "__slate_unit_inftrees"
+    },
+    {
+      "file": "lib/zlib_inflate/inflate_syms.c",
+      "module": "__slate_unit_inflate_syms"
+    },
+    {
+      "file": "lib/zlib_deflate/deflate.c",
+      "module": "__slate_unit_deflate"
+    },
+    {
+      "file": "lib/zlib_deflate/deftree.c",
+      "module": "__slate_unit_deftree"
+    },
+    {
+      "file": "lib/zlib_deflate/deflate_syms.c",
+      "module": "__slate_unit_deflate_syms"
+    },
+    {
+      "file": "lib/lzo/lzo1x_compress.c",
+      "module": "__slate_unit_lzo1x_compress"
+    },
+    {
+      "file": "lib/lzo/lzo1x_compress_safe.c",
+      "module": "__slate_unit_lzo1x_compress_safe"
+    },
+    {
+      "file": "lib/lzo/lzo1x_decompress_safe.c",
+      "module": "__slate_unit_lzo1x_decompress_safe"
+    },
+    {
+      "file": "lib/lz4/lz4_compress.c",
+      "module": "__slate_unit_lz4_compress"
+    },
+    {
+      "file": "lib/lz4/lz4_decompress.c",
+      "module": "__slate_unit_lz4_decompress"
+    },
+    {
+      "file": "lib/zstd/zstd_decompress_module.c",
+      "module": "__slate_unit_zstd_decompress_module"
+    },
+    {
+      "file": "lib/zstd/decompress/huf_decompress.c",
+      "module": "__slate_unit_huf_decompress"
+    },
+    {
+      "file": "lib/zstd/decompress/zstd_ddict.c",
+      "module": "__slate_unit_zstd_ddict"
+    },
+    {
+      "file": "lib/zstd/decompress/zstd_decompress.c",
+      "module": "__slate_unit_zstd_decompress"
+    },
+    {
+      "file": "lib/zstd/decompress/zstd_decompress_block.c",
+      "module": "__slate_unit_zstd_decompress_block"
+    },
+    {
+      "file": "lib/zstd/zstd_common_module.c",
+      "module": "__slate_unit_zstd_common_module"
+    },
+    {
+      "file": "lib/zstd/common/debug.c",
+      "module": "__slate_unit_debug"
+    },
+    {
+      "file": "lib/zstd/common/entropy_common.c",
+      "module": "__slate_unit_entropy_common"
+    },
+    {
+      "file": "lib/zstd/common/error_private.c",
+      "module": "__slate_unit_error_private"
+    },
+    {
+      "file": "lib/zstd/common/fse_decompress.c",
+      "module": "__slate_unit_fse_decompress"
+    },
+    {
+      "file": "lib/zstd/common/zstd_common.c",
+      "module": "__slate_unit_zstd_common"
+    },
+    {
+      "file": "lib/xz/xz_dec_syms.c",
+      "module": "__slate_unit_xz_dec_syms"
+    },
+    {
+      "file": "lib/xz/xz_dec_stream.c",
+      "module": "__slate_unit_xz_dec_stream"
+    },
+    {
+      "file": "lib/xz/xz_dec_lzma2.c",
+      "module": "__slate_unit_xz_dec_lzma2"
+    },
+    {
+      "file": "lib/xz/xz_dec_bcj.c",
+      "module": "__slate_unit_xz_dec_bcj"
+    },
+    {
+      "file": "lib/dim/dim.c",
+      "module": "__slate_unit_dim"
+    },
+    {
+      "file": "lib/dim/net_dim.c",
+      "module": "__slate_unit_net_dim"
+    },
+    {
+      "file": "lib/dim/rdma_dim.c",
+      "module": "__slate_unit_rdma_dim"
+    },
+    {
+      "file": "lib/fonts/fonts.c",
+      "module": "__slate_unit_fonts"
+    },
+    {
+      "file": "lib/fonts/font_8x16.c",
+      "module": "__slate_unit_font_8x16"
+    }
+  ],
+  "version": 1
+}

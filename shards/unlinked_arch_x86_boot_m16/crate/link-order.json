@@ -1,0 +1,85 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/boot/a20.c",
+      "module": "__slate_unit_a20"
+    },
+    {
+      "file": "arch/x86/boot/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "arch/x86/boot/cpu.c",
+      "module": "__slate_unit_cpu"
+    },
+    {
+      "file": "arch/x86/boot/cpucheck.c",
+      "module": "__slate_unit_cpucheck"
+    },
+    {
+      "file": "arch/x86/boot/cpuflags.c",
+      "module": "__slate_unit_cpuflags"
+    },
+    {
+      "file": "arch/x86/boot/early_serial_console.c",
+      "module": "__slate_unit_early_serial_console"
+    },
+    {
+      "file": "arch/x86/boot/edd.c",
+      "module": "__slate_unit_edd"
+    },
+    {
+      "file": "arch/x86/boot/main.c",
+      "module": "__slate_unit_main"
+    },
+    {
+      "file": "arch/x86/boot/memory.c",
+      "module": "__slate_unit_memory"
+    },
+    {
+      "file": "arch/x86/boot/pm.c",
+      "module": "__slate_unit_pm"
+    },
+    {
+      "file": "arch/x86/boot/printf.c",
+      "module": "__slate_unit_printf"
+    },
+    {
+      "file": "arch/x86/boot/regs.c",
+      "module": "__slate_unit_regs"
+    },
+    {
+      "file": "arch/x86/boot/string.c",
+      "module": "__slate_unit_string"
+    },
+    {
+      "file": "arch/x86/boot/tty.c",
+      "module": "__slate_unit_tty"
+    },
+    {
+      "file": "arch/x86/boot/version.c",
+      "module": "__slate_unit_version"
+    },
+    {
+      "file": "arch/x86/boot/video-bios.c",
+      "module": "__slate_unit_video_bios"
+    },
+    {
+      "file": "arch/x86/boot/video-mode.c",
+      "module": "__slate_unit_video_mode"
+    },
+    {
+      "file": "arch/x86/boot/video-vesa.c",
+      "module": "__slate_unit_video_vesa"
+    },
+    {
+      "file": "arch/x86/boot/video-vga.c",
+      "module": "__slate_unit_video_vga"
+    },
+    {
+      "file": "arch/x86/boot/video.c",
+      "module": "__slate_unit_video"
+    }
+  ],
+  "version": 1
+}

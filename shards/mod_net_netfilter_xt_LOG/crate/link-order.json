@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/netfilter/xt_LOG.mod.c",
+      "module": "__slate_unit_xt_LOG_mod"
+    },
+    {
+      "file": "net/netfilter/xt_LOG.c",
+      "module": "__slate_unit_xt_LOG"
+    }
+  ],
+  "version": 1
+}

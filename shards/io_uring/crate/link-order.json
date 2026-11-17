@@ -1,0 +1,169 @@
+{
+  "units": [
+    {
+      "file": "io_uring/io_uring.c",
+      "module": "__slate_unit_io_uring"
+    },
+    {
+      "file": "io_uring/opdef.c",
+      "module": "__slate_unit_opdef"
+    },
+    {
+      "file": "io_uring/kbuf.c",
+      "module": "__slate_unit_kbuf"
+    },
+    {
+      "file": "io_uring/rsrc.c",
+      "module": "__slate_unit_rsrc"
+    },
+    {
+      "file": "io_uring/notif.c",
+      "module": "__slate_unit_notif"
+    },
+    {
+      "file": "io_uring/tctx.c",
+      "module": "__slate_unit_tctx"
+    },
+    {
+      "file": "io_uring/filetable.c",
+      "module": "__slate_unit_filetable"
+    },
+    {
+      "file": "io_uring/rw.c",
+      "module": "__slate_unit_rw"
+    },
+    {
+      "file": "io_uring/poll.c",
+      "module": "__slate_unit_poll"
+    },
+    {
+      "file": "io_uring/tw.c",
+      "module": "__slate_unit_tw"
+    },
+    {
+      "file": "io_uring/wait.c",
+      "module": "__slate_unit_wait"
+    },
+    {
+      "file": "io_uring/eventfd.c",
+      "module": "__slate_unit_eventfd"
+    },
+    {
+      "file": "io_uring/uring_cmd.c",
+      "module": "__slate_unit_uring_cmd"
+    },
+    {
+      "file": "io_uring/openclose.c",
+      "module": "__slate_unit_openclose"
+    },
+    {
+      "file": "io_uring/sqpoll.c",
+      "module": "__slate_unit_sqpoll"
+    },
+    {
+      "file": "io_uring/xattr.c",
+      "module": "__slate_unit_xattr"
+    },
+    {
+      "file": "io_uring/nop.c",
+      "module": "__slate_unit_nop"
+    },
+    {
+      "file": "io_uring/fs.c",
+      "module": "__slate_unit_fs"
+    },
+    {
+      "file": "io_uring/splice.c",
+      "module": "__slate_unit_splice"
+    },
+    {
+      "file": "io_uring/sync.c",
+      "module": "__slate_unit_sync"
+    },
+    {
+      "file": "io_uring/msg_ring.c",
+      "module": "__slate_unit_msg_ring"
+    },
+    {
+      "file": "io_uring/advise.c",
+      "module": "__slate_unit_advise"
+    },
+    {
+      "file": "io_uring/statx.c",
+      "module": "__slate_unit_statx"
+    },
+    {
+      "file": "io_uring/timeout.c",
+      "module": "__slate_unit_timeout"
+    },
+    {
+      "file": "io_uring/cancel.c",
+      "module": "__slate_unit_cancel"
+    },
+    {
+      "file": "io_uring/waitid.c",
+      "module": "__slate_unit_waitid"
+    },
+    {
+      "file": "io_uring/register.c",
+      "module": "__slate_unit_register"
+    },
+    {
+      "file": "io_uring/truncate.c",
+      "module": "__slate_unit_truncate"
+    },
+    {
+      "file": "io_uring/memmap.c",
+      "module": "__slate_unit_memmap"
+    },
+    {
+      "file": "io_uring/alloc_cache.c",
+      "module": "__slate_unit_alloc_cache"
+    },
+    {
+      "file": "io_uring/query.c",
+      "module": "__slate_unit_query"
+    },
+    {
+      "file": "io_uring/loop.c",
+      "module": "__slate_unit_loop"
+    },
+    {
+      "file": "io_uring/zcrx.c",
+      "module": "__slate_unit_zcrx"
+    },
+    {
+      "file": "io_uring/io-wq.c",
+      "module": "__slate_unit_io_wq"
+    },
+    {
+      "file": "io_uring/futex.c",
+      "module": "__slate_unit_futex"
+    },
+    {
+      "file": "io_uring/epoll.c",
+      "module": "__slate_unit_epoll"
+    },
+    {
+      "file": "io_uring/napi.c",
+      "module": "__slate_unit_napi"
+    },
+    {
+      "file": "io_uring/net.c",
+      "module": "__slate_unit_net"
+    },
+    {
+      "file": "io_uring/cmd_net.c",
+      "module": "__slate_unit_cmd_net"
+    },
+    {
+      "file": "io_uring/fdinfo.c",
+      "module": "__slate_unit_fdinfo"
+    },
+    {
+      "file": "io_uring/bpf_filter.c",
+      "module": "__slate_unit_bpf_filter"
+    }
+  ],
+  "version": 1
+}

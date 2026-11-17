@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/ipv6/sit.mod.c",
+      "module": "__slate_unit_sit_mod"
+    },
+    {
+      "file": "net/ipv6/sit.c",
+      "module": "__slate_unit_sit"
+    }
+  ],
+  "version": 1
+}

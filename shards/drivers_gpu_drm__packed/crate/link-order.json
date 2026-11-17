@@ -1,0 +1,149 @@
+{
+  "units": [
+    {
+      "file": "drivers/gpu/drm/bridge/panel.c",
+      "module": "__slate_unit_panel"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_display_helper_mod.c",
+      "module": "__slate_unit_drm_display_helper_mod"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_dp_dual_mode_helper.c",
+      "module": "__slate_unit_drm_dp_dual_mode_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_dp_helper.c",
+      "module": "__slate_unit_drm_dp_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_dp_mst_topology.c",
+      "module": "__slate_unit_drm_dp_mst_topology"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_dsc_helper.c",
+      "module": "__slate_unit_drm_dsc_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_hdcp_helper.c",
+      "module": "__slate_unit_drm_hdcp_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_hdmi_helper.c",
+      "module": "__slate_unit_drm_hdmi_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/display/drm_scdc_helper.c",
+      "module": "__slate_unit_drm_scdc_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_tt.c",
+      "module": "__slate_unit_ttm_tt"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_bo.c",
+      "module": "__slate_unit_ttm_bo"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_bo_util.c",
+      "module": "__slate_unit_ttm_bo_util"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_bo_vm.c",
+      "module": "__slate_unit_ttm_bo_vm"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_module.c",
+      "module": "__slate_unit_ttm_module"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_execbuf_util.c",
+      "module": "__slate_unit_ttm_execbuf_util"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_range_manager.c",
+      "module": "__slate_unit_ttm_range_manager"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_resource.c",
+      "module": "__slate_unit_ttm_resource"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_pool.c",
+      "module": "__slate_unit_ttm_pool"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_device.c",
+      "module": "__slate_unit_ttm_device"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_sys_manager.c",
+      "module": "__slate_unit_ttm_sys_manager"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_backup.c",
+      "module": "__slate_unit_ttm_backup"
+    },
+    {
+      "file": "drivers/gpu/drm/ttm/ttm_agp_backend.c",
+      "module": "__slate_unit_ttm_agp_backend"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_drv.c",
+      "module": "__slate_unit_virtgpu_drv"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_kms.c",
+      "module": "__slate_unit_virtgpu_kms"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_gem.c",
+      "module": "__slate_unit_virtgpu_gem"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_vram.c",
+      "module": "__slate_unit_virtgpu_vram"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_display.c",
+      "module": "__slate_unit_virtgpu_display"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_vq.c",
+      "module": "__slate_unit_virtgpu_vq"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_fence.c",
+      "module": "__slate_unit_virtgpu_fence"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_object.c",
+      "module": "__slate_unit_virtgpu_object"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_debugfs.c",
+      "module": "__slate_unit_virtgpu_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_plane.c",
+      "module": "__slate_unit_virtgpu_plane"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_ioctl.c",
+      "module": "__slate_unit_virtgpu_ioctl"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_prime.c",
+      "module": "__slate_unit_virtgpu_prime"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_trace_points.c",
+      "module": "__slate_unit_virtgpu_trace_points"
+    },
+    {
+      "file": "drivers/gpu/drm/virtio/virtgpu_submit.c",
+      "module": "__slate_unit_virtgpu_submit"
+    }
+  ],
+  "version": 1
+}

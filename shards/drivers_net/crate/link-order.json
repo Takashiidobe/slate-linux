@@ -1,0 +1,185 @@
+{
+  "units": [
+    {
+      "file": "drivers/net/mii.c",
+      "module": "__slate_unit_mii"
+    },
+    {
+      "file": "drivers/net/loopback.c",
+      "module": "__slate_unit_loopback"
+    },
+    {
+      "file": "drivers/net/netconsole.c",
+      "module": "__slate_unit_netconsole"
+    },
+    {
+      "file": "drivers/net/phy/stubs.c",
+      "module": "__slate_unit_stubs"
+    },
+    {
+      "file": "drivers/net/phy/mdio_bus.c",
+      "module": "__slate_unit_mdio_bus"
+    },
+    {
+      "file": "drivers/net/phy/phy.c",
+      "module": "__slate_unit_phy_phy"
+    },
+    {
+      "file": "drivers/net/phy/phy-c45.c",
+      "module": "__slate_unit_phy_c45"
+    },
+    {
+      "file": "drivers/net/phy/phy-core.c",
+      "module": "__slate_unit_phy_core"
+    },
+    {
+      "file": "drivers/net/phy/phy_device.c",
+      "module": "__slate_unit_phy_device"
+    },
+    {
+      "file": "drivers/net/phy/linkmode.c",
+      "module": "__slate_unit_linkmode"
+    },
+    {
+      "file": "drivers/net/phy/phy_link_topology.c",
+      "module": "__slate_unit_phy_link_topology"
+    },
+    {
+      "file": "drivers/net/phy/phy_caps.c",
+      "module": "__slate_unit_phy_caps"
+    },
+    {
+      "file": "drivers/net/phy/mdio_bus_provider.c",
+      "module": "__slate_unit_mdio_bus_provider"
+    },
+    {
+      "file": "drivers/net/phy/phy_port.c",
+      "module": "__slate_unit_phy_port"
+    },
+    {
+      "file": "drivers/net/phy/mdio_device.c",
+      "module": "__slate_unit_mdio_device"
+    },
+    {
+      "file": "drivers/net/phy/mdio_devres.c",
+      "module": "__slate_unit_mdio_devres"
+    },
+    {
+      "file": "drivers/net/phy/phy_package.c",
+      "module": "__slate_unit_phy_package"
+    },
+    {
+      "file": "drivers/net/phy/realtek/realtek_main.c",
+      "module": "__slate_unit_realtek_main"
+    },
+    {
+      "file": "drivers/net/mdio/acpi_mdio.c",
+      "module": "__slate_unit_acpi_mdio"
+    },
+    {
+      "file": "drivers/net/mdio/fwnode_mdio.c",
+      "module": "__slate_unit_fwnode_mdio"
+    },
+    {
+      "file": "drivers/net/virtio_net.c",
+      "module": "__slate_unit_virtio_net"
+    },
+    {
+      "file": "drivers/net/ethernet/broadcom/tg3.c",
+      "module": "__slate_unit_tg3"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e100.c",
+      "module": "__slate_unit_e100"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000/e1000_main.c",
+      "module": "__slate_unit_e1000_main"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000/e1000_hw.c",
+      "module": "__slate_unit_e1000_hw"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000/e1000_ethtool.c",
+      "module": "__slate_unit_e1000_ethtool"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000/e1000_param.c",
+      "module": "__slate_unit_e1000_param"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/82571.c",
+      "module": "__slate_unit__82571"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/ich8lan.c",
+      "module": "__slate_unit_ich8lan"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/80003es2lan.c",
+      "module": "__slate_unit__80003es2lan"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/mac.c",
+      "module": "__slate_unit_mac"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/manage.c",
+      "module": "__slate_unit_manage"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/nvm.c",
+      "module": "__slate_unit_nvm"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/phy.c",
+      "module": "__slate_unit_e1000e_phy"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/param.c",
+      "module": "__slate_unit_param"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/ethtool.c",
+      "module": "__slate_unit_ethtool"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/netdev.c",
+      "module": "__slate_unit_netdev"
+    },
+    {
+      "file": "drivers/net/ethernet/intel/e1000e/ptp.c",
+      "module": "__slate_unit_ptp"
+    },
+    {
+      "file": "drivers/net/ethernet/marvell/sky2.c",
+      "module": "__slate_unit_sky2"
+    },
+    {
+      "file": "drivers/net/ethernet/nvidia/forcedeth.c",
+      "module": "__slate_unit_forcedeth"
+    },
+    {
+      "file": "drivers/net/ethernet/realtek/8139too.c",
+      "module": "__slate_unit__8139too"
+    },
+    {
+      "file": "drivers/net/ethernet/realtek/r8169_main.c",
+      "module": "__slate_unit_r8169_main"
+    },
+    {
+      "file": "drivers/net/ethernet/realtek/r8169_firmware.c",
+      "module": "__slate_unit_r8169_firmware"
+    },
+    {
+      "file": "drivers/net/ethernet/realtek/r8169_phy_config.c",
+      "module": "__slate_unit_r8169_phy_config"
+    },
+    {
+      "file": "drivers/net/net_failover.c",
+      "module": "__slate_unit_net_failover"
+    }
+  ],
+  "version": 1
+}

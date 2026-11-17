@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/netfilter/xt_MASQUERADE.mod.c",
+      "module": "__slate_unit_xt_MASQUERADE_mod"
+    },
+    {
+      "file": "net/netfilter/xt_MASQUERADE.c",
+      "module": "__slate_unit_xt_MASQUERADE"
+    }
+  ],
+  "version": 1
+}

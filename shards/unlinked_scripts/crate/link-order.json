@@ -1,0 +1,9 @@
+{
+  "units": [
+    {
+      "file": "scripts/module-common.c",
+      "module": "__slate_unit_module_common"
+    }
+  ],
+  "version": 1
+}

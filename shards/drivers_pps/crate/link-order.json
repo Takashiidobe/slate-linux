@@ -1,0 +1,17 @@
+{
+  "units": [
+    {
+      "file": "drivers/pps/pps.c",
+      "module": "__slate_unit_pps"
+    },
+    {
+      "file": "drivers/pps/kapi.c",
+      "module": "__slate_unit_kapi"
+    },
+    {
+      "file": "drivers/pps/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    }
+  ],
+  "version": 1
+}

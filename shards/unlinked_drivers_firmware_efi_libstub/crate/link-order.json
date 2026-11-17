@@ -1,0 +1,69 @@
+{
+  "units": [
+    {
+      "file": "drivers/firmware/efi/libstub/alignedmem.c",
+      "module": "__slate_unit_alignedmem"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/efi-stub-helper.c",
+      "module": "__slate_unit_efi_stub_helper"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/gop.c",
+      "module": "__slate_unit_gop"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/mem.c",
+      "module": "__slate_unit_mem"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/pci.c",
+      "module": "__slate_unit_pci"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/printk.c",
+      "module": "__slate_unit_printk"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/random.c",
+      "module": "__slate_unit_random"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/randomalloc.c",
+      "module": "__slate_unit_randomalloc"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/secureboot.c",
+      "module": "__slate_unit_secureboot"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/skip_spaces.c",
+      "module": "__slate_unit_skip_spaces"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/smbios.c",
+      "module": "__slate_unit_smbios"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/tpm.c",
+      "module": "__slate_unit_tpm"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/vsprintf.c",
+      "module": "__slate_unit_vsprintf"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/x86-5lvl.c",
+      "module": "__slate_unit_x86_5lvl"
+    },
+    {
+      "file": "drivers/firmware/efi/libstub/x86-stub.c",
+      "module": "__slate_unit_x86_stub"
+    }
+  ],
+  "version": 1
+}

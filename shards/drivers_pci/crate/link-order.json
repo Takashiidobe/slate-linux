@@ -1,0 +1,161 @@
+{
+  "units": [
+    {
+      "file": "drivers/pci/access.c",
+      "module": "__slate_unit_access"
+    },
+    {
+      "file": "drivers/pci/bus.c",
+      "module": "__slate_unit_bus"
+    },
+    {
+      "file": "drivers/pci/probe.c",
+      "module": "__slate_unit_probe"
+    },
+    {
+      "file": "drivers/pci/host-bridge.c",
+      "module": "__slate_unit_host_bridge"
+    },
+    {
+      "file": "drivers/pci/remove.c",
+      "module": "__slate_unit_remove"
+    },
+    {
+      "file": "drivers/pci/pci.c",
+      "module": "__slate_unit_pci"
+    },
+    {
+      "file": "drivers/pci/pci-driver.c",
+      "module": "__slate_unit_pci_driver"
+    },
+    {
+      "file": "drivers/pci/search.c",
+      "module": "__slate_unit_search"
+    },
+    {
+      "file": "drivers/pci/rebar.c",
+      "module": "__slate_unit_rebar"
+    },
+    {
+      "file": "drivers/pci/rom.c",
+      "module": "__slate_unit_rom"
+    },
+    {
+      "file": "drivers/pci/setup-res.c",
+      "module": "__slate_unit_setup_res"
+    },
+    {
+      "file": "drivers/pci/irq.c",
+      "module": "__slate_unit_irq"
+    },
+    {
+      "file": "drivers/pci/vpd.c",
+      "module": "__slate_unit_vpd"
+    },
+    {
+      "file": "drivers/pci/setup-bus.c",
+      "module": "__slate_unit_setup_bus"
+    },
+    {
+      "file": "drivers/pci/vc.c",
+      "module": "__slate_unit_vc"
+    },
+    {
+      "file": "drivers/pci/mmap.c",
+      "module": "__slate_unit_mmap"
+    },
+    {
+      "file": "drivers/pci/devres.c",
+      "module": "__slate_unit_devres"
+    },
+    {
+      "file": "drivers/pci/msi/pcidev_msi.c",
+      "module": "__slate_unit_pcidev_msi"
+    },
+    {
+      "file": "drivers/pci/msi/api.c",
+      "module": "__slate_unit_api"
+    },
+    {
+      "file": "drivers/pci/msi/msi.c",
+      "module": "__slate_unit_msi"
+    },
+    {
+      "file": "drivers/pci/msi/irqdomain.c",
+      "module": "__slate_unit_irqdomain"
+    },
+    {
+      "file": "drivers/pci/pcie/portdrv.c",
+      "module": "__slate_unit_portdrv"
+    },
+    {
+      "file": "drivers/pci/pcie/rcec.c",
+      "module": "__slate_unit_rcec"
+    },
+    {
+      "file": "drivers/pci/pcie/bwctrl.c",
+      "module": "__slate_unit_bwctrl"
+    },
+    {
+      "file": "drivers/pci/pcie/aspm.c",
+      "module": "__slate_unit_aspm"
+    },
+    {
+      "file": "drivers/pci/pcie/pme.c",
+      "module": "__slate_unit_pme"
+    },
+    {
+      "file": "drivers/pci/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "drivers/pci/pci-sysfs.c",
+      "module": "__slate_unit_pci_sysfs"
+    },
+    {
+      "file": "drivers/pci/slot.c",
+      "module": "__slate_unit_slot"
+    },
+    {
+      "file": "drivers/pci/pci-acpi.c",
+      "module": "__slate_unit_pci_acpi"
+    },
+    {
+      "file": "drivers/pci/iomap.c",
+      "module": "__slate_unit_iomap"
+    },
+    {
+      "file": "drivers/pci/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "drivers/pci/hotplug/pci_hotplug_core.c",
+      "module": "__slate_unit_pci_hotplug_core"
+    },
+    {
+      "file": "drivers/pci/hotplug/acpi_pcihp.c",
+      "module": "__slate_unit_acpi_pcihp"
+    },
+    {
+      "file": "drivers/pci/ats.c",
+      "module": "__slate_unit_ats"
+    },
+    {
+      "file": "drivers/pci/pci-label.c",
+      "module": "__slate_unit_pci_label"
+    },
+    {
+      "file": "drivers/pci/vgaarb.c",
+      "module": "__slate_unit_vgaarb"
+    },
+    {
+      "file": "drivers/pci/setup-cardbus.c",
+      "module": "__slate_unit_setup_cardbus"
+    },
+    {
+      "file": "drivers/pci/trace.c",
+      "module": "__slate_unit_trace"
+    }
+  ],
+  "version": 1
+}

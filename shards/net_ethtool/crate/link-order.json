@@ -1,0 +1,141 @@
+{
+  "units": [
+    {
+      "file": "net/ethtool/ioctl.c",
+      "module": "__slate_unit_ioctl"
+    },
+    {
+      "file": "net/ethtool/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "net/ethtool/netlink.c",
+      "module": "__slate_unit_netlink"
+    },
+    {
+      "file": "net/ethtool/bitset.c",
+      "module": "__slate_unit_bitset"
+    },
+    {
+      "file": "net/ethtool/strset.c",
+      "module": "__slate_unit_strset"
+    },
+    {
+      "file": "net/ethtool/linkinfo.c",
+      "module": "__slate_unit_linkinfo"
+    },
+    {
+      "file": "net/ethtool/linkmodes.c",
+      "module": "__slate_unit_linkmodes"
+    },
+    {
+      "file": "net/ethtool/rss.c",
+      "module": "__slate_unit_rss"
+    },
+    {
+      "file": "net/ethtool/linkstate.c",
+      "module": "__slate_unit_linkstate"
+    },
+    {
+      "file": "net/ethtool/debug.c",
+      "module": "__slate_unit_debug"
+    },
+    {
+      "file": "net/ethtool/wol.c",
+      "module": "__slate_unit_wol"
+    },
+    {
+      "file": "net/ethtool/features.c",
+      "module": "__slate_unit_features"
+    },
+    {
+      "file": "net/ethtool/privflags.c",
+      "module": "__slate_unit_privflags"
+    },
+    {
+      "file": "net/ethtool/rings.c",
+      "module": "__slate_unit_rings"
+    },
+    {
+      "file": "net/ethtool/channels.c",
+      "module": "__slate_unit_channels"
+    },
+    {
+      "file": "net/ethtool/coalesce.c",
+      "module": "__slate_unit_coalesce"
+    },
+    {
+      "file": "net/ethtool/pause.c",
+      "module": "__slate_unit_pause"
+    },
+    {
+      "file": "net/ethtool/eee.c",
+      "module": "__slate_unit_eee"
+    },
+    {
+      "file": "net/ethtool/tsinfo.c",
+      "module": "__slate_unit_tsinfo"
+    },
+    {
+      "file": "net/ethtool/cabletest.c",
+      "module": "__slate_unit_cabletest"
+    },
+    {
+      "file": "net/ethtool/tunnels.c",
+      "module": "__slate_unit_tunnels"
+    },
+    {
+      "file": "net/ethtool/fec.c",
+      "module": "__slate_unit_fec"
+    },
+    {
+      "file": "net/ethtool/eeprom.c",
+      "module": "__slate_unit_eeprom"
+    },
+    {
+      "file": "net/ethtool/stats.c",
+      "module": "__slate_unit_stats"
+    },
+    {
+      "file": "net/ethtool/phc_vclocks.c",
+      "module": "__slate_unit_phc_vclocks"
+    },
+    {
+      "file": "net/ethtool/mm.c",
+      "module": "__slate_unit_mm"
+    },
+    {
+      "file": "net/ethtool/module.c",
+      "module": "__slate_unit_module"
+    },
+    {
+      "file": "net/ethtool/cmis_fw_update.c",
+      "module": "__slate_unit_cmis_fw_update"
+    },
+    {
+      "file": "net/ethtool/cmis_cdb.c",
+      "module": "__slate_unit_cmis_cdb"
+    },
+    {
+      "file": "net/ethtool/pse-pd.c",
+      "module": "__slate_unit_pse_pd"
+    },
+    {
+      "file": "net/ethtool/plca.c",
+      "module": "__slate_unit_plca"
+    },
+    {
+      "file": "net/ethtool/phy.c",
+      "module": "__slate_unit_phy"
+    },
+    {
+      "file": "net/ethtool/tsconfig.c",
+      "module": "__slate_unit_tsconfig"
+    },
+    {
+      "file": "net/ethtool/mse.c",
+      "module": "__slate_unit_mse"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,1244 @@
+
+//! SPDX-License-Identifier: GPL-2.0-only
+//! SPDX-License-Identifier: GPL-2.0
+//! SPDX-License-Identifier: GPL-2.0
+//! gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-aligned-function-attribute
+//! gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Type-Attributes.html#index-aligned-type-attribute
+//! gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Variable-Attributes.html#index-aligned-variable-attribute
+//! SPDX-License-Identifier: GPL-2.0-only
+//!
+//! -*- linux-c -*- ------------------------------------------------------- *
+//!
+//! Copyright (C) 1991, 1992 Linus Torvalds
+//! Copyright 2007 rPath, Inc. - All Rights Reserved
+//! number of edd_info structs starting at EDDBUF
+//! This returns a constant expression while determining if an argument is
+//! a constant expression, most importantly without evaluating the argument.
+//! Glory to Martin Uecker <Martin.Uecker@med.uni-goettingen.de>
+//!
+//! Details:
+//! - sizeof() return an integer constant expression, and does not evaluate
+//!   the value of its operand; it only examines the type of its operand.
+//! - The results of comparing two integer constant expressions is also
+//!   an integer constant expression.
+//! - The first literal "8" isn't important. It could be any literal value.
+//! - The second literal "8" is to avoid warnings about unaligned pointers;
+//!   this could otherwise just be "1".
+//! - (long)(x) is used to avoid warnings about 64-bit types on 32-bit
+//!   architectures.
+//! - The C Standard defines "null pointer constant", "(void *)0", as
+//!   distinct from other void pointers.
+//! - If (x) is an integer constant expression, then the "* 0l" resolves
+//!   it into an integer constant expression of value 0. Since it is cast to
+//!   "void *", this makes the second operand a null pointer constant.
+//! - If (x) is not an integer constant expression, then the second operand
+//!   resolves to a void pointer (but not a null pointer constant: the value
+//!   is not an integer constant 0).
+//! - The conditional operator's third operand, "(int *)8", is an object
+//!   pointer (to type "int").
+//! - The behavior (including the return type) of the conditional operator
+//!   ("operand1 ? operand2 : operand3") depends on the kind of expressions
+//!   given for the second and third operands. This is the central mechanism
+//!   of the macro:
+//!   - When one operand is a null pointer constant (i.e. when x is an integer
+//!     constant expression) and the other is an object pointer (i.e. our
+//!     third operand), the conditional operator returns the type of the
+//!     object pointer operand (i.e. "int *"). Here, within the sizeof(), we
+//!     would then get:
+//!       sizeof(*((int *)(...))  == sizeof(int)  == 4
+//!   - When one operand is a void pointer (i.e. when x is not an integer
+//!     constant expression) and the other is an object pointer (i.e. our
+//!     third operand), the conditional operator returns a "void *" type.
+//!     Here, within the sizeof(), we would then get:
+//!       sizeof(*((void *)(...)) == sizeof(void) == 1
+//! - The equality comparison to "sizeof(int)" therefore depends on (x):
+//!     sizeof(int) == sizeof(int)     (x) was a constant expression
+//!     sizeof(int) != sizeof(void)    (x) was not a constant expression
+//! kcsan_check_read - check regular read access for races
+//!
+//! @ptr: address of access
+//! @size: size of access
+//! Force a compilation error if condition is true, but also produce a
+//! result (of value 0 and type int), so the expression can be used
+//! e.g. in a structure initializer (or where-ever else comma expressions
+//! aren't permitted).
+//!
+//! Take an error message as an optional second argument. If omitted,
+//! default to the stringification of the tested expression.
+//! These are for everybody (although not all archs will actually
+//! discard it in modules)
+//! PAGE_SHIFT determines the page size.
+//!
+//! Note: This definition is required because PAGE_SHIFT is used
+//! in several places throughout the codebase.
+//! We need to compute the minimum and maximum values representable in a given
+//! type. These macros may also be useful elsewhere. It would seem more obvious
+//! to do something like:
+//!
+//! #define type_min(T) (T)(is_signed_type(T) ? (T)1 << (8*sizeof(T)-1) : 0)
+//! #define type_max(T) (T)(is_signed_type(T) ? ((T)1 << (8*sizeof(T)-1)) - 1 : ~(T)0)
+//!
+//! Unfortunately, the middle expressions, strictly speaking, have
+//! undefined behaviour, and at least some versions of gcc warn about
+//! the type_max expression (but not if -fsanitize=undefined is in
+//! effect; in that case, the warning is deferred to runtime...).
+//!
+//! The slightly excessive casting in type_min is to make sure the
+//! macros also produce sensible values for the exotic type _Bool. [The
+//! overflow checkers only almost work for _Bool, but that's
+//! a-feature-not-a-bug, since people shouldn't be doing arithmetic on
+//! _Bools. Besides, the gcc builtins don't allow _Bool* as third
+//! argument.]
+//!
+//! Idea stolen from
+//! https://mail-index.netbsd.org/tech-misc/2007/02/05/0000.html -
+//! credit to Christian Biere.
+//! Generate a mask for the specified type @t. Additional checks are made to
+//! guarantee the value returned fits in that type, relying on
+//! -Wshift-count-overflow compiler check to detect incompatible arguments.
+//! For example, all these create build errors or warnings:
+//!
+//! - GENMASK(15, 20): wrong argument order
+//! - GENMASK(72, 15): doesn't fit unsigned long
+//! - GENMASK_U32(33, 15): doesn't fit in a u32
+//! Defines x86 CPU feature bits
+//! REQUIRED features:
+//!
+//!    FPU PSE MSR PAE CX8 PGE CMOV FXSR XMM XMM2 LM SYSFAST32 NOPL ALWAYS
+//!    CPUID
+//! VIA Cyrix defined MSRs
+// This header exists to force full rebuild when the compiler is upgraded.
+//
+// When fixdep scans this, it will find this string "CONFIG_CC_VERSION_TEXT"
+// and add dependency on include/config/CC_VERSION_TEXT, which is touched
+// by Kconfig when the version string from the compiler changes.
+// Additional tree-wide dependencies start here.
+// If any of the GCC plugins change, we need to rebuild everything that
+// was built with them, as they may have changed their behavior and those
+// behaviors may need to be synchronized across all translation units.
+// If the randstruct seed itself changes (whether for GCC plugins or
+// Clang), the entire tree needs to be rebuilt since the randomization of
+// structures may change between compilation units if not.
+// If any external changes affect Clang's integer wrapping sanitizer
+// behavior, a full rebuild is needed as the coverage for wrapping types
+// may have changed, which may impact the expected behaviors that should
+// not differ between compilation units.
+// The use of "&&" / "||" is limited in certain expressions.
+// The following enable to calculate "and" / "or" with macro expansion only.
+// Helper macros to use CONFIG_ options in C/CPP expressions. Note that
+// these only work with boolean and tristate options.
+// IS_BUILTIN(CONFIG_FOO) evaluates to 1 if CONFIG_FOO is set to 'y', 0
+// otherwise. For boolean options, this is equivalent to
+// IS_ENABLED(CONFIG_FOO).
+// IS_MODULE(CONFIG_FOO) evaluates to 1 if CONFIG_FOO is set to 'm', 0
+// otherwise.  CONFIG_FOO=m results in "#define CONFIG_FOO_MODULE 1" in
+// autoconf.h.
+// IS_REACHABLE(CONFIG_FOO) evaluates to 1 if the currently compiled
+// code can call a function defined in code compiled based on CONFIG_FOO.
+// This is similar to IS_ENABLED(), but returns false when invoked from
+// built-in code when CONFIG_FOO is set to 'm'.
+// __has_builtin is supported on gcc >= 10, clang >= 3 and icc >= 21.
+// In the meantime, to support gcc < 10, we implement __has_builtin
+// by hand.
+// Indirect macros required for expanded argument pasting, eg. __LINE__.
+// C23 introduces "auto" as a standard way to define type-inferred
+// variables, but "auto" has been a (useless) keyword even since K&R C,
+// so it has always been "namespace reserved."
+//
+// Until at some future time we require C23 support, we need the gcc
+// extension __auto_type, but there is no reason to put that elsewhere
+// in the source code.
+// nothing
+// sparse defines __CHECKER__; see Documentation/dev-tools/sparse.rst
+//
+// address spaces
+// other
+// Attributes
+// Note: users of __always_inline currently do not write "inline" themselves,
+// which seems to be required by gcc to apply the attribute according
+// to its docs (and also "warning: always_inline function might not be
+// inlinable [-Wattributes]" is emitted).
+//
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-always_005finline-function-attribute
+// clang: mentioned
+// gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-pure-function-attribute
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-section-function-attribute
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Variable-Attributes.html#index-section-variable-attribute
+// clang: https://clang.llvm.org/docs/AttributeReference.html#section-declspec-allocate
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-warn_005funused_005fresult-function-attribute
+// clang: https://clang.llvm.org/docs/AttributeReference.html#nodiscard-warn-unused-result
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-cold-function-attribute
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Label-Attributes.html#index-cold-label-attribute
+//
+// When -falign-functions=N is in use, we must avoid the cold attribute as
+// GCC drops the alignment for cold functions. Worse, GCC can implicitly mark
+// callees of cold functions as cold themselves, so it's not sufficient to add
+// __function_aligned here as that will not ensure that callees are correctly
+// aligned.
+//
+// See:
+//
+//   https://lore.kernel.org/lkml/Y77%2FqVgvaJidFpYt@FVFF77S0Q05N
+//   https://gcc.gnu.org/bugzilla/show_bug.cgi?id=88345#c9
+// On x86-64 and arm64 targets, __preserve_most changes the calling convention
+// of a function to make the code in the caller as unintrusive as possible. This
+// convention behaves identically to the C calling convention on how arguments
+// and return values are passed, but uses a different set of caller- and callee-
+// saved registers.
+//
+// The purpose is to alleviates the burden of saving and recovering a large
+// register set before and after the call in the caller.  This is beneficial for
+// rarely taken slow paths, such as error-reporting functions that may be called
+// from hot paths.
+//
+// Note: This may conflict with instrumentation inserted on function entry which
+// does not use __preserve_most or equivalent convention (if in assembly). Since
+// function tracing assumes the normal C calling convention, where the attribute
+// is supported, __preserve_most implies notrace.  It is recommended to restrict
+// use of the attribute to functions that should or already disable tracing.
+//
+// Optional: not supported by gcc.
+//
+// clang: https://clang.llvm.org/docs/AttributeReference.html#preserve-most
+// Compiler specific macros.
+// Some architectures need to provide custom definitions of macros provided
+// by linux/compiler-*.h, and can do so using asm/compiler.h. We include that
+// conditionally rather than using an asm-generic wrapper in order to avoid
+// build failures if any C compilation, which will include this file via an
+// -include argument in c_flags, occurs prior to the asm-generic wrappers being
+// generated.
+// it doesn't make sense on ARM (currently the only user of __naked)
+// to trace naked functions because then mcount is called without
+// stack and frame pointer being set up and there is no chance to
+// restore the lr register to the value before mcount was called.
+// Prefer gnu_inline, so that extern inline functions do not emit an
+// externally visible function. This makes extern inline behave as per gnu89
+// semantics rather than c99. This prevents multiple symbol definition errors
+// of extern inline functions at link time.
+// A lot of inline functions can cause havoc with function tracing.
+// gcc provides both __inline__ and __inline as alternate spellings of
+// the inline keyword, though the latter is undocumented. New kernel
+// code should only use the inline spelling, but some existing code
+// uses __inline__. Since we #define inline above, to ensure
+// __inline__ has the same semantics, we need this #define.
+//
+// However, the spelling __inline is strictly reserved for referring
+// to the bare keyword.
+// GCC does not warn about unused static inline functions for -Wunused-function.
+// Suppress the warning in clang as well by using __maybe_unused, but enable it
+// for W=2 build. This will allow clang to find unused functions.
+// Rather then using noinline to prevent stack consumption, use
+// noinline_for_stack instead.  For documentation reasons.
+// Use noinline_for_tracing for functions that should not be inlined.
+// For tracing reasons.
+// Sanitizer helper attributes: Because using __always_inline and
+// __no_sanitize_* conflict, provide helper attributes that will either expand
+// to __no_sanitize_* in compilation units where instrumentation is enabled
+// (__SANITIZE_*__), or __always_inline in compilation units without
+// instrumentation (__SANITIZE_*__ undefined).
+//
+// The assume attribute is used to indicate that a certain condition is
+// assumed to be true. If this condition is violated at runtime, the behavior
+// is undefined. Compilers may or may not use this indication to generate
+// optimized code.
+//
+// Note that the clang documentation states that optimizers may react
+// differently to this attribute, and this may even have a negative
+// performance impact. Therefore this attribute should be used with care.
+//
+// Optional: only supported since gcc >= 13
+// Optional: only supported since clang >= 19
+//
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Statement-Attributes.html#index-assume-statement-attribute
+// clang: https://clang.llvm.org/docs/AttributeReference.html#id13
+// Optional: only supported since gcc >= 15
+// Optional: only supported since clang >= 18
+//
+//   gcc: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=108896
+// clang: https://clang.llvm.org/docs/AttributeReference.html#counted-by-counted-by-or-null-sized-by-sized-by-or-null
+//
+// __bdos on clang < 19.1.2 can erroneously return 0:
+// https://github.com/llvm/llvm-project/pull/110497
+//
+// __bdos on clang < 19.1.3 can be off by 4:
+// https://github.com/llvm/llvm-project/pull/112636
+// Runtime track number of objects pointed to by a pointer member for use by
+// CONFIG_FORTIFY_SOURCE and CONFIG_UBSAN_BOUNDS.
+//
+// Optional: only supported since gcc >= 16
+// Optional: only supported since clang >= 22
+//
+//   gcc: https://gcc.gnu.org/pipermail/gcc-patches/2025-April/681727.html
+// clang: https://clang.llvm.org/docs/AttributeReference.html#counted-by-counted-by-or-null-sized-by-sized-by-or-null
+// Optional: only supported since gcc >= 15
+// Optional: not supported by Clang
+//
+// gcc: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=117178
+// Apply __counted_by() when the Endianness matches to increase test coverage.
+// This designates the minimum number of elements a passed array parameter must
+// have. For example:
+//
+//     void some_function(u8 param[at_least 7]);
+//
+// If a caller passes an array with fewer than 7 elements, the compiler will
+// emit a warning.
+// Section for code which can't be instrumented at all
+// The __cpuidle section is used twofold:
+//
+//  1) the original use -- identifying if a CPU is 'stuck' in idle state based
+//     on it's instruction pointer. See cpu_in_idle().
+//
+//  2) supressing instrumentation around where cpuidle disables RCU; where the
+//     function isn't strictly required for #1, this is interchangeable with
+//     noinstr.
+// The below symbols may be defined for one or more, but not ALL, of the above
+// compilers. We don't consider that to be an error, so set them to nothing.
+// For example, some of them are for compiler specific plugins.
+// Any place that could be marked with the "alloc_size" attribute is also
+// a place to be marked with the "malloc" attribute, except those that may
+// be performing a _reallocation_, as that may alias the existing pointer.
+// For these, use __realloc_size().
+// When the size of an allocated object is needed, use the best available
+// mechanism to find it. (For cases where sizeof() cannot be used.)
+//
+// Optional: only supported since gcc >= 12
+//
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Object-Size-Checking.html
+// clang: https://clang.llvm.org/docs/LanguageExtensions.html#evaluating-object-size
+// Determine if an attribute has been applied to a variable.
+// Using __annotated needs to check for __annotated being available,
+// or negative tests may fail when annotation cannot be checked. For
+// example, see the definition of __is_cstr().
+// __flex_counter() - Get pointer to counter member for the given
+//                    flexible array, if it was annotated with __counted_by()
+// @FAM: Pointer to flexible array member of an addressable struct instance
+//
+// For example, with:
+//
+// 	struct foo {
+// 		int counter;
+// 		short array[] __counted_by(counter);
+// 	} *p;
+//
+// __flex_counter(p->array) will resolve to &p->counter.
+//
+// Note that Clang may not allow this to be assigned to a separate
+// variable; it must be used directly.
+//
+// If p->array is unannotated, this returns (void *)NULL.
+// Some versions of gcc do not mark 'asm goto' volatile:
+//
+//  https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103979
+//
+// We do it here by hand, because it doesn't hurt.
+// Clang has trouble with constraints with multiple
+// alternative behaviors ("g" , "rm" and "=rm").
+// Use __typeof_unqual__() when available.
+// Are two types/vars the same type (ignoring qualifiers)?
+// __unqual_scalar_typeof(x) - Declare an unqualified scalar type, leaving
+// 			       non-scalar types unchanged.
+// __signed_scalar_typeof(x) - Declare a signed scalar type, leaving
+// 			       non-scalar types unchanged.
+// Is this type a native word size -- useful for atomic operations
+// #ifdef __OPTIMIZE__ is only a good approximation; for instance "make
+// CFLAGS_foo.o=-Og" defines __OPTIMIZE__, does not elide the conditional code
+// and can break compilation with wrong error message(s). Combine with
+// -U__OPTIMIZE__ when needed.
+// 									 * __noreturn is needed to give the compiler enough			 * information to avoid certain possibly-uninitialized			 * warnings (regardless of the build failing).
+// compiletime_assert - break build and emit msg if condition is false
+// @condition: a compile-time constant condition to check
+// @msg:       a message to emit if condition is false
+//
+// In tradition of POSIX assert, this macro will break the build if the
+// supplied condition is *false*, emitting the supplied error message if the
+// compiler has support to do so.
+// Helpers for emitting diagnostics in pragmas.
+// Whether 'type' is a signed type or an unsigned type. Supports scalar types,
+// bool and also pointer types.
+// Similar to statically_true() but produces a constant expression
+//
+// To be used in conjunction with macros, such as BUILD_BUG_ON_ZERO(),
+// which require their input to be a constant expression and for which
+// statically_true() would otherwise fail.
+//
+// This is a trade-off: const_true() requires all its operands to be
+// compile time constants. Else, it would always returns false even on
+// the most trivial cases like:
+//
+//   true || non_const_var
+//
+// On the opposite, statically_true() is able to fold more complex
+// tautologies and will return true on expressions such as:
+//
+//   !(non_const_var * 8 % 4)
+//
+// For the general case, statically_true() is better.
+// check_add_overflow() - Calculate addition with overflow checking
+// @a: first addend
+// @b: second addend
+// @d: pointer to store sum
+//
+// Returns true on wrap-around, false otherwise.
+//
+// *@d holds the results of the attempted addition, regardless of whether
+// wrap-around occurred.
+// check_sub_overflow() - Calculate subtraction with overflow checking
+// @a: minuend; value to subtract from
+// @b: subtrahend; value to subtract from @a
+// @d: pointer to store difference
+//
+// Returns true on wrap-around, false otherwise.
+//
+// *@d holds the results of the attempted subtraction, regardless of whether
+// wrap-around occurred.
+// check_mul_overflow() - Calculate multiplication with overflow checking
+// @a: first factor
+// @b: second factor
+// @d: pointer to store product
+//
+// Returns true on wrap-around, false otherwise.
+//
+// *@d holds the results of the attempted multiplication, regardless of whether
+// wrap-around occurred.
+// N 32-bit words worth of info
+// "pae" Physical Address Extensions
+// "cx8" CMPXCHG8 instruction
+// "sse"
+// "sse2"
+// "lm" Long Mode (x86-64, 64-bit support)
+// Skipped when running bindgen due to a libclang issue;
+// see https://github.com/rust-lang/rust-bindgen/issues/2244.
+// Annotating a function/variable with __retain tells the compiler to place
+// the object in its own section and set the flag SHF_GNU_RETAIN. This flag
+// instructs the linker to retain the object during garbage-cleanup or LTO
+// phases.
+//
+// Note that the __used macro is also used to prevent functions or data
+// being optimized out, but operates at the compiler/IR-level and may still
+// allow unintended removal of objects during linking.
+//
+// Optional: only supported since gcc >= 11, clang >= 13
+//
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-retain-function-attribute
+// clang: https://clang.llvm.org/docs/AttributeReference.html#retain
+// Optional: only supported since gcc >= 15, clang >= 19
+//
+//   gcc: https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#index-_005f_005fbuiltin_005fcounted_005fby_005fref
+// clang: https://clang.llvm.org/docs/LanguageExtensions.html#builtin-counted-by-ref
+macro_rules! A32 {
+($a:expr, $b:expr, $c:expr, $d:expr) => {
+(($d) << 24i32) + (($c) << 16i32) + (($b) << 8i32) + $a
+};
+}
+
+/// IS_ENABLED(CONFIG_FOO) evaluates to 1 if CONFIG_FOO is set to 'y' or 'm',
+/// 0 otherwise.  Note that CONFIG_FOO=y results in "#define CONFIG_FOO 1" in
+/// autoconf.h, while CONFIG_FOO=m results in "#define CONFIG_FOO_MODULE 1".
+macro_rules! IS_ENABLED__2 {
+() => {
+__or!()
+};
+}
+
+/// IS_ENABLED(CONFIG_FOO) evaluates to 1 if CONFIG_FOO is set to 'y' or 'm',
+/// 0 otherwise.  Note that CONFIG_FOO=y results in "#define CONFIG_FOO 1" in
+/// autoconf.h, while CONFIG_FOO=m results in "#define CONFIG_FOO_MODULE 1".
+macro_rules! IS_ENABLED {
+() => {
+__is_defined!()
+};
+}
+
+macro_rules! _AC {
+() => {
+1u32
+};
+}
+
+macro_rules! _BITUL {
+($x:expr) => {
+_UL!() << $x
+};
+}
+
+macro_rules! _UL {
+() => {
+_AC!()
+};
+}
+
+macro_rules! ____is_defined {
+() => {
+0i32
+};
+}
+
+macro_rules! ____or {
+() => {
+1i32
+};
+}
+
+/// Getting something that works in C and CPP for an arg that may or may
+/// not be defined is tricky.  Here, if we have "#define CONFIG_BOOGER 1"
+/// we match on the placeholder define, insert the "0," for arg1 and generate
+/// the triplet (0, 1, 0).  Then the last step cherry picks the 2nd arg (a one).
+/// When CONFIG_BOOGER is not defined, we generate a (... 1, 0) pair, and when
+/// the last step cherry picks the 2nd arg, we get a zero.
+macro_rules! __is_defined {
+() => {
+____is_defined!()
+};
+}
+
+macro_rules! __or {
+() => {
+____or!()
+};
+}
+
+macro_rules! memset {
+($d:expr, $c:expr, $l:expr) => {
+unsafe { __builtin_memset(($d) as *mut (), $c, $l) };
+};
+}
+
+macro_rules! test_bit {
+($nr:expr, $addr:expr) => {
+{
+let __v: i32 = if true {
+constant_test_bit($nr, ($addr) as *const ()) as i32
+} else {
+variable_test_bit($nr, ($addr) as *const ()) as i32
+};
+__v
+}
+};
+}
+
+unsafe extern "C" {
+    static mut ist_info: ist_info;
+    static mut cpu: cpu_features;
+    static mut cpu_vendor: [u32; 3];
+    static mut boot_params: boot_params;
+    fn get_cpuflags();
+    fn __cmdline_find_option_bool(arg0: u32, arg1: *const i8) -> i32;
+    fn puts(arg0: *const i8);
+    #[link_name = "memset"]
+    fn __builtin_memset(arg0: *mut (), arg1: i32, arg2: u32) -> *mut ();
+}
+
+// max number of signatures to store
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct edd_device_params {
+    length: u16,
+    info_flags: u16,
+    num_default_cylinders: u32,
+    num_default_heads: u32,
+    sectors_per_track: u32,
+    number_of_sectors: u64,
+    bytes_per_sector: u16,
+    dpte_ptr: u32,
+    key: u16,
+    device_path_info_length: u8,
+    reserved2: u8,
+    reserved3: u16,
+    host_bus_type: [u8; 4],
+    interface_type: [u8; 8],
+    interface_path: __SlateRecord_edd_h_87,
+    device_path: __SlateRecord_edd_h_114,
+    reserved4: u8,
+    checksum: u8,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+union __SlateRecord_edd_h_87 {
+    isa: __SlateRecord_edd_h_88,
+    pci: __SlateRecord_edd_h_93,
+    ibnd: __SlateRecord_edd_h_101,
+    xprs: __SlateRecord_edd_h_104,
+    htpt: __SlateRecord_edd_h_107,
+    unknown: __SlateRecord_edd_h_110,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_88 {
+    base_address: u16,
+    reserved1: u16,
+    reserved2: u32,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_93 {
+    bus: u8,
+    slot: u8,
+    function: u8,
+    channel: u8,
+    reserved: u32,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_101 {
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_104 {
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_107 {
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_110 {
+    reserved: u64,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+union __SlateRecord_edd_h_114 {
+    ata: __SlateRecord_edd_h_115,
+    atapi: __SlateRecord_edd_h_122,
+    scsi: __SlateRecord_edd_h_130,
+    usb: __SlateRecord_edd_h_136,
+    i1394: __SlateRecord_edd_h_140,
+    fibre: __SlateRecord_edd_h_144,
+    i2o: __SlateRecord_edd_h_148,
+    raid: __SlateRecord_edd_h_152,
+    sata: __SlateRecord_edd_h_157,
+    unknown: __SlateRecord_edd_h_164,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_115 {
+    device: u8,
+    reserved1: u8,
+    reserved2: u16,
+    reserved3: u32,
+    reserved4: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_122 {
+    device: u8,
+    lun: u8,
+    reserved1: u8,
+    reserved2: u8,
+    reserved3: u32,
+    reserved4: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_130 {
+    id: u16,
+    lun: u64,
+    reserved1: u16,
+    reserved2: u32,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_136 {
+    serial_number: u64,
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_140 {
+    eui: u64,
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_144 {
+    wwid: u64,
+    lun: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_148 {
+    identity_tag: u64,
+    reserved: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_152 {
+    array_number: u32,
+    reserved1: u32,
+    reserved2: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_157 {
+    device: u8,
+    reserved1: u8,
+    reserved2: u16,
+    reserved3: u32,
+    reserved4: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_edd_h_164 {
+    reserved1: u64,
+    reserved2: u64,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct edd_info {
+    device: u8,
+    version: u8,
+    interface_support: u16,
+    legacy_max_cylinder: u16,
+    legacy_max_head: u8,
+    legacy_sectors_per_track: u8,
+    params: edd_device_params,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct boot_e820_entry {
+    addr: u64,
+    size: u64,
+    r#type: u32,
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct screen_info {
+    orig_x: u8,
+    orig_y: u8,
+    ext_mem_k: u16,
+    orig_video_page: u16,
+    orig_video_mode: u8,
+    orig_video_cols: u8,
+    flags: u8,
+    unused2: u8,
+    orig_video_ega_bx: u16,
+    unused3: u16,
+    orig_video_lines: u8,
+    orig_video_isVGA: u8,
+    orig_video_points: u16,
+    lfb_width: u16,
+    lfb_height: u16,
+    lfb_depth: u16,
+    lfb_base: u32,
+    lfb_size: u32,
+    cl_magic: u16,
+    cl_offset: u16,
+    lfb_linelength: u16,
+    red_size: u8,
+    red_pos: u8,
+    green_size: u8,
+    green_pos: u8,
+    blue_size: u8,
+    blue_pos: u8,
+    rsvd_size: u8,
+    rsvd_pos: u8,
+    vesapm_seg: u16,
+    vesapm_off: u16,
+    pages: u16,
+    vesa_attributes: u16,
+    capabilities: u32,
+    ext_lfb_base: u32,
+    _reserved: [u8; 2],
+}
+
+
+// Monochrome Text Display
+// CGA Display
+// EGA/VGA in Monochrome Mode
+// EGA in Color Mode
+// VGA+ in Color Mode
+// VESA VGA in graphic mode
+// ACER PICA-61 local S3 video
+// MIPS Magnum 4000 G364 video
+// Various SGI graphics hardware
+// DEC TGA
+// Sun frame buffer.
+// Sun PCI based frame buffer.
+// PowerMacintosh frame buffer.
+// EFI graphic mode
+// Frame buffer base is 64-bit
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct apm_bios_info {
+    version: u16,
+    cseg: u16,
+    offset: u32,
+    cseg_16: u16,
+    dseg: u16,
+    flags: u16,
+    cseg_len: u16,
+    cseg_16_len: u16,
+    dseg_len: u16,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct ist_info {
+    signature: u32,
+    command: u32,
+    event: u32,
+    perf_level: u32,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct edid_info {
+    dummy: [u8; 128],
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct setup_header {
+    setup_sects: u8,
+    root_flags: u16,
+    syssize: u32,
+    ram_size: u16,
+    vid_mode: u16,
+    root_dev: u16,
+    boot_flag: u16,
+    jump: u16,
+    header: u32,
+    version: u16,
+    realmode_swtch: u32,
+    start_sys_seg: u16,
+    kernel_version: u16,
+    type_of_loader: u8,
+    loadflags: u8,
+    setup_move_size: u16,
+    code32_start: u32,
+    ramdisk_image: u32,
+    ramdisk_size: u32,
+    bootsect_kludge: u32,
+    heap_end_ptr: u16,
+    ext_loader_ver: u8,
+    ext_loader_type: u8,
+    cmd_line_ptr: u32,
+    initrd_addr_max: u32,
+    kernel_alignment: u32,
+    relocatable_kernel: u8,
+    min_alignment: u8,
+    xloadflags: u16,
+    cmdline_size: u32,
+    hardware_subarch: u32,
+    hardware_subarch_data: u64,
+    payload_offset: u32,
+    payload_length: u32,
+    setup_data: u64,
+    pref_address: u64,
+    init_size: u32,
+    handover_offset: u32,
+    kernel_info_offset: u32,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct sys_desc_table {
+    length: u16,
+    table: [u8; 14],
+}
+
+
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct olpc_ofw_header {
+    ofw_magic: u32,
+    ofw_version: u32,
+    cif_handler: u32,
+    irq_desc_table: u32,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct efi_info {
+    efi_loader_signature: u32,
+    efi_systab: u32,
+    efi_memdesc_size: u32,
+    efi_memdesc_version: u32,
+    efi_memmap: u32,
+    efi_memmap_size: u32,
+    efi_systab_hi: u32,
+    efi_memmap_hi: u32,
+}
+
+
+// This is the maximum number of entries in struct boot_params::e820_table
+// (the zeropage), which is part of the x86 boot protocol ABI:
+#[repr(C, packed)]
+#[derive(Clone, Copy)]
+struct boot_params {
+    screen_info: screen_info,
+    apm_bios_info: apm_bios_info,
+    _pad2: [u8; 4],
+    tboot_addr: u64,
+    ist_info: ist_info,
+    acpi_rsdp_addr: u64,
+    _pad3: [u8; 8],
+    hd0_info: [u8; 16],
+    hd1_info: [u8; 16],
+    sys_desc_table: sys_desc_table,
+    olpc_ofw_header: olpc_ofw_header,
+    ext_ramdisk_image: u32,
+    ext_ramdisk_size: u32,
+    ext_cmd_line_ptr: u32,
+    _pad4: [u8; 112],
+    cc_blob_address: u32,
+    edid_info: edid_info,
+    efi_info: efi_info,
+    alt_mem_k: u32,
+    scratch: u32,
+    e820_entries: u8,
+    eddbuf_entries: u8,
+    edd_mbr_sig_buf_entries: u8,
+    kbd_status: u8,
+    secure_boot: u8,
+    _pad5: [u8; 2],
+    sentinel: u8,
+    _pad6: [u8; 1],
+    hdr: setup_header,
+    _pad7: [u8; 36],
+    edd_mbr_sig_buffer: [u32; 16],
+    e820_table: [boot_e820_entry; 128],
+    _pad8: [u8; 48],
+    eddbuf: [edd_info; 6],
+    _pad9: [u8; 276],
+}
+
+
+fn constant_test_bit(nr: i32, addr: *const ()) -> bool {
+let p: *const u32 = addr as *const u32;
+1u32 << (nr & 31) & unsafe { *p.offset((nr >> 5i32) as isize) } != 0
+}
+
+fn variable_test_bit(mut nr: i32, addr: *const ()) -> bool {
+let mut v: bool = false;
+let mut p: *const u32 = addr as *const u32;
+unsafe {
+let __t0: u8;
+core::arch::asm!("btl {2:e},({1:e})\nsetc {0}", lateout(reg_byte) __t0, in(reg) p, in(reg) nr as u32, options(pure, readonly, nostack, att_syntax));
+v = (__t0 as u8) != 0;
+}
+v
+}
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+union __SlateRecord_msr_h_6 {
+    __slate_anon_0: __SlateRecord_msr_h_7,
+    q: u64,
+}
+
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct __SlateRecord_msr_h_7 {
+    l: u32,
+    h: u32,
+}
+
+
+fn set_bit(mut nr: i32, mut addr: *mut ()) {
+unsafe {
+core::arch::asm!("btsl {1:e},({0:e})", in(reg) addr as *mut u32, in(reg) nr as u32, options(nostack, att_syntax));
+}
+}
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct cpu_features {
+    level: i32,
+    family: i32,
+    model: i32,
+    flags: [u32; 22],
+}
+
+
+fn has_eflag(mask: u32) -> bool {
+true
+}
+
+fn cmdline_find_option_bool(option: *const i8) -> i32 {
+let cmd_line_ptr: u32 = unsafe { boot_params.hdr.cmd_line_ptr };
+if cmd_line_ptr >= 1048576 {
+return -1;
+}
+// inaccessible
+unsafe { __cmdline_find_option_bool(cmd_line_ptr, option) }
+}
+
+#[unsafe(no_mangle)]
+extern "C" fn check_cpu(cpu_level_ptr: *mut i32, req_level_ptr: *mut i32, err_flags_ptr: *mut *mut u32) -> i32 {
+let mut err: i32 = 0;
+memset!(unsafe { core::ptr::addr_of_mut!(cpu.flags) }, 0i32, core::mem::size_of::<[u32; 22]>() as u32);
+unsafe {
+cpu.level = 3;
+}
+if has_eflag(_BITUL!(18i32)) {
+unsafe {
+cpu.level = 4;
+}
+}
+unsafe { get_cpuflags() };
+err = check_cpuflags();
+if test_bit!(61i32, unsafe { core::ptr::addr_of_mut!(cpu.flags) as *mut u32 }) != 0 {
+unsafe {
+cpu.level = 64;
+}
+}
+let __v1: bool = err == 1 && (unsafe { err_flags[0] }) & 4194303999u32 == 0 && is_amd() != 0;
+if __v1 {
+// If this is an AMD and we're only missing SSE+SSE2, try to
+// turn them on
+let mut m: msr = unsafe { core::mem::zeroed() };
+raw_rdmsr(3221291029u32, unsafe { &mut (*core::ptr::addr_of_mut!(m)) });
+let __v3: u32 = (unsafe { m.__slate_anon_0.__slate_anon_0.l }) & 4294934527u32;
+unsafe {
+m.__slate_anon_0.__slate_anon_0.l = __v3;
+}
+raw_wrmsr(3221291029u32, unsafe { &(*(core::ptr::addr_of_mut!(m) as *const msr)) });
+unsafe { get_cpuflags() }; // Make sure it really did something
+err = check_cpuflags();
+} else {
+let __v4: bool = err == 1 && (unsafe { err_flags[0] }) & 4294967039u32 == 0 && is_centaur() != 0;
+if __v4 && (unsafe { cpu.model }) >= 6 {
+// If this is a VIA C3, we might have to enable CX8
+// explicitly
+let mut m: msr = unsafe { core::mem::zeroed() };
+raw_rdmsr(4359u32, unsafe { &mut (*core::ptr::addr_of_mut!(m)) });
+unsafe {
+m.__slate_anon_0.__slate_anon_0.l = m.__slate_anon_0.__slate_anon_0.l | 130u32;
+}
+raw_wrmsr(4359u32, unsafe { &(*(core::ptr::addr_of_mut!(m) as *const msr)) });
+set_bit(8i32, (unsafe { core::ptr::addr_of_mut!(cpu.flags) as *mut u32 }) as *mut ());
+err = check_cpuflags();
+} else {
+let __v7: bool = err == 1 && is_transmeta() != 0;
+if __v7 {
+// Transmeta might have masked feature bits in word 0
+let mut m: msr = unsafe { core::mem::zeroed() };
+let mut m_tmp: msr = unsafe { core::mem::zeroed() };
+let mut level: u32 = 1;
+raw_rdmsr(2156265476u32, unsafe { &mut (*core::ptr::addr_of_mut!(m)) });
+m_tmp = m;
+unsafe {
+m_tmp.__slate_anon_0.__slate_anon_0.l = 4294967295u32;
+}
+raw_wrmsr(2156265476u32, unsafe { &(*(core::ptr::addr_of_mut!(m_tmp) as *const msr)) });
+unsafe {
+let __t0: u32;
+let __t1: u32;
+core::arch::asm!("cpuid", inlateout("ax") level as u32 => __t0, lateout("dx") __t1, out("cx") _, out("bx") _, options(pure, nomem, nostack, att_syntax));
+level = unsafe { core::mem::transmute::<u32, u32>(__t0 as u32) };
+cpu.flags[0] = unsafe { core::mem::transmute::<u32, u32>(__t1 as u32) };
+}
+raw_wrmsr(2156265476u32, unsafe { &(*(core::ptr::addr_of_mut!(m) as *const msr)) });
+err = check_cpuflags();
+} else {
+let __v8: bool = err == 1 && (unsafe { err_flags[0] }) & 4294967231u32 == 0 && is_intel() != 0;
+if __v8 && (unsafe { cpu.level }) == 6 && ((unsafe { cpu.model }) == 9 || (unsafe { cpu.model }) == 13) {
+// PAE is disabled on this Pentium M but can be forced
+if cmdline_find_option_bool(c"forcepae".as_ptr()) != 0 {
+unsafe { puts(c"WARNING: Forcing PAE in CPU flags\n".as_ptr()) };
+set_bit(6i32, (unsafe { core::ptr::addr_of_mut!(cpu.flags) as *mut u32 }) as *mut ());
+err = check_cpuflags();
+} else {
+unsafe { puts(c"WARNING: PAE disabled. Use parameter 'forcepae' to enable at your own risk!\n".as_ptr()) };
+}
+}
+}
+}
+}
+if err == 0 {
+err = check_knl_erratum();
+}
+if !err_flags_ptr.is_null() {
+unsafe {
+*err_flags_ptr = if err != 0 { core::ptr::addr_of_mut!(err_flags) as *mut u32 } else { core::ptr::null_mut::<u32>() };
+}
+}
+if !cpu_level_ptr.is_null() {
+unsafe {
+*cpu_level_ptr = cpu.level;
+}
+}
+if !req_level_ptr.is_null() {
+unsafe {
+*req_level_ptr = req_level;
+}
+}
+if (unsafe { cpu.level }) < unsafe { req_level } || err != 0 { -1 } else { 0 }
+}
+
+#[repr(C)]
+#[derive(Clone, Copy)]
+struct msr {
+    __slate_anon_0: __SlateRecord_msr_h_6,
+}
+
+
+fn raw_rdmsr(mut reg: u32, m: &mut msr) {
+unsafe {
+let __t0: u32;
+let __t1: u32;
+core::arch::asm!("rdmsr", lateout("ax") __t0, lateout("dx") __t1, in("cx") reg as u32, options(nostack, att_syntax));
+(*(m as *mut msr)).__slate_anon_0.__slate_anon_0.l = unsafe { core::mem::transmute::<u32, u32>(__t0 as u32) };
+(*(m as *mut msr)).__slate_anon_0.__slate_anon_0.h = unsafe { core::mem::transmute::<u32, u32>(__t1 as u32) };
+}
+}
+
+fn raw_wrmsr(mut reg: u32, mut m: &msr) {
+unsafe {
+core::arch::asm!("wrmsr", in("cx") reg as u32, in("ax") (*(m as *const msr)).__slate_anon_0.__slate_anon_0.l as u32, in("dx") (*(m as *const msr)).__slate_anon_0.__slate_anon_0.h as u32, options(nostack, att_syntax));
+}
+}
+
+// Check for obligatory CPU features and abort if the features are not
+// present.  This code should be compilable as 16-, 32- or 64-bit
+// code, so be very careful with types and inline assembly.
+//
+// This code should not contain any messages; that requires an
+// additional wrapper.
+//
+// As written, this code is not safe for inclusion into the kernel
+// proper (after FPU initialization, in particular).
+static mut err_flags: [u32; 22] = unsafe { core::mem::zeroed() };
+
+static req_level: i32 = 64;
+
+/// REQUIRED_MASK2 not implemented in this file
+/// REQUIRED_MASK3 not implemented in this file
+/// REQUIRED_MASK5 not implemented in this file
+/// REQUIRED_MASK7 not implemented in this file
+/// REQUIRED_MASK8 not implemented in this file
+/// REQUIRED_MASK9 not implemented in this file
+/// REQUIRED_MASK10 not implemented in this file
+/// REQUIRED_MASK11 not implemented in this file
+/// REQUIRED_MASK12 not implemented in this file
+/// REQUIRED_MASK13 not implemented in this file
+/// REQUIRED_MASK14 not implemented in this file
+/// REQUIRED_MASK15 not implemented in this file
+static req_flags: [u32; 22] = {
+let mut __t0: [u32; 22] = unsafe { core::mem::zeroed() };
+__t0[0] = 117481833u32;
+__t0[1] = 536870912u32;
+__t0[2] = 0u32;
+__t0[3] = 0u32;
+__t0[4] = 0u32;
+__t0[5] = 0u32;
+__t0[6] = 0u32;
+__t0[7] = 0u32;
+__t0[8] = 0u32;
+__t0[9] = 0u32;
+__t0[10] = 0u32;
+__t0[11] = 0u32;
+__t0[12] = 0u32;
+__t0[13] = 0u32;
+__t0[14] = 0u32;
+__t0[15] = 0u32;
+__t0[16] = 0u32;
+__t0
+};
+
+fn is_amd() -> i32 {
+((unsafe { cpu_vendor[0] }) == (A32!(65i32, 117i32, 116i32, 104i32) as u32) && (unsafe { cpu_vendor[1] }) == (A32!(101i32, 110i32, 116i32, 105i32) as u32) && (unsafe { cpu_vendor[2] }) == (A32!(99i32, 65i32, 77i32, 68i32) as u32)) as i32
+}
+
+fn is_centaur() -> i32 {
+((unsafe { cpu_vendor[0] }) == (A32!(67i32, 101i32, 110i32, 116i32) as u32) && (unsafe { cpu_vendor[1] }) == (A32!(97i32, 117i32, 114i32, 72i32) as u32) && (unsafe { cpu_vendor[2] }) == (A32!(97i32, 117i32, 108i32, 115i32) as u32)) as i32
+}
+
+fn is_transmeta() -> i32 {
+((unsafe { cpu_vendor[0] }) == (A32!(71i32, 101i32, 110i32, 117i32) as u32) && (unsafe { cpu_vendor[1] }) == (A32!(105i32, 110i32, 101i32, 84i32) as u32) && (unsafe { cpu_vendor[2] }) == (A32!(77i32, 120i32, 56i32, 54i32) as u32)) as i32
+}
+
+fn is_intel() -> i32 {
+((unsafe { cpu_vendor[0] }) == (A32!(71i32, 101i32, 110i32, 117i32) as u32) && (unsafe { cpu_vendor[1] }) == (A32!(105i32, 110i32, 101i32, 73i32) as u32) && (unsafe { cpu_vendor[2] }) == (A32!(110i32, 116i32, 101i32, 108i32) as u32)) as i32
+}
+
+/// Returns a bitmask of which words we have error bits in
+fn check_cpuflags() -> i32 {
+let mut err: u32 = 0;
+for i in 0i32..22i32 {
+unsafe {
+err_flags[i as usize] = req_flags[i as usize] & !cpu.flags[i as usize];
+}
+if (unsafe { err_flags[i as usize] }) != 0 {
+err |= (1i32 << i) as u32;
+}
+}
+err as i32
+}
+
+// Returns -1 on error.
+//
+// *cpu_level is set to the current CPU level; *req_level to the required
+// level.  x86-64 is considered level 64 for this purpose.
+//
+// *err_flags_ptr is set to the flags error array if there are flags missing.
+#[unsafe(no_mangle)]
+extern "C" fn check_knl_erratum() -> i32 {
+// First check for the affected model/family:
+if is_intel() == 0 || (unsafe { cpu.family }) != 6 || (unsafe { cpu.model }) != 87 {
+return 0;
+}
+// INTEL_XEON_PHI_KNL
+// This erratum affects the Accessed/Dirty bits, and can
+// cause stray bits to be set in !Present PTEs.  We have
+// enough bits in our 64-bit PTEs (which we have on real
+// 64-bit mode or PAE) to avoid using these troublesome
+// bits.  But, we do not have enough space in our 32-bit
+// PTEs.  So, refuse to run on 32-bit non-PAE kernels.
+if IS_ENABLED__2!() != 0 || IS_ENABLED!() != 0 {
+return 0;
+}
+unsafe { puts(c"This 32-bit kernel can not run on this Xeon Phi x200\nprocessor due to a processor erratum.  Use a 64-bit\nkernel, or enable PAE in this 32-bit kernel.\n\n".as_ptr()) };
+-1
+}

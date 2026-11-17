@@ -1,0 +1,249 @@
+{
+  "units": [
+    {
+      "file": "drivers/acpi/tables.c",
+      "module": "__slate_unit_tables"
+    },
+    {
+      "file": "drivers/acpi/osi.c",
+      "module": "__slate_unit_osi"
+    },
+    {
+      "file": "drivers/acpi/osl.c",
+      "module": "__slate_unit_osl"
+    },
+    {
+      "file": "drivers/acpi/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "drivers/acpi/reboot.c",
+      "module": "__slate_unit_reboot"
+    },
+    {
+      "file": "drivers/acpi/nvs.c",
+      "module": "__slate_unit_nvs"
+    },
+    {
+      "file": "drivers/acpi/wakeup.c",
+      "module": "__slate_unit_wakeup"
+    },
+    {
+      "file": "drivers/acpi/sleep.c",
+      "module": "__slate_unit_sleep"
+    },
+    {
+      "file": "drivers/acpi/device_sysfs.c",
+      "module": "__slate_unit_device_sysfs"
+    },
+    {
+      "file": "drivers/acpi/device_pm.c",
+      "module": "__slate_unit_device_pm"
+    },
+    {
+      "file": "drivers/acpi/proc.c",
+      "module": "__slate_unit_proc"
+    },
+    {
+      "file": "drivers/acpi/bus.c",
+      "module": "__slate_unit_bus"
+    },
+    {
+      "file": "drivers/acpi/glue.c",
+      "module": "__slate_unit_glue"
+    },
+    {
+      "file": "drivers/acpi/scan.c",
+      "module": "__slate_unit_scan"
+    },
+    {
+      "file": "drivers/acpi/mipi-disco-img.c",
+      "module": "__slate_unit_mipi_disco_img"
+    },
+    {
+      "file": "drivers/acpi/resource.c",
+      "module": "__slate_unit_resource"
+    },
+    {
+      "file": "drivers/acpi/acpi_processor.c",
+      "module": "__slate_unit_acpi_processor"
+    },
+    {
+      "file": "drivers/acpi/processor_core.c",
+      "module": "__slate_unit_processor_core"
+    },
+    {
+      "file": "drivers/acpi/processor_pdc.c",
+      "module": "__slate_unit_processor_pdc"
+    },
+    {
+      "file": "drivers/acpi/ec.c",
+      "module": "__slate_unit_ec"
+    },
+    {
+      "file": "drivers/acpi/dock.c",
+      "module": "__slate_unit_dock"
+    },
+    {
+      "file": "drivers/acpi/pci_root.c",
+      "module": "__slate_unit_pci_root"
+    },
+    {
+      "file": "drivers/acpi/pci_link.c",
+      "module": "__slate_unit_pci_link"
+    },
+    {
+      "file": "drivers/acpi/pci_irq.c",
+      "module": "__slate_unit_pci_irq"
+    },
+    {
+      "file": "drivers/acpi/acpi_apd.c",
+      "module": "__slate_unit_acpi_apd"
+    },
+    {
+      "file": "drivers/acpi/acpi_platform.c",
+      "module": "__slate_unit_acpi_platform"
+    },
+    {
+      "file": "drivers/acpi/acpi_pnp.c",
+      "module": "__slate_unit_acpi_pnp"
+    },
+    {
+      "file": "drivers/acpi/power.c",
+      "module": "__slate_unit_power"
+    },
+    {
+      "file": "drivers/acpi/event.c",
+      "module": "__slate_unit_event"
+    },
+    {
+      "file": "drivers/acpi/evged.c",
+      "module": "__slate_unit_evged"
+    },
+    {
+      "file": "drivers/acpi/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "drivers/acpi/property.c",
+      "module": "__slate_unit_property"
+    },
+    {
+      "file": "drivers/acpi/debugfs.c",
+      "module": "__slate_unit_debugfs"
+    },
+    {
+      "file": "drivers/acpi/acpi_lpat.c",
+      "module": "__slate_unit_acpi_lpat"
+    },
+    {
+      "file": "drivers/acpi/acpi_lpit.c",
+      "module": "__slate_unit_acpi_lpit"
+    },
+    {
+      "file": "drivers/acpi/prmt.c",
+      "module": "__slate_unit_prmt"
+    },
+    {
+      "file": "drivers/acpi/acpi_pcc.c",
+      "module": "__slate_unit_acpi_pcc"
+    },
+    {
+      "file": "drivers/acpi/acpi_mrrm.c",
+      "module": "__slate_unit_acpi_mrrm"
+    },
+    {
+      "file": "drivers/acpi/ac.c",
+      "module": "__slate_unit_ac"
+    },
+    {
+      "file": "drivers/acpi/button.c",
+      "module": "__slate_unit_button"
+    },
+    {
+      "file": "drivers/acpi/fan_core.c",
+      "module": "__slate_unit_fan_core"
+    },
+    {
+      "file": "drivers/acpi/fan_attr.c",
+      "module": "__slate_unit_fan_attr"
+    },
+    {
+      "file": "drivers/acpi/fan_hwmon.c",
+      "module": "__slate_unit_fan_hwmon"
+    },
+    {
+      "file": "drivers/acpi/acpi_video.c",
+      "module": "__slate_unit_acpi_video"
+    },
+    {
+      "file": "drivers/acpi/video_detect.c",
+      "module": "__slate_unit_video_detect"
+    },
+    {
+      "file": "drivers/acpi/processor_driver.c",
+      "module": "__slate_unit_processor_driver"
+    },
+    {
+      "file": "drivers/acpi/processor_thermal.c",
+      "module": "__slate_unit_processor_thermal"
+    },
+    {
+      "file": "drivers/acpi/processor_idle.c",
+      "module": "__slate_unit_processor_idle"
+    },
+    {
+      "file": "drivers/acpi/processor_throttling.c",
+      "module": "__slate_unit_processor_throttling"
+    },
+    {
+      "file": "drivers/acpi/processor_perflib.c",
+      "module": "__slate_unit_processor_perflib"
+    },
+    {
+      "file": "drivers/acpi/container.c",
+      "module": "__slate_unit_container"
+    },
+    {
+      "file": "drivers/acpi/thermal_lib.c",
+      "module": "__slate_unit_thermal_lib"
+    },
+    {
+      "file": "drivers/acpi/thermal.c",
+      "module": "__slate_unit_thermal"
+    },
+    {
+      "file": "drivers/acpi/platform_profile.c",
+      "module": "__slate_unit_platform_profile"
+    },
+    {
+      "file": "drivers/acpi/nhlt.c",
+      "module": "__slate_unit_nhlt"
+    },
+    {
+      "file": "drivers/acpi/acpi_memhotplug.c",
+      "module": "__slate_unit_acpi_memhotplug"
+    },
+    {
+      "file": "drivers/acpi/ioapic.c",
+      "module": "__slate_unit_ioapic"
+    },
+    {
+      "file": "drivers/acpi/battery.c",
+      "module": "__slate_unit_battery"
+    },
+    {
+      "file": "drivers/acpi/bgrt.c",
+      "module": "__slate_unit_bgrt"
+    },
+    {
+      "file": "drivers/acpi/cppc_acpi.c",
+      "module": "__slate_unit_cppc_acpi"
+    },
+    {
+      "file": "drivers/acpi/spcr.c",
+      "module": "__slate_unit_spcr"
+    }
+  ],
+  "version": 1
+}

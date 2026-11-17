@@ -1,0 +1,165 @@
+{
+  "units": [
+    {
+      "file": "net/netfilter/core.c",
+      "module": "__slate_unit_core"
+    },
+    {
+      "file": "net/netfilter/nf_log.c",
+      "module": "__slate_unit_nf_log"
+    },
+    {
+      "file": "net/netfilter/nf_queue.c",
+      "module": "__slate_unit_nf_queue"
+    },
+    {
+      "file": "net/netfilter/nf_sockopt.c",
+      "module": "__slate_unit_nf_sockopt"
+    },
+    {
+      "file": "net/netfilter/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "net/netfilter/nfnetlink.c",
+      "module": "__slate_unit_nfnetlink"
+    },
+    {
+      "file": "net/netfilter/nfnetlink_log.c",
+      "module": "__slate_unit_nfnetlink_log"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_core.c",
+      "module": "__slate_unit_nf_conntrack_core"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_standalone.c",
+      "module": "__slate_unit_nf_conntrack_standalone"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_expect.c",
+      "module": "__slate_unit_nf_conntrack_expect"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_helper.c",
+      "module": "__slate_unit_nf_conntrack_helper"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto.c",
+      "module": "__slate_unit_nf_conntrack_proto"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto_generic.c",
+      "module": "__slate_unit_nf_conntrack_proto_generic"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto_tcp.c",
+      "module": "__slate_unit_nf_conntrack_proto_tcp"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto_udp.c",
+      "module": "__slate_unit_nf_conntrack_proto_udp"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto_icmp.c",
+      "module": "__slate_unit_nf_conntrack_proto_icmp"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_extend.c",
+      "module": "__slate_unit_nf_conntrack_extend"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_acct.c",
+      "module": "__slate_unit_nf_conntrack_acct"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_seqadj.c",
+      "module": "__slate_unit_nf_conntrack_seqadj"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_proto_icmpv6.c",
+      "module": "__slate_unit_nf_conntrack_proto_icmpv6"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_netlink.c",
+      "module": "__slate_unit_nf_conntrack_netlink"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_ftp.c",
+      "module": "__slate_unit_nf_conntrack_ftp"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_irc.c",
+      "module": "__slate_unit_nf_conntrack_irc"
+    },
+    {
+      "file": "net/netfilter/nf_conntrack_sip.c",
+      "module": "__slate_unit_nf_conntrack_sip"
+    },
+    {
+      "file": "net/netfilter/nf_nat_core.c",
+      "module": "__slate_unit_nf_nat_core"
+    },
+    {
+      "file": "net/netfilter/nf_nat_proto.c",
+      "module": "__slate_unit_nf_nat_proto"
+    },
+    {
+      "file": "net/netfilter/nf_nat_helper.c",
+      "module": "__slate_unit_nf_nat_helper"
+    },
+    {
+      "file": "net/netfilter/nf_nat_masquerade.c",
+      "module": "__slate_unit_nf_nat_masquerade"
+    },
+    {
+      "file": "net/netfilter/nf_nat_ftp.c",
+      "module": "__slate_unit_nf_nat_ftp"
+    },
+    {
+      "file": "net/netfilter/nf_nat_irc.c",
+      "module": "__slate_unit_nf_nat_irc"
+    },
+    {
+      "file": "net/netfilter/nf_nat_sip.c",
+      "module": "__slate_unit_nf_nat_sip"
+    },
+    {
+      "file": "net/netfilter/x_tables.c",
+      "module": "__slate_unit_x_tables"
+    },
+    {
+      "file": "net/netfilter/xt_tcpudp.c",
+      "module": "__slate_unit_xt_tcpudp"
+    },
+    {
+      "file": "net/netfilter/xt_CONNSECMARK.c",
+      "module": "__slate_unit_xt_CONNSECMARK"
+    },
+    {
+      "file": "net/netfilter/xt_NFLOG.c",
+      "module": "__slate_unit_xt_NFLOG"
+    },
+    {
+      "file": "net/netfilter/xt_SECMARK.c",
+      "module": "__slate_unit_xt_SECMARK"
+    },
+    {
+      "file": "net/netfilter/xt_TCPMSS.c",
+      "module": "__slate_unit_xt_TCPMSS"
+    },
+    {
+      "file": "net/netfilter/xt_conntrack.c",
+      "module": "__slate_unit_xt_conntrack"
+    },
+    {
+      "file": "net/netfilter/xt_policy.c",
+      "module": "__slate_unit_xt_policy"
+    },
+    {
+      "file": "net/netfilter/xt_state.c",
+      "module": "__slate_unit_xt_state"
+    }
+  ],
+  "version": 1
+}

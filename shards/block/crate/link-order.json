@@ -1,0 +1,169 @@
+{
+  "units": [
+    {
+      "file": "block/bdev.c",
+      "module": "__slate_unit_bdev"
+    },
+    {
+      "file": "block/fops.c",
+      "module": "__slate_unit_fops"
+    },
+    {
+      "file": "block/bio.c",
+      "module": "__slate_unit_bio"
+    },
+    {
+      "file": "block/elevator.c",
+      "module": "__slate_unit_elevator"
+    },
+    {
+      "file": "block/blk-core.c",
+      "module": "__slate_unit_blk_core"
+    },
+    {
+      "file": "block/blk-sysfs.c",
+      "module": "__slate_unit_blk_sysfs"
+    },
+    {
+      "file": "block/blk-flush.c",
+      "module": "__slate_unit_blk_flush"
+    },
+    {
+      "file": "block/blk-settings.c",
+      "module": "__slate_unit_blk_settings"
+    },
+    {
+      "file": "block/blk-ioc.c",
+      "module": "__slate_unit_blk_ioc"
+    },
+    {
+      "file": "block/blk-map.c",
+      "module": "__slate_unit_blk_map"
+    },
+    {
+      "file": "block/blk-merge.c",
+      "module": "__slate_unit_blk_merge"
+    },
+    {
+      "file": "block/blk-timeout.c",
+      "module": "__slate_unit_blk_timeout"
+    },
+    {
+      "file": "block/blk-lib.c",
+      "module": "__slate_unit_blk_lib"
+    },
+    {
+      "file": "block/blk-mq.c",
+      "module": "__slate_unit_blk_mq"
+    },
+    {
+      "file": "block/blk-mq-tag.c",
+      "module": "__slate_unit_blk_mq_tag"
+    },
+    {
+      "file": "block/blk-mq-dma.c",
+      "module": "__slate_unit_blk_mq_dma"
+    },
+    {
+      "file": "block/blk-stat.c",
+      "module": "__slate_unit_blk_stat"
+    },
+    {
+      "file": "block/blk-mq-sysfs.c",
+      "module": "__slate_unit_blk_mq_sysfs"
+    },
+    {
+      "file": "block/blk-mq-cpumap.c",
+      "module": "__slate_unit_blk_mq_cpumap"
+    },
+    {
+      "file": "block/blk-mq-sched.c",
+      "module": "__slate_unit_blk_mq_sched"
+    },
+    {
+      "file": "block/ioctl.c",
+      "module": "__slate_unit_ioctl"
+    },
+    {
+      "file": "block/genhd.c",
+      "module": "__slate_unit_genhd"
+    },
+    {
+      "file": "block/ioprio.c",
+      "module": "__slate_unit_ioprio"
+    },
+    {
+      "file": "block/badblocks.c",
+      "module": "__slate_unit_badblocks"
+    },
+    {
+      "file": "block/partitions/core.c",
+      "module": "__slate_unit_core"
+    },
+    {
+      "file": "block/partitions/msdos.c",
+      "module": "__slate_unit_msdos"
+    },
+    {
+      "file": "block/partitions/efi.c",
+      "module": "__slate_unit_efi"
+    },
+    {
+      "file": "block/blk-rq-qos.c",
+      "module": "__slate_unit_blk_rq_qos"
+    },
+    {
+      "file": "block/disk-events.c",
+      "module": "__slate_unit_disk_events"
+    },
+    {
+      "file": "block/blk-ia-ranges.c",
+      "module": "__slate_unit_blk_ia_ranges"
+    },
+    {
+      "file": "block/early-lookup.c",
+      "module": "__slate_unit_early_lookup"
+    },
+    {
+      "file": "block/bsg.c",
+      "module": "__slate_unit_bsg"
+    },
+    {
+      "file": "block/blk-cgroup.c",
+      "module": "__slate_unit_blk_cgroup"
+    },
+    {
+      "file": "block/blk-ioprio.c",
+      "module": "__slate_unit_blk_ioprio"
+    },
+    {
+      "file": "block/blk-iolatency.c",
+      "module": "__slate_unit_blk_iolatency"
+    },
+    {
+      "file": "block/blk-iocost.c",
+      "module": "__slate_unit_blk_iocost"
+    },
+    {
+      "file": "block/mq-deadline.c",
+      "module": "__slate_unit_mq_deadline"
+    },
+    {
+      "file": "block/kyber-iosched.c",
+      "module": "__slate_unit_kyber_iosched"
+    },
+    {
+      "file": "block/blk-mq-debugfs.c",
+      "module": "__slate_unit_blk_mq_debugfs"
+    },
+    {
+      "file": "block/blk-pm.c",
+      "module": "__slate_unit_blk_pm"
+    },
+    {
+      "file": "block/holder.c",
+      "module": "__slate_unit_holder"
+    }
+  ],
+  "version": 1
+}

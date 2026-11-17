@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "file": "init/main.c",
+      "module": "__slate_unit_main"
+    },
+    {
+      "file": "init/version.c",
+      "module": "__slate_unit_version"
+    },
+    {
+      "file": "init/do_mounts.c",
+      "module": "__slate_unit_do_mounts"
+    },
+    {
+      "file": "init/do_mounts_initrd.c",
+      "module": "__slate_unit_do_mounts_initrd"
+    },
+    {
+      "file": "init/initramfs.c",
+      "module": "__slate_unit_initramfs"
+    },
+    {
+      "file": "init/calibrate.c",
+      "module": "__slate_unit_calibrate"
+    },
+    {
+      "file": "init/init_task.c",
+      "module": "__slate_unit_init_task"
+    }
+  ],
+  "version": 1
+}

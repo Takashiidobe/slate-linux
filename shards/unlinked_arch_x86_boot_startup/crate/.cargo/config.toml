@@ -1,0 +1,6 @@
+[build]
+target = "x86_64-unknown-none"
+rustflags = ["-Ccode-model=small", "-Crelocation-model=pic", "-Zcf-protection=branch", "-Zretpoline-external-thunk", "-Zfunction-return=thunk-extern", "-Zindirect-branch-cs-prefix", "-Ctarget-feature=-x87", "-Zmerge-functions=disabled", "-Zplt=yes", "-Zunstable-options", "-Cpanic=immediate-abort"]
+
+[unstable]
+build-std = ["core", "compiler_builtins"]

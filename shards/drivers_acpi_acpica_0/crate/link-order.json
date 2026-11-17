@@ -1,0 +1,485 @@
+{
+  "units": [
+    {
+      "file": "drivers/acpi/acpica/dsargs.c",
+      "module": "__slate_unit_dsargs"
+    },
+    {
+      "file": "drivers/acpi/acpica/dscontrol.c",
+      "module": "__slate_unit_dscontrol"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsdebug.c",
+      "module": "__slate_unit_dsdebug"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsfield.c",
+      "module": "__slate_unit_dsfield"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsinit.c",
+      "module": "__slate_unit_dsinit"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsmethod.c",
+      "module": "__slate_unit_dsmethod"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsmthdat.c",
+      "module": "__slate_unit_dsmthdat"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsobject.c",
+      "module": "__slate_unit_dsobject"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsopcode.c",
+      "module": "__slate_unit_dsopcode"
+    },
+    {
+      "file": "drivers/acpi/acpica/dspkginit.c",
+      "module": "__slate_unit_dspkginit"
+    },
+    {
+      "file": "drivers/acpi/acpica/dsutils.c",
+      "module": "__slate_unit_dsutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/dswexec.c",
+      "module": "__slate_unit_dswexec"
+    },
+    {
+      "file": "drivers/acpi/acpica/dswload.c",
+      "module": "__slate_unit_dswload"
+    },
+    {
+      "file": "drivers/acpi/acpica/dswload2.c",
+      "module": "__slate_unit_dswload2"
+    },
+    {
+      "file": "drivers/acpi/acpica/dswscope.c",
+      "module": "__slate_unit_dswscope"
+    },
+    {
+      "file": "drivers/acpi/acpica/dswstate.c",
+      "module": "__slate_unit_dswstate"
+    },
+    {
+      "file": "drivers/acpi/acpica/evevent.c",
+      "module": "__slate_unit_evevent"
+    },
+    {
+      "file": "drivers/acpi/acpica/evgpe.c",
+      "module": "__slate_unit_evgpe"
+    },
+    {
+      "file": "drivers/acpi/acpica/evgpeblk.c",
+      "module": "__slate_unit_evgpeblk"
+    },
+    {
+      "file": "drivers/acpi/acpica/evgpeinit.c",
+      "module": "__slate_unit_evgpeinit"
+    },
+    {
+      "file": "drivers/acpi/acpica/evgpeutil.c",
+      "module": "__slate_unit_evgpeutil"
+    },
+    {
+      "file": "drivers/acpi/acpica/evglock.c",
+      "module": "__slate_unit_evglock"
+    },
+    {
+      "file": "drivers/acpi/acpica/evhandler.c",
+      "module": "__slate_unit_evhandler"
+    },
+    {
+      "file": "drivers/acpi/acpica/evmisc.c",
+      "module": "__slate_unit_evmisc"
+    },
+    {
+      "file": "drivers/acpi/acpica/evregion.c",
+      "module": "__slate_unit_evregion"
+    },
+    {
+      "file": "drivers/acpi/acpica/evrgnini.c",
+      "module": "__slate_unit_evrgnini"
+    },
+    {
+      "file": "drivers/acpi/acpica/evsci.c",
+      "module": "__slate_unit_evsci"
+    },
+    {
+      "file": "drivers/acpi/acpica/evxface.c",
+      "module": "__slate_unit_evxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/evxfevnt.c",
+      "module": "__slate_unit_evxfevnt"
+    },
+    {
+      "file": "drivers/acpi/acpica/evxfgpe.c",
+      "module": "__slate_unit_evxfgpe"
+    },
+    {
+      "file": "drivers/acpi/acpica/evxfregn.c",
+      "module": "__slate_unit_evxfregn"
+    },
+    {
+      "file": "drivers/acpi/acpica/exconcat.c",
+      "module": "__slate_unit_exconcat"
+    },
+    {
+      "file": "drivers/acpi/acpica/exconfig.c",
+      "module": "__slate_unit_exconfig"
+    },
+    {
+      "file": "drivers/acpi/acpica/exconvrt.c",
+      "module": "__slate_unit_exconvrt"
+    },
+    {
+      "file": "drivers/acpi/acpica/excreate.c",
+      "module": "__slate_unit_excreate"
+    },
+    {
+      "file": "drivers/acpi/acpica/exdebug.c",
+      "module": "__slate_unit_exdebug"
+    },
+    {
+      "file": "drivers/acpi/acpica/exdump.c",
+      "module": "__slate_unit_exdump"
+    },
+    {
+      "file": "drivers/acpi/acpica/exfield.c",
+      "module": "__slate_unit_exfield"
+    },
+    {
+      "file": "drivers/acpi/acpica/exfldio.c",
+      "module": "__slate_unit_exfldio"
+    },
+    {
+      "file": "drivers/acpi/acpica/exmisc.c",
+      "module": "__slate_unit_exmisc"
+    },
+    {
+      "file": "drivers/acpi/acpica/exmutex.c",
+      "module": "__slate_unit_exmutex"
+    },
+    {
+      "file": "drivers/acpi/acpica/exnames.c",
+      "module": "__slate_unit_exnames"
+    },
+    {
+      "file": "drivers/acpi/acpica/exoparg1.c",
+      "module": "__slate_unit_exoparg1"
+    },
+    {
+      "file": "drivers/acpi/acpica/exoparg2.c",
+      "module": "__slate_unit_exoparg2"
+    },
+    {
+      "file": "drivers/acpi/acpica/exoparg3.c",
+      "module": "__slate_unit_exoparg3"
+    },
+    {
+      "file": "drivers/acpi/acpica/exoparg6.c",
+      "module": "__slate_unit_exoparg6"
+    },
+    {
+      "file": "drivers/acpi/acpica/exprep.c",
+      "module": "__slate_unit_exprep"
+    },
+    {
+      "file": "drivers/acpi/acpica/exregion.c",
+      "module": "__slate_unit_exregion"
+    },
+    {
+      "file": "drivers/acpi/acpica/exresnte.c",
+      "module": "__slate_unit_exresnte"
+    },
+    {
+      "file": "drivers/acpi/acpica/exresolv.c",
+      "module": "__slate_unit_exresolv"
+    },
+    {
+      "file": "drivers/acpi/acpica/exresop.c",
+      "module": "__slate_unit_exresop"
+    },
+    {
+      "file": "drivers/acpi/acpica/exserial.c",
+      "module": "__slate_unit_exserial"
+    },
+    {
+      "file": "drivers/acpi/acpica/exstore.c",
+      "module": "__slate_unit_exstore"
+    },
+    {
+      "file": "drivers/acpi/acpica/exstoren.c",
+      "module": "__slate_unit_exstoren"
+    },
+    {
+      "file": "drivers/acpi/acpica/exstorob.c",
+      "module": "__slate_unit_exstorob"
+    },
+    {
+      "file": "drivers/acpi/acpica/exsystem.c",
+      "module": "__slate_unit_exsystem"
+    },
+    {
+      "file": "drivers/acpi/acpica/extrace.c",
+      "module": "__slate_unit_extrace"
+    },
+    {
+      "file": "drivers/acpi/acpica/exutils.c",
+      "module": "__slate_unit_exutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwacpi.c",
+      "module": "__slate_unit_hwacpi"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwesleep.c",
+      "module": "__slate_unit_hwesleep"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwgpe.c",
+      "module": "__slate_unit_hwgpe"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwregs.c",
+      "module": "__slate_unit_hwregs"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwsleep.c",
+      "module": "__slate_unit_hwsleep"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwvalid.c",
+      "module": "__slate_unit_hwvalid"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwxface.c",
+      "module": "__slate_unit_hwxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwxfsleep.c",
+      "module": "__slate_unit_hwxfsleep"
+    },
+    {
+      "file": "drivers/acpi/acpica/hwpci.c",
+      "module": "__slate_unit_hwpci"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsaccess.c",
+      "module": "__slate_unit_nsaccess"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsalloc.c",
+      "module": "__slate_unit_nsalloc"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsarguments.c",
+      "module": "__slate_unit_nsarguments"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsconvert.c",
+      "module": "__slate_unit_nsconvert"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsdump.c",
+      "module": "__slate_unit_nsdump"
+    },
+    {
+      "file": "drivers/acpi/acpica/nseval.c",
+      "module": "__slate_unit_nseval"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsinit.c",
+      "module": "__slate_unit_nsinit"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsload.c",
+      "module": "__slate_unit_nsload"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsnames.c",
+      "module": "__slate_unit_nsnames"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsobject.c",
+      "module": "__slate_unit_nsobject"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsparse.c",
+      "module": "__slate_unit_nsparse"
+    },
+    {
+      "file": "drivers/acpi/acpica/nspredef.c",
+      "module": "__slate_unit_nspredef"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsprepkg.c",
+      "module": "__slate_unit_nsprepkg"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsrepair.c",
+      "module": "__slate_unit_nsrepair"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsrepair2.c",
+      "module": "__slate_unit_nsrepair2"
+    },
+    {
+      "file": "drivers/acpi/acpica/nssearch.c",
+      "module": "__slate_unit_nssearch"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsutils.c",
+      "module": "__slate_unit_nsutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/nswalk.c",
+      "module": "__slate_unit_nswalk"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsxfeval.c",
+      "module": "__slate_unit_nsxfeval"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsxfname.c",
+      "module": "__slate_unit_nsxfname"
+    },
+    {
+      "file": "drivers/acpi/acpica/nsxfobj.c",
+      "module": "__slate_unit_nsxfobj"
+    },
+    {
+      "file": "drivers/acpi/acpica/psargs.c",
+      "module": "__slate_unit_psargs"
+    },
+    {
+      "file": "drivers/acpi/acpica/psloop.c",
+      "module": "__slate_unit_psloop"
+    },
+    {
+      "file": "drivers/acpi/acpica/psobject.c",
+      "module": "__slate_unit_psobject"
+    },
+    {
+      "file": "drivers/acpi/acpica/psopcode.c",
+      "module": "__slate_unit_psopcode"
+    },
+    {
+      "file": "drivers/acpi/acpica/psopinfo.c",
+      "module": "__slate_unit_psopinfo"
+    },
+    {
+      "file": "drivers/acpi/acpica/psparse.c",
+      "module": "__slate_unit_psparse"
+    },
+    {
+      "file": "drivers/acpi/acpica/psscope.c",
+      "module": "__slate_unit_psscope"
+    },
+    {
+      "file": "drivers/acpi/acpica/pstree.c",
+      "module": "__slate_unit_pstree"
+    },
+    {
+      "file": "drivers/acpi/acpica/psutils.c",
+      "module": "__slate_unit_psutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/pswalk.c",
+      "module": "__slate_unit_pswalk"
+    },
+    {
+      "file": "drivers/acpi/acpica/psxface.c",
+      "module": "__slate_unit_psxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsaddr.c",
+      "module": "__slate_unit_rsaddr"
+    },
+    {
+      "file": "drivers/acpi/acpica/rscalc.c",
+      "module": "__slate_unit_rscalc"
+    },
+    {
+      "file": "drivers/acpi/acpica/rscreate.c",
+      "module": "__slate_unit_rscreate"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsdumpinfo.c",
+      "module": "__slate_unit_rsdumpinfo"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsinfo.c",
+      "module": "__slate_unit_rsinfo"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsio.c",
+      "module": "__slate_unit_rsio"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsirq.c",
+      "module": "__slate_unit_rsirq"
+    },
+    {
+      "file": "drivers/acpi/acpica/rslist.c",
+      "module": "__slate_unit_rslist"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsmemory.c",
+      "module": "__slate_unit_rsmemory"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsmisc.c",
+      "module": "__slate_unit_rsmisc"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsserial.c",
+      "module": "__slate_unit_rsserial"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsutils.c",
+      "module": "__slate_unit_rsutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/rsxface.c",
+      "module": "__slate_unit_rsxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbdata.c",
+      "module": "__slate_unit_tbdata"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbfadt.c",
+      "module": "__slate_unit_tbfadt"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbfind.c",
+      "module": "__slate_unit_tbfind"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbinstal.c",
+      "module": "__slate_unit_tbinstal"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbprint.c",
+      "module": "__slate_unit_tbprint"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbutils.c",
+      "module": "__slate_unit_tbutils"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbxface.c",
+      "module": "__slate_unit_tbxface"
+    },
+    {
+      "file": "drivers/acpi/acpica/tbxfload.c",
+      "module": "__slate_unit_tbxfload"
+    }
+  ],
+  "version": 1
+}

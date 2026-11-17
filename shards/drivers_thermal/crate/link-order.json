@@ -1,0 +1,45 @@
+{
+  "units": [
+    {
+      "file": "drivers/thermal/thermal_core.c",
+      "module": "__slate_unit_thermal_core"
+    },
+    {
+      "file": "drivers/thermal/thermal_sysfs.c",
+      "module": "__slate_unit_thermal_sysfs"
+    },
+    {
+      "file": "drivers/thermal/thermal_trip.c",
+      "module": "__slate_unit_thermal_trip"
+    },
+    {
+      "file": "drivers/thermal/thermal_helpers.c",
+      "module": "__slate_unit_thermal_helpers"
+    },
+    {
+      "file": "drivers/thermal/thermal_thresholds.c",
+      "module": "__slate_unit_thermal_thresholds"
+    },
+    {
+      "file": "drivers/thermal/thermal_netlink.c",
+      "module": "__slate_unit_thermal_netlink"
+    },
+    {
+      "file": "drivers/thermal/thermal_hwmon.c",
+      "module": "__slate_unit_thermal_hwmon"
+    },
+    {
+      "file": "drivers/thermal/gov_step_wise.c",
+      "module": "__slate_unit_gov_step_wise"
+    },
+    {
+      "file": "drivers/thermal/intel/intel_tcc.c",
+      "module": "__slate_unit_intel_tcc"
+    },
+    {
+      "file": "drivers/thermal/intel/therm_throt.c",
+      "module": "__slate_unit_therm_throt"
+    }
+  ],
+  "version": 1
+}

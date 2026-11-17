@@ -1,0 +1,213 @@
+{
+  "units": [
+    {
+      "file": "drivers/usb/common/common.c",
+      "module": "__slate_unit_common"
+    },
+    {
+      "file": "drivers/usb/common/debug.c",
+      "module": "__slate_unit_debug"
+    },
+    {
+      "file": "drivers/usb/core/usb.c",
+      "module": "__slate_unit_core_usb"
+    },
+    {
+      "file": "drivers/usb/core/hub.c",
+      "module": "__slate_unit_hub"
+    },
+    {
+      "file": "drivers/usb/core/hcd.c",
+      "module": "__slate_unit_hcd"
+    },
+    {
+      "file": "drivers/usb/core/urb.c",
+      "module": "__slate_unit_urb"
+    },
+    {
+      "file": "drivers/usb/core/message.c",
+      "module": "__slate_unit_message"
+    },
+    {
+      "file": "drivers/usb/core/driver.c",
+      "module": "__slate_unit_driver"
+    },
+    {
+      "file": "drivers/usb/core/config.c",
+      "module": "__slate_unit_config"
+    },
+    {
+      "file": "drivers/usb/core/file.c",
+      "module": "__slate_unit_file"
+    },
+    {
+      "file": "drivers/usb/core/buffer.c",
+      "module": "__slate_unit_buffer"
+    },
+    {
+      "file": "drivers/usb/core/sysfs.c",
+      "module": "__slate_unit_sysfs"
+    },
+    {
+      "file": "drivers/usb/core/endpoint.c",
+      "module": "__slate_unit_endpoint"
+    },
+    {
+      "file": "drivers/usb/core/devio.c",
+      "module": "__slate_unit_devio"
+    },
+    {
+      "file": "drivers/usb/core/notify.c",
+      "module": "__slate_unit_notify"
+    },
+    {
+      "file": "drivers/usb/core/generic.c",
+      "module": "__slate_unit_generic"
+    },
+    {
+      "file": "drivers/usb/core/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "drivers/usb/core/devices.c",
+      "module": "__slate_unit_devices"
+    },
+    {
+      "file": "drivers/usb/core/phy.c",
+      "module": "__slate_unit_phy"
+    },
+    {
+      "file": "drivers/usb/core/port.c",
+      "module": "__slate_unit_port"
+    },
+    {
+      "file": "drivers/usb/core/trace.c",
+      "module": "__slate_unit_trace"
+    },
+    {
+      "file": "drivers/usb/core/hcd-pci.c",
+      "module": "__slate_unit_hcd_pci"
+    },
+    {
+      "file": "drivers/usb/core/usb-acpi.c",
+      "module": "__slate_unit_usb_acpi"
+    },
+    {
+      "file": "drivers/usb/mon/mon_main.c",
+      "module": "__slate_unit_mon_main"
+    },
+    {
+      "file": "drivers/usb/mon/mon_stat.c",
+      "module": "__slate_unit_mon_stat"
+    },
+    {
+      "file": "drivers/usb/mon/mon_text.c",
+      "module": "__slate_unit_mon_text"
+    },
+    {
+      "file": "drivers/usb/mon/mon_bin.c",
+      "module": "__slate_unit_mon_bin"
+    },
+    {
+      "file": "drivers/usb/host/pci-quirks.c",
+      "module": "__slate_unit_pci_quirks"
+    },
+    {
+      "file": "drivers/usb/host/ehci-hcd.c",
+      "module": "__slate_unit_ehci_hcd"
+    },
+    {
+      "file": "drivers/usb/host/ehci-pci.c",
+      "module": "__slate_unit_ehci_pci"
+    },
+    {
+      "file": "drivers/usb/host/ohci-hcd.c",
+      "module": "__slate_unit_ohci_hcd"
+    },
+    {
+      "file": "drivers/usb/host/ohci-pci.c",
+      "module": "__slate_unit_ohci_pci"
+    },
+    {
+      "file": "drivers/usb/host/uhci-hcd.c",
+      "module": "__slate_unit_uhci_hcd"
+    },
+    {
+      "file": "drivers/usb/host/xhci.c",
+      "module": "__slate_unit_xhci"
+    },
+    {
+      "file": "drivers/usb/host/xhci-mem.c",
+      "module": "__slate_unit_xhci_mem"
+    },
+    {
+      "file": "drivers/usb/host/xhci-ext-caps.c",
+      "module": "__slate_unit_xhci_ext_caps"
+    },
+    {
+      "file": "drivers/usb/host/xhci-ring.c",
+      "module": "__slate_unit_xhci_ring"
+    },
+    {
+      "file": "drivers/usb/host/xhci-hub.c",
+      "module": "__slate_unit_xhci_hub"
+    },
+    {
+      "file": "drivers/usb/host/xhci-dbg.c",
+      "module": "__slate_unit_xhci_dbg"
+    },
+    {
+      "file": "drivers/usb/host/xhci-trace.c",
+      "module": "__slate_unit_xhci_trace"
+    },
+    {
+      "file": "drivers/usb/host/xhci-debugfs.c",
+      "module": "__slate_unit_xhci_debugfs"
+    },
+    {
+      "file": "drivers/usb/host/xhci-pci.c",
+      "module": "__slate_unit_xhci_pci"
+    },
+    {
+      "file": "drivers/usb/class/usblp.c",
+      "module": "__slate_unit_usblp"
+    },
+    {
+      "file": "drivers/usb/storage/scsiglue.c",
+      "module": "__slate_unit_scsiglue"
+    },
+    {
+      "file": "drivers/usb/storage/protocol.c",
+      "module": "__slate_unit_protocol"
+    },
+    {
+      "file": "drivers/usb/storage/transport.c",
+      "module": "__slate_unit_transport"
+    },
+    {
+      "file": "drivers/usb/storage/usb.c",
+      "module": "__slate_unit_storage_usb"
+    },
+    {
+      "file": "drivers/usb/storage/initializers.c",
+      "module": "__slate_unit_initializers"
+    },
+    {
+      "file": "drivers/usb/storage/sierra_ms.c",
+      "module": "__slate_unit_sierra_ms"
+    },
+    {
+      "file": "drivers/usb/storage/option_ms.c",
+      "module": "__slate_unit_option_ms"
+    },
+    {
+      "file": "drivers/usb/storage/usual-tables.c",
+      "module": "__slate_unit_usual_tables"
+    },
+    {
+      "file": "drivers/usb/early/ehci-dbgp.c",
+      "module": "__slate_unit_ehci_dbgp"
+    }
+  ],
+  "version": 1
+}

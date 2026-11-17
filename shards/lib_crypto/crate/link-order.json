@@ -1,0 +1,133 @@
+{
+  "units": [
+    {
+      "file": "lib/crypto/hash_info.c",
+      "module": "__slate_unit_hash_info"
+    },
+    {
+      "file": "lib/crypto/memneq.c",
+      "module": "__slate_unit_memneq"
+    },
+    {
+      "file": "lib/crypto/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "lib/crypto/aes.c",
+      "module": "__slate_unit_aes"
+    },
+    {
+      "file": "lib/crypto/arc4.c",
+      "module": "__slate_unit_arc4"
+    },
+    {
+      "file": "lib/crypto/blake2s.c",
+      "module": "__slate_unit_blake2s"
+    },
+    {
+      "file": "lib/crypto/chacha-block-generic.c",
+      "module": "__slate_unit_chacha_block_generic"
+    },
+    {
+      "file": "lib/crypto/gf128hash.c",
+      "module": "__slate_unit_gf128hash"
+    },
+    {
+      "file": "lib/crypto/md5.c",
+      "module": "__slate_unit_md5"
+    },
+    {
+      "file": "lib/crypto/sha1.c",
+      "module": "__slate_unit_sha1"
+    },
+    {
+      "file": "lib/crypto/sha256.c",
+      "module": "__slate_unit_sha256"
+    },
+    {
+      "file": "lib/crypto/sha512.c",
+      "module": "__slate_unit_sha512"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-lshift.c",
+      "module": "__slate_unit_generic_mpih_lshift"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-mul1.c",
+      "module": "__slate_unit_generic_mpih_mul1"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-mul2.c",
+      "module": "__slate_unit_generic_mpih_mul2"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-mul3.c",
+      "module": "__slate_unit_generic_mpih_mul3"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-rshift.c",
+      "module": "__slate_unit_generic_mpih_rshift"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-sub1.c",
+      "module": "__slate_unit_generic_mpih_sub1"
+    },
+    {
+      "file": "lib/crypto/mpi/generic_mpih-add1.c",
+      "module": "__slate_unit_generic_mpih_add1"
+    },
+    {
+      "file": "lib/crypto/mpi/mpicoder.c",
+      "module": "__slate_unit_mpicoder"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-add.c",
+      "module": "__slate_unit_mpi_add"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-bit.c",
+      "module": "__slate_unit_mpi_bit"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-cmp.c",
+      "module": "__slate_unit_mpi_cmp"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-sub-ui.c",
+      "module": "__slate_unit_mpi_sub_ui"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-div.c",
+      "module": "__slate_unit_mpi_div"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-mod.c",
+      "module": "__slate_unit_mpi_mod"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-mul.c",
+      "module": "__slate_unit_mpi_mul"
+    },
+    {
+      "file": "lib/crypto/mpi/mpih-cmp.c",
+      "module": "__slate_unit_mpih_cmp"
+    },
+    {
+      "file": "lib/crypto/mpi/mpih-div.c",
+      "module": "__slate_unit_mpih_div"
+    },
+    {
+      "file": "lib/crypto/mpi/mpih-mul.c",
+      "module": "__slate_unit_mpih_mul"
+    },
+    {
+      "file": "lib/crypto/mpi/mpi-pow.c",
+      "module": "__slate_unit_mpi_pow"
+    },
+    {
+      "file": "lib/crypto/mpi/mpiutil.c",
+      "module": "__slate_unit_mpiutil"
+    }
+  ],
+  "version": 1
+}

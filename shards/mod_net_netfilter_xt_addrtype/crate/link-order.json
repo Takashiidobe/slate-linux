@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "build-clang/net/netfilter/xt_addrtype.mod.c",
+      "module": "__slate_unit_xt_addrtype_mod"
+    },
+    {
+      "file": "net/netfilter/xt_addrtype.c",
+      "module": "__slate_unit_xt_addrtype"
+    }
+  ],
+  "version": 1
+}

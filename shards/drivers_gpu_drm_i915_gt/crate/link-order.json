@@ -1,0 +1,329 @@
+{
+  "units": [
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen2_engine_cs.c",
+      "module": "__slate_unit_gen2_engine_cs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen6_engine_cs.c",
+      "module": "__slate_unit_gen6_engine_cs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen6_ppgtt.c",
+      "module": "__slate_unit_gen6_ppgtt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen7_renderclear.c",
+      "module": "__slate_unit_gen7_renderclear"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen8_engine_cs.c",
+      "module": "__slate_unit_gen8_engine_cs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen8_ppgtt.c",
+      "module": "__slate_unit_gen8_ppgtt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_breadcrumbs.c",
+      "module": "__slate_unit_intel_breadcrumbs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_context.c",
+      "module": "__slate_unit_intel_context"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_context_sseu.c",
+      "module": "__slate_unit_intel_context_sseu"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_engine_cs.c",
+      "module": "__slate_unit_intel_engine_cs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_engine_heartbeat.c",
+      "module": "__slate_unit_intel_engine_heartbeat"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_engine_pm.c",
+      "module": "__slate_unit_intel_engine_pm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_engine_user.c",
+      "module": "__slate_unit_intel_engine_user"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_execlists_submission.c",
+      "module": "__slate_unit_intel_execlists_submission"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ggtt.c",
+      "module": "__slate_unit_intel_ggtt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ggtt_fencing.c",
+      "module": "__slate_unit_intel_ggtt_fencing"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt.c",
+      "module": "__slate_unit_intel_gt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_buffer_pool.c",
+      "module": "__slate_unit_intel_gt_buffer_pool"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_ccs_mode.c",
+      "module": "__slate_unit_intel_gt_ccs_mode"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_clock_utils.c",
+      "module": "__slate_unit_intel_gt_clock_utils"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_debugfs.c",
+      "module": "__slate_unit_intel_gt_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_engines_debugfs.c",
+      "module": "__slate_unit_intel_gt_engines_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_irq.c",
+      "module": "__slate_unit_intel_gt_irq"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_mcr.c",
+      "module": "__slate_unit_intel_gt_mcr"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_pm.c",
+      "module": "__slate_unit_intel_gt_pm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_pm_debugfs.c",
+      "module": "__slate_unit_intel_gt_pm_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_pm_irq.c",
+      "module": "__slate_unit_intel_gt_pm_irq"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_requests.c",
+      "module": "__slate_unit_intel_gt_requests"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_sysfs.c",
+      "module": "__slate_unit_intel_gt_sysfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gt_sysfs_pm.c",
+      "module": "__slate_unit_intel_gt_sysfs_pm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gtt.c",
+      "module": "__slate_unit_intel_gtt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_llc.c",
+      "module": "__slate_unit_intel_llc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_lrc.c",
+      "module": "__slate_unit_intel_lrc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_migrate.c",
+      "module": "__slate_unit_intel_migrate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_mocs.c",
+      "module": "__slate_unit_intel_mocs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ppgtt.c",
+      "module": "__slate_unit_intel_ppgtt"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_rc6.c",
+      "module": "__slate_unit_intel_rc6"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_region_lmem.c",
+      "module": "__slate_unit_intel_region_lmem"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_renderstate.c",
+      "module": "__slate_unit_intel_renderstate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_reset.c",
+      "module": "__slate_unit_intel_reset"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ring.c",
+      "module": "__slate_unit_intel_ring"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ring_submission.c",
+      "module": "__slate_unit_intel_ring_submission"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_rps.c",
+      "module": "__slate_unit_intel_rps"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_sa_media.c",
+      "module": "__slate_unit_intel_sa_media"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_sseu.c",
+      "module": "__slate_unit_intel_sseu"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_sseu_debugfs.c",
+      "module": "__slate_unit_intel_sseu_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_timeline.c",
+      "module": "__slate_unit_intel_timeline"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_tlb.c",
+      "module": "__slate_unit_intel_tlb"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_wopcm.c",
+      "module": "__slate_unit_intel_wopcm"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_workarounds.c",
+      "module": "__slate_unit_intel_workarounds"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/shmem_utils.c",
+      "module": "__slate_unit_shmem_utils"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/sysfs_engines.c",
+      "module": "__slate_unit_sysfs_engines"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_ggtt_gmch.c",
+      "module": "__slate_unit_intel_ggtt_gmch"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen6_renderstate.c",
+      "module": "__slate_unit_gen6_renderstate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen7_renderstate.c",
+      "module": "__slate_unit_gen7_renderstate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen8_renderstate.c",
+      "module": "__slate_unit_gen8_renderstate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/gen9_renderstate.c",
+      "module": "__slate_unit_gen9_renderstate"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_gsc_fw.c",
+      "module": "__slate_unit_intel_gsc_fw"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_gsc_proxy.c",
+      "module": "__slate_unit_intel_gsc_proxy"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_gsc_uc.c",
+      "module": "__slate_unit_intel_gsc_uc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_gsc_uc_debugfs.c",
+      "module": "__slate_unit_intel_gsc_uc_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_gsc_uc_heci_cmd_submit.c",
+      "module": "__slate_unit_intel_gsc_uc_heci_cmd_submit"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc.c",
+      "module": "__slate_unit_intel_guc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_ads.c",
+      "module": "__slate_unit_intel_guc_ads"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_capture.c",
+      "module": "__slate_unit_intel_guc_capture"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_ct.c",
+      "module": "__slate_unit_intel_guc_ct"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_debugfs.c",
+      "module": "__slate_unit_intel_guc_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_fw.c",
+      "module": "__slate_unit_intel_guc_fw"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_hwconfig.c",
+      "module": "__slate_unit_intel_guc_hwconfig"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_log.c",
+      "module": "__slate_unit_intel_guc_log"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_log_debugfs.c",
+      "module": "__slate_unit_intel_guc_log_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_rc.c",
+      "module": "__slate_unit_intel_guc_rc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_slpc.c",
+      "module": "__slate_unit_intel_guc_slpc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_guc_submission.c",
+      "module": "__slate_unit_intel_guc_submission"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_huc.c",
+      "module": "__slate_unit_intel_huc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_huc_debugfs.c",
+      "module": "__slate_unit_intel_huc_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_huc_fw.c",
+      "module": "__slate_unit_intel_huc_fw"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_uc.c",
+      "module": "__slate_unit_intel_uc"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_uc_debugfs.c",
+      "module": "__slate_unit_intel_uc_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c",
+      "module": "__slate_unit_intel_uc_fw"
+    },
+    {
+      "file": "drivers/gpu/drm/i915/gt/intel_gsc.c",
+      "module": "__slate_unit_intel_gsc"
+    }
+  ],
+  "version": 1
+}

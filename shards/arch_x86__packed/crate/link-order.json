@@ -1,0 +1,485 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/entry/syscall_64.c",
+      "module": "__slate_unit_syscall_64"
+    },
+    {
+      "file": "arch/x86/entry/common.c",
+      "module": "__slate_unit_entry_common"
+    },
+    {
+      "file": "arch/x86/entry/vdso/vma.c",
+      "module": "__slate_unit_vma"
+    },
+    {
+      "file": "arch/x86/entry/vdso/extable.c",
+      "module": "__slate_unit_vdso_extable"
+    },
+    {
+      "file": "arch/x86/entry/vdso/vdso32-setup.c",
+      "module": "__slate_unit_vdso32_setup"
+    },
+    {
+      "file": "arch/x86/entry/vsyscall/vsyscall_64.c",
+      "module": "__slate_unit_vsyscall_64"
+    },
+    {
+      "file": "arch/x86/entry/syscall_32.c",
+      "module": "__slate_unit_syscall_32"
+    },
+    {
+      "file": "arch/x86/events/core.c",
+      "module": "__slate_unit_events_core"
+    },
+    {
+      "file": "arch/x86/events/probe.c",
+      "module": "__slate_unit_probe"
+    },
+    {
+      "file": "arch/x86/events/utils.c",
+      "module": "__slate_unit_utils"
+    },
+    {
+      "file": "arch/x86/events/rapl.c",
+      "module": "__slate_unit_rapl"
+    },
+    {
+      "file": "arch/x86/events/amd/core.c",
+      "module": "__slate_unit_amd_core"
+    },
+    {
+      "file": "arch/x86/events/amd/lbr.c",
+      "module": "__slate_unit_amd_lbr"
+    },
+    {
+      "file": "arch/x86/events/amd/ibs.c",
+      "module": "__slate_unit_ibs"
+    },
+    {
+      "file": "arch/x86/events/amd/uncore.c",
+      "module": "__slate_unit_amd_uncore"
+    },
+    {
+      "file": "arch/x86/events/amd/iommu.c",
+      "module": "__slate_unit_iommu"
+    },
+    {
+      "file": "arch/x86/events/msr.c",
+      "module": "__slate_unit_events_msr"
+    },
+    {
+      "file": "arch/x86/events/intel/core.c",
+      "module": "__slate_unit_intel_core"
+    },
+    {
+      "file": "arch/x86/events/intel/bts.c",
+      "module": "__slate_unit_bts"
+    },
+    {
+      "file": "arch/x86/events/intel/ds.c",
+      "module": "__slate_unit_ds"
+    },
+    {
+      "file": "arch/x86/events/intel/knc.c",
+      "module": "__slate_unit_knc"
+    },
+    {
+      "file": "arch/x86/events/intel/lbr.c",
+      "module": "__slate_unit_intel_lbr"
+    },
+    {
+      "file": "arch/x86/events/intel/p4.c",
+      "module": "__slate_unit_p4"
+    },
+    {
+      "file": "arch/x86/events/intel/p6.c",
+      "module": "__slate_unit_p6"
+    },
+    {
+      "file": "arch/x86/events/intel/pt.c",
+      "module": "__slate_unit_pt"
+    },
+    {
+      "file": "arch/x86/events/intel/uncore.c",
+      "module": "__slate_unit_intel_uncore"
+    },
+    {
+      "file": "arch/x86/events/intel/uncore_nhmex.c",
+      "module": "__slate_unit_uncore_nhmex"
+    },
+    {
+      "file": "arch/x86/events/intel/uncore_snb.c",
+      "module": "__slate_unit_uncore_snb"
+    },
+    {
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "module": "__slate_unit_uncore_snbep"
+    },
+    {
+      "file": "arch/x86/events/intel/uncore_discovery.c",
+      "module": "__slate_unit_uncore_discovery"
+    },
+    {
+      "file": "arch/x86/events/intel/cstate.c",
+      "module": "__slate_unit_intel_cstate"
+    },
+    {
+      "file": "arch/x86/events/zhaoxin/core.c",
+      "module": "__slate_unit_zhaoxin_core"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/init.c",
+      "module": "__slate_unit_fpu_init"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/bugs.c",
+      "module": "__slate_unit_bugs"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/core.c",
+      "module": "__slate_unit_fpu_core"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/regset.c",
+      "module": "__slate_unit_regset"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/signal.c",
+      "module": "__slate_unit_signal"
+    },
+    {
+      "file": "arch/x86/kernel/fpu/xstate.c",
+      "module": "__slate_unit_xstate"
+    },
+    {
+      "file": "arch/x86/kernel/acpi/boot.c",
+      "module": "__slate_unit_boot"
+    },
+    {
+      "file": "arch/x86/kernel/acpi/sleep.c",
+      "module": "__slate_unit_sleep"
+    },
+    {
+      "file": "arch/x86/kernel/acpi/cppc.c",
+      "module": "__slate_unit_cppc"
+    },
+    {
+      "file": "arch/x86/kernel/acpi/madt_wakeup.c",
+      "module": "__slate_unit_madt_wakeup"
+    },
+    {
+      "file": "arch/x86/kernel/acpi/cstate.c",
+      "module": "__slate_unit_acpi_cstate"
+    },
+    {
+      "file": "arch/x86/kernel/apic/apic.c",
+      "module": "__slate_unit_apic"
+    },
+    {
+      "file": "arch/x86/kernel/apic/apic_common.c",
+      "module": "__slate_unit_apic_common"
+    },
+    {
+      "file": "arch/x86/kernel/apic/apic_noop.c",
+      "module": "__slate_unit_apic_noop"
+    },
+    {
+      "file": "arch/x86/kernel/apic/ipi.c",
+      "module": "__slate_unit_ipi"
+    },
+    {
+      "file": "arch/x86/kernel/apic/vector.c",
+      "module": "__slate_unit_vector"
+    },
+    {
+      "file": "arch/x86/kernel/apic/init.c",
+      "module": "__slate_unit_apic_init"
+    },
+    {
+      "file": "arch/x86/kernel/apic/hw_nmi.c",
+      "module": "__slate_unit_hw_nmi"
+    },
+    {
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "module": "__slate_unit_io_apic"
+    },
+    {
+      "file": "arch/x86/kernel/apic/msi.c",
+      "module": "__slate_unit_msi"
+    },
+    {
+      "file": "arch/x86/kernel/apic/x2apic_phys.c",
+      "module": "__slate_unit_x2apic_phys"
+    },
+    {
+      "file": "arch/x86/kernel/apic/x2apic_cluster.c",
+      "module": "__slate_unit_x2apic_cluster"
+    },
+    {
+      "file": "arch/x86/kernel/apic/apic_flat_64.c",
+      "module": "__slate_unit_apic_flat_64"
+    },
+    {
+      "file": "arch/x86/kernel/apic/probe_64.c",
+      "module": "__slate_unit_probe_64"
+    },
+    {
+      "file": "arch/x86/kernel/kprobes/core.c",
+      "module": "__slate_unit_kprobes_core"
+    },
+    {
+      "file": "arch/x86/kernel/kprobes/opt.c",
+      "module": "__slate_unit_opt"
+    },
+    {
+      "file": "arch/x86/mm/init.c",
+      "module": "__slate_unit_mm_init"
+    },
+    {
+      "file": "arch/x86/mm/init_64.c",
+      "module": "__slate_unit_init_64"
+    },
+    {
+      "file": "arch/x86/mm/fault.c",
+      "module": "__slate_unit_fault"
+    },
+    {
+      "file": "arch/x86/mm/ioremap.c",
+      "module": "__slate_unit_ioremap"
+    },
+    {
+      "file": "arch/x86/mm/extable.c",
+      "module": "__slate_unit_mm_extable"
+    },
+    {
+      "file": "arch/x86/mm/mmap.c",
+      "module": "__slate_unit_mmap"
+    },
+    {
+      "file": "arch/x86/mm/pgtable.c",
+      "module": "__slate_unit_pgtable"
+    },
+    {
+      "file": "arch/x86/mm/physaddr.c",
+      "module": "__slate_unit_physaddr"
+    },
+    {
+      "file": "arch/x86/mm/tlb.c",
+      "module": "__slate_unit_tlb"
+    },
+    {
+      "file": "arch/x86/mm/cpu_entry_area.c",
+      "module": "__slate_unit_cpu_entry_area"
+    },
+    {
+      "file": "arch/x86/mm/maccess.c",
+      "module": "__slate_unit_maccess"
+    },
+    {
+      "file": "arch/x86/mm/pgprot.c",
+      "module": "__slate_unit_pgprot"
+    },
+    {
+      "file": "arch/x86/mm/pat/set_memory.c",
+      "module": "__slate_unit_set_memory"
+    },
+    {
+      "file": "arch/x86/mm/pat/memtype.c",
+      "module": "__slate_unit_memtype"
+    },
+    {
+      "file": "arch/x86/mm/pat/memtype_interval.c",
+      "module": "__slate_unit_memtype_interval"
+    },
+    {
+      "file": "arch/x86/mm/hugetlbpage.c",
+      "module": "__slate_unit_hugetlbpage"
+    },
+    {
+      "file": "arch/x86/mm/dump_pagetables.c",
+      "module": "__slate_unit_dump_pagetables"
+    },
+    {
+      "file": "arch/x86/mm/numa.c",
+      "module": "__slate_unit_numa"
+    },
+    {
+      "file": "arch/x86/mm/amdtopology.c",
+      "module": "__slate_unit_amdtopology"
+    },
+    {
+      "file": "arch/x86/mm/srat.c",
+      "module": "__slate_unit_srat"
+    },
+    {
+      "file": "arch/x86/mm/pkeys.c",
+      "module": "__slate_unit_pkeys"
+    },
+    {
+      "file": "arch/x86/mm/kaslr.c",
+      "module": "__slate_unit_mm_kaslr"
+    },
+    {
+      "file": "arch/x86/mm/pti.c",
+      "module": "__slate_unit_pti"
+    },
+    {
+      "file": "arch/x86/ia32/audit.c",
+      "module": "__slate_unit_audit"
+    },
+    {
+      "file": "arch/x86/platform/efi/memmap.c",
+      "module": "__slate_unit_memmap"
+    },
+    {
+      "file": "arch/x86/platform/efi/quirks.c",
+      "module": "__slate_unit_quirks"
+    },
+    {
+      "file": "arch/x86/platform/efi/efi.c",
+      "module": "__slate_unit_efi"
+    },
+    {
+      "file": "arch/x86/platform/efi/efi_64.c",
+      "module": "__slate_unit_efi_64"
+    },
+    {
+      "file": "arch/x86/platform/efi/runtime-map.c",
+      "module": "__slate_unit_runtime_map"
+    },
+    {
+      "file": "arch/x86/platform/intel/iosf_mbi.c",
+      "module": "__slate_unit_iosf_mbi"
+    },
+    {
+      "file": "arch/x86/lib/msr-smp.c",
+      "module": "__slate_unit_msr_smp"
+    },
+    {
+      "file": "arch/x86/lib/cache-smp.c",
+      "module": "__slate_unit_cache_smp"
+    },
+    {
+      "file": "arch/x86/lib/msr.c",
+      "module": "__slate_unit_lib_msr"
+    },
+    {
+      "file": "arch/x86/lib/msr-reg-export.c",
+      "module": "__slate_unit_msr_reg_export"
+    },
+    {
+      "file": "arch/x86/lib/iomem.c",
+      "module": "__slate_unit_iomem"
+    },
+    {
+      "file": "arch/x86/pci/i386.c",
+      "module": "__slate_unit_i386"
+    },
+    {
+      "file": "arch/x86/pci/init.c",
+      "module": "__slate_unit_pci_init"
+    },
+    {
+      "file": "arch/x86/pci/mmconfig_64.c",
+      "module": "__slate_unit_mmconfig_64"
+    },
+    {
+      "file": "arch/x86/pci/direct.c",
+      "module": "__slate_unit_direct"
+    },
+    {
+      "file": "arch/x86/pci/mmconfig-shared.c",
+      "module": "__slate_unit_mmconfig_shared"
+    },
+    {
+      "file": "arch/x86/pci/fixup.c",
+      "module": "__slate_unit_fixup"
+    },
+    {
+      "file": "arch/x86/pci/acpi.c",
+      "module": "__slate_unit_acpi"
+    },
+    {
+      "file": "arch/x86/pci/legacy.c",
+      "module": "__slate_unit_legacy"
+    },
+    {
+      "file": "arch/x86/pci/irq.c",
+      "module": "__slate_unit_irq"
+    },
+    {
+      "file": "arch/x86/pci/common.c",
+      "module": "__slate_unit_pci_common"
+    },
+    {
+      "file": "arch/x86/pci/early.c",
+      "module": "__slate_unit_early"
+    },
+    {
+      "file": "arch/x86/pci/bus_numa.c",
+      "module": "__slate_unit_bus_numa"
+    },
+    {
+      "file": "arch/x86/pci/amd_bus.c",
+      "module": "__slate_unit_amd_bus"
+    },
+    {
+      "file": "arch/x86/lib/cmdline.c",
+      "module": "__slate_unit_cmdline"
+    },
+    {
+      "file": "arch/x86/lib/copy_mc.c",
+      "module": "__slate_unit_copy_mc"
+    },
+    {
+      "file": "arch/x86/lib/cpu.c",
+      "module": "__slate_unit_cpu"
+    },
+    {
+      "file": "arch/x86/lib/csum-partial_64.c",
+      "module": "__slate_unit_csum_partial_64"
+    },
+    {
+      "file": "arch/x86/lib/csum-wrappers_64.c",
+      "module": "__slate_unit_csum_wrappers_64"
+    },
+    {
+      "file": "arch/x86/lib/delay.c",
+      "module": "__slate_unit_delay"
+    },
+    {
+      "file": "arch/x86/lib/inat.c",
+      "module": "__slate_unit_inat"
+    },
+    {
+      "file": "arch/x86/lib/insn-eval.c",
+      "module": "__slate_unit_insn_eval"
+    },
+    {
+      "file": "arch/x86/lib/insn.c",
+      "module": "__slate_unit_insn"
+    },
+    {
+      "file": "arch/x86/lib/kaslr.c",
+      "module": "__slate_unit_lib_kaslr"
+    },
+    {
+      "file": "arch/x86/lib/misc.c",
+      "module": "__slate_unit_misc"
+    },
+    {
+      "file": "arch/x86/lib/pc-conf-reg.c",
+      "module": "__slate_unit_pc_conf_reg"
+    },
+    {
+      "file": "arch/x86/lib/usercopy.c",
+      "module": "__slate_unit_usercopy"
+    },
+    {
+      "file": "arch/x86/lib/usercopy_64.c",
+      "module": "__slate_unit_usercopy_64"
+    }
+  ],
+  "version": 1
+}

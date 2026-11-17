@@ -1,0 +1,13 @@
+{
+  "units": [
+    {
+      "file": "arch/x86/boot/startup/gdt_idt.c",
+      "module": "__slate_unit_gdt_idt"
+    },
+    {
+      "file": "arch/x86/boot/startup/map_kernel.c",
+      "module": "__slate_unit_map_kernel"
+    }
+  ],
+  "version": 1
+}

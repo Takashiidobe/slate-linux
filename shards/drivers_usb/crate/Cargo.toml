@@ -1,0 +1,40 @@
+cargo-features = ["profile-rustflags"]
+
+[package]
+name = "slate_crate"
+version = "0.0.0"
+edition = "2024"
+autobins = false
+
+
+[lib]
+path = "src/lib.rs"
+doctest = false
+crate-type = ["staticlib"]
+
+[workspace]
+
+[dependencies]
+slate-support = { path = "slate-support", default-features = false }
+aligned = { path = "aligned" }
+bitint = { path = "bitint" }
+num-complex = { path = "num-complex", default-features = false }
+bitfields = { path = "../../../vendor/bitfields" }
+
+[profile.dev]
+overflow-checks = false
+debug-assertions = false
+codegen-units = 256
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+incremental = true
+
+[profile.dev.package.slate_crate]
+codegen-units = 4096
+rustflags = ["-Zcodegen-source-order", "-Zhuman-readable-cgu-names", "-Zcross-crate-inline-threshold=never"]
+
+[profile.release.package.slate_crate]
+codegen-units = 4096
+rustflags = ["-Zcodegen-source-order", "-Cmetadata=drivers_usb", "-Zhuman-readable-cgu-names", "-Zcross-crate-inline-threshold=never"]

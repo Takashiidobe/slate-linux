@@ -1,0 +1,265 @@
+{
+  "units": [
+    {
+      "file": "drivers/gpu/drm/drm_atomic.c",
+      "module": "__slate_unit_drm_atomic"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_atomic_uapi.c",
+      "module": "__slate_unit_drm_atomic_uapi"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_auth.c",
+      "module": "__slate_unit_drm_auth"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_blend.c",
+      "module": "__slate_unit_drm_blend"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_bridge.c",
+      "module": "__slate_unit_drm_bridge"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_cache.c",
+      "module": "__slate_unit_drm_cache"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_color_mgmt.c",
+      "module": "__slate_unit_drm_color_mgmt"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_colorop.c",
+      "module": "__slate_unit_drm_colorop"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_connector.c",
+      "module": "__slate_unit_drm_connector"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_crtc.c",
+      "module": "__slate_unit_drm_crtc"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_displayid.c",
+      "module": "__slate_unit_drm_displayid"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_drv.c",
+      "module": "__slate_unit_drm_drv"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_dumb_buffers.c",
+      "module": "__slate_unit_drm_dumb_buffers"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_edid.c",
+      "module": "__slate_unit_drm_edid"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_eld.c",
+      "module": "__slate_unit_drm_eld"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_encoder.c",
+      "module": "__slate_unit_drm_encoder"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_file.c",
+      "module": "__slate_unit_drm_file"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_fourcc.c",
+      "module": "__slate_unit_drm_fourcc"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_framebuffer.c",
+      "module": "__slate_unit_drm_framebuffer"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_gem.c",
+      "module": "__slate_unit_drm_gem"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_ioctl.c",
+      "module": "__slate_unit_drm_ioctl"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_lease.c",
+      "module": "__slate_unit_drm_lease"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_managed.c",
+      "module": "__slate_unit_drm_managed"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_mm.c",
+      "module": "__slate_unit_drm_mm"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_mode_config.c",
+      "module": "__slate_unit_drm_mode_config"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_mode_object.c",
+      "module": "__slate_unit_drm_mode_object"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_modes.c",
+      "module": "__slate_unit_drm_modes"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_modeset_lock.c",
+      "module": "__slate_unit_drm_modeset_lock"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_plane.c",
+      "module": "__slate_unit_drm_plane"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_prime.c",
+      "module": "__slate_unit_drm_prime"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_print.c",
+      "module": "__slate_unit_drm_print"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_property.c",
+      "module": "__slate_unit_drm_property"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_rect.c",
+      "module": "__slate_unit_drm_rect"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_syncobj.c",
+      "module": "__slate_unit_drm_syncobj"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_sysfs.c",
+      "module": "__slate_unit_drm_sysfs"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_trace_points.c",
+      "module": "__slate_unit_drm_trace_points"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_vblank.c",
+      "module": "__slate_unit_drm_vblank"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_vblank_work.c",
+      "module": "__slate_unit_drm_vblank_work"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_vma_manager.c",
+      "module": "__slate_unit_drm_vma_manager"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_writeback.c",
+      "module": "__slate_unit_drm_writeback"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_ioc32.c",
+      "module": "__slate_unit_drm_ioc32"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_panel.c",
+      "module": "__slate_unit_drm_panel"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_pci.c",
+      "module": "__slate_unit_drm_pci"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_debugfs.c",
+      "module": "__slate_unit_drm_debugfs"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_debugfs_crc.c",
+      "module": "__slate_unit_drm_debugfs_crc"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_panel_orientation_quirks.c",
+      "module": "__slate_unit_drm_panel_orientation_quirks"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_buddy.c",
+      "module": "__slate_unit_drm_buddy"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_gem_shmem_helper.c",
+      "module": "__slate_unit_drm_gem_shmem_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_atomic_helper.c",
+      "module": "__slate_unit_drm_atomic_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_atomic_state_helper.c",
+      "module": "__slate_unit_drm_atomic_state_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_bridge_helper.c",
+      "module": "__slate_unit_drm_bridge_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_crtc_helper.c",
+      "module": "__slate_unit_drm_crtc_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_damage_helper.c",
+      "module": "__slate_unit_drm_damage_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_flip_work.c",
+      "module": "__slate_unit_drm_flip_work"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_format_helper.c",
+      "module": "__slate_unit_drm_format_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_gem_atomic_helper.c",
+      "module": "__slate_unit_drm_gem_atomic_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_gem_framebuffer_helper.c",
+      "module": "__slate_unit_drm_gem_framebuffer_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_kms_helper_common.c",
+      "module": "__slate_unit_drm_kms_helper_common"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_modeset_helper.c",
+      "module": "__slate_unit_drm_modeset_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_plane_helper.c",
+      "module": "__slate_unit_drm_plane_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_probe_helper.c",
+      "module": "__slate_unit_drm_probe_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_self_refresh_helper.c",
+      "module": "__slate_unit_drm_self_refresh_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_simple_kms_helper.c",
+      "module": "__slate_unit_drm_simple_kms_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_vblank_helper.c",
+      "module": "__slate_unit_drm_vblank_helper"
+    },
+    {
+      "file": "drivers/gpu/drm/drm_mipi_dsi.c",
+      "module": "__slate_unit_drm_mipi_dsi"
+    }
+  ],
+  "version": 1
+}
