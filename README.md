@@ -15,6 +15,22 @@ x86_64 `defconfig`, built with clang:
 - 10 kselftest collections (31 tests, 205 subtests) give the same results as the
   native kernel.
 
+## Boot the prebuilt kernel
+
+Download the x86_64 release archive and boot the Slate-translated kernel with
+`qemu-system-x86_64`.
+
+```sh
+curl -fLO https://github.com/Takashiidobe/slate-linux/releases/download/7.3-rc5-6addb4f38557/slate-linux-7.3-rc5-6addb4f38557-x86_64.tar.gz
+tar -xzf slate-linux-7.3-rc5-6addb4f38557-x86_64.tar.gz
+qemu-system-x86_64 -kernel bzImage -initrd initramfs-slate-translated.cpio.gz \
+  -m 2G -smp 2 -nographic -no-reboot -append 'console=ttyS0 rdinit=/init panic=-1'
+```
+
+The kernel opens a BusyBox shell. To exit, press Ctrl-A then X or run
+`poweroff`. The archive also includes the stripped `clang-vmlinux` and
+`slate-vmlinux` ELF files for comparison.
+
 ## Layout
 
 | Path                   | What it is                                                     |
